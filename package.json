@@ -1,0 +1,9 @@
+{
+  "name": "brtrndb.github.io",
+  "version": "1.0.0",
+  "description": "Personal website.",
+  "main": "index.js",
+  "repository": "git@github.com:brtrndb/brtrndb.github.io.git",
+  "author": "Bertrand B. <boyer.bertrand@gmail.com>",
+  "license": "GPL-3.0-or-later"
+}
