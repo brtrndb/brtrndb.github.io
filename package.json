@@ -5,5 +5,14 @@
   "main": "index.js",
   "repository": "git@github.com:brtrndb/brtrndb.github.io.git",
   "author": "Bertrand B. <boyer.bertrand@gmail.com>",
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "clean": "echo 'Not Implemented Yet.'",
+    "build": "echo 'Not Implemented Yet.'",
+    "deploy": "echo 'Not Implemented Yet.'",
+    "dev:clean": "echo 'Not Implemented Yet.'",
+    "dev:build": "echo 'Not Implemented Yet.'",
+    "dev:watch": "echo 'Not Implemented Yet.'",
+    "test": "echo 'Not Implemented Yet.'"
+  }
 }
