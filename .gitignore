@@ -1,0 +1,8 @@
+# brtrndb.github.io .gitignore.
+
+## Ignored files in the project.
+node_modules/
+coverage/
+package-lock.json
+yarn.lock
+yarn-error.log
