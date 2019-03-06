@@ -3,6 +3,7 @@
 ## Ignored files in the project.
 node_modules/
 coverage/
+build/
 package-lock.json
 yarn.lock
 yarn-error.log
