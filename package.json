@@ -9,6 +9,7 @@
   "scripts": {
     "clean": "rm -rf node_modules/ package-lock.json yarn.lock yarn-error.log && yarn dev:clean",
     "build": "webpack --config ./webpack.config.js --env.NODE_ENV=production --mode production --progress --profile",
+    "start": "serve -s build/ -p 8080",
     "deploy": "echo 'Not Implemented Yet.'",
     "dev:clean": "rm -rf build/",
     "dev:build": "webpack --config ./webpack.config.js --env.NODE_ENV=development --mode development --progress --profile --debug --display-error-details",
@@ -74,6 +75,7 @@
     "mini-css-extract-plugin": "^0.5.0",
     "prettier": "^1.16.4",
     "react-hot-loader": "^4.7.2",
+    "serve": "^10.1.2",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
