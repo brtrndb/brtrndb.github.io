@@ -7,12 +7,12 @@
   "author": "Bertrand B. <boyer.bertrand@gmail.com>",
   "license": "GPL-3.0-or-later",
   "scripts": {
-    "clean": "echo 'Not Implemented Yet.'",
-    "build": "echo 'Not Implemented Yet.'",
+    "clean": "rm -rf node_modules/ package-lock.json yarn.lock yarn-error.log && yarn dev:clean",
+    "build": "webpack --config ./webpack.config.js --env.NODE_ENV=production --mode production --progress --profile",
     "deploy": "echo 'Not Implemented Yet.'",
-    "dev:clean": "echo 'Not Implemented Yet.'",
-    "dev:build": "echo 'Not Implemented Yet.'",
-    "dev:watch": "echo 'Not Implemented Yet.'",
+    "dev:clean": "rm -rf build/",
+    "dev:build": "webpack --config ./webpack.config.js --env.NODE_ENV=development --mode development --progress --profile --debug --display-error-details",
+    "dev:watch": "webpack-dev-server --config ./webpack.config.js --env.NODE_ENV=development --mode development --progress --profile --debug --display-error-details",
     "test": "echo 'Not Implemented Yet.'"
   },
   "dependencies": {
