@@ -1,6 +1,8 @@
+import i18nHomePage from 'Containers/Pages/HomePage/HomePage.i18n';
+
 import locales from './locales';
 
-const i18nModules = [];
+const i18nModules = [i18nHomePage];
 
 const i18n = locales.ALLOWED_LOCALES.reduce((acc, locale) => {
   const localeMessages = i18nModules.reduce((messages, module) => ({ ...messages, ...module[locale] }), {});
