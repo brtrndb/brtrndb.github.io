@@ -2,7 +2,7 @@
   "name": "brtrndb.github.io",
   "version": "1.0.0",
   "description": "Personal website.",
-  "main": "index.js",
+  "main": "index.jsx",
   "repository": "git@github.com:brtrndb/brtrndb.github.io.git",
   "homepage": "https://brtrndb.github.io/",
   "author": "Bertrand B. <boyer.bertrand@gmail.com>",
