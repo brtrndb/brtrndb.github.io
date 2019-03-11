@@ -1,5 +1,6 @@
 import React from 'react';
 import { Provider } from 'react-redux';
+import { IntlProvider } from 'react-intl-redux';
 import { ConnectedRouter } from 'connected-react-router';
 import { createBrowserHistory } from 'history';
 
@@ -14,9 +15,11 @@ const store = setupStore(history);
 
 const App = () => (
   <Provider store={store}>
-    <ConnectedRouter history={history}>
-      <AppContent />
-    </ConnectedRouter>
+    <IntlProvider>
+      <ConnectedRouter history={history}>
+        <AppContent />
+      </ConnectedRouter>
+    </IntlProvider>
   </Provider>
 );
 
