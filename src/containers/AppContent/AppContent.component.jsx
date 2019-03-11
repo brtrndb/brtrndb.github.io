@@ -3,11 +3,13 @@ import React from 'react';
 import Routes from 'Containers/Routes';
 import Helmet from 'Components/Helmet';
 
+import { AppContentContainer } from './AppContent.style';
+
 const AppContent = () => (
-  <div>
+  <AppContentContainer>
     <Helmet />
     <Routes baseurl='/' />
-  </div>
+  </AppContentContainer>
 );
 
 export default AppContent;

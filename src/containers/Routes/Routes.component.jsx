@@ -3,12 +3,14 @@ import { Switch, Route } from 'react-router';
 
 import HomePage from 'Containers/Pages/HomePage';
 
+import { RoutesContainer } from './Routes.style';
+
 const Routes = ({ baseurl }) => (
-  <div>
+  <RoutesContainer>
     <Switch>
       <Route exact path={baseurl} component={HomePage} />
     </Switch>
-  </div>
+  </RoutesContainer>
 );
 
 export default Routes;
