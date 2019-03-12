@@ -47,6 +47,11 @@ module.exports = (params) => {
         Tests: path.join(params.paths.sources, 'tests')
       }
     },
+    watchOptions: {
+      aggregateTimeout: 300,
+      poll: 1000,
+      ignored: /node_modules/
+    },
     module: {
       rules
     },

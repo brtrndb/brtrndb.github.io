@@ -14,7 +14,7 @@
     "deploy": "gh-pages -d build/ -b master -m 'Deploying version v1.0.0.' -g 'v1.0.0' -n",
     "dev:clean": "rm -rf build/",
     "dev:build": "webpack --config ./webpack.config.js --env.NODE_ENV=development --mode development --progress --profile --debug --display-error-details",
-    "dev:watch": "webpack-dev-server --config ./webpack.config.js --env.NODE_ENV=development --mode development --progress --profile --debug --display-error-details",
+    "dev:watch": "webpack-dev-server --config ./webpack.config.js --env.NODE_ENV=development --mode development --progress --profile --debug --display-error-details --watch",
     "test": "echo 'Not Implemented Yet.'"
   },
   "dependencies": {
