@@ -7,7 +7,7 @@ module.exports = (params) => {
   rules.push({
     test: /\.(js|jsx)$/,
     include: params.paths.sources,
-    exclude: ['/node_modules/', path.join(params.paths.sources, 'libs')],
+    exclude: ['/node_modules/', params.paths.libs],
     enforce: 'pre',
     use: {
       loader: 'eslint-loader',
@@ -20,7 +20,7 @@ module.exports = (params) => {
   rules.push({
     test: /\.(js|jsx)$/,
     include: params.paths.sources,
-    exclude: ['/node_modules/', path.join(params.paths.sources, 'libs')],
+    exclude: ['/node_modules/', params.paths.libs],
     use: {
       loader: 'babel-loader',
       options: {
@@ -56,7 +56,7 @@ module.exports = (params) => {
     loader: 'file-loader',
     options: {
       name: '[name].[ext]',
-      outputPath: '/img'
+      outputPath: params.output.images
     }
   });
 

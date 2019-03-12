@@ -9,7 +9,7 @@ module.exports = (params) => {
   const prod = {
     mode: 'production',
     devtool: false,
-    entry: ['@babel/polyfill', path.join(params.paths.sources, 'index.jsx')]
+    entry: ['@babel/polyfill', params.paths.entry]
   };
 
   return merge(common, prod);

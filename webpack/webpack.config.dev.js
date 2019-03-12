@@ -11,7 +11,7 @@ module.exports = (params) => {
   const dev = {
     mode: 'development',
     devtool: 'inline-source-map',
-    entry: ['react-hot-loader/patch', 'webpack/hot/only-dev-server', '@babel/polyfill', path.join(params.paths.sources, 'index.jsx')],
+    entry: ['react-hot-loader/patch', 'webpack/hot/only-dev-server', '@babel/polyfill', params.paths.entry],
     watchOptions: {
       ignored: '/node_modules/'
     },

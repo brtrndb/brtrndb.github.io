@@ -13,10 +13,12 @@ module.exports = (env) => {
       build: path.join(root, buildPath),
       sources: path.join(root, 'src'),
       libs: path.join(root, 'src/libs'),
+      entry: path.join(root, 'src/index.jsx'),
       publicPath: ''
     },
     output: {
-      filename: `bundle.${isProd ? 'prod' : 'dev.[hash]'}.js`
+      filename: `bundle.${isProd ? 'prod' : 'dev.[hash]'}.js`,
+      images: '/img/'
     },
     env: {
       name: env.NODE_ENV,
