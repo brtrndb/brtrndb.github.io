@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import * as OfflinePluginRuntime from 'offline-plugin/runtime';
 
 import App from 'Containers/App';
 
@@ -12,3 +13,5 @@ ReactDOM.render(<App />, mountPoint);
 if (process.env.NODE_ENV !== 'production' && module.hot) {
   module.hot.accept();
 }
+
+OfflinePluginRuntime.install();

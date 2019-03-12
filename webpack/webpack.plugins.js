@@ -6,6 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CircularDependencyPlugin = require('circular-dependency-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const OfflinePlugin = require('offline-plugin');
 
 module.exports = (params) => {
   const plugins = [];
@@ -58,6 +59,14 @@ module.exports = (params) => {
   plugins.push(
     new webpack.NormalModuleReplacementPlugin(/(.*)ENV(\.*)/, (resource) => {
       resource.request = resource.request.replace(/ENV/, `${params.env.isProd ? 'prod' : 'dev'}`);
+    })
+  );
+
+  plugins.push(
+    new OfflinePlugin({
+      responseStrategy: 'cache-first',
+      autoUpdate: true,
+      externals: ['https://fonts.googleapis.com/css?family=Roboto']
     })
   );
 
