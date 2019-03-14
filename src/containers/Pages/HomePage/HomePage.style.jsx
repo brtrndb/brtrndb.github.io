@@ -2,7 +2,12 @@ import styled from 'styled-components';
 
 const DefaultContainer = styled.div``;
 const HomePageContainer = styled.div``;
-const WelcomeContainer = styled.div``;
 
-export { HomePageContainer, WelcomeContainer };
+const styles = (theme) => ({
+  mainGrid: {
+    height: '40vh'
+  }
+});
+
+export { styles, HomePageContainer };
 export default DefaultContainer;
