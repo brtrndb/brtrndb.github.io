@@ -11,7 +11,7 @@
     "clean": "rm -rf node_modules/ package-lock.json yarn.lock yarn-error.log && yarn dev:clean",
     "build": "webpack --config ./webpack.config.js --env.NODE_ENV=production --mode production --progress --profile",
     "start": "serve -s build/ -p 8080",
-    "deploy": "gh-pages -d build/ -b master -m 'Deploying version v1.0.0.' -g 'v1.0.0' -n",
+    "deploy": "gh-pages -d build/ -b master -m 'Deploying version v1.0.0.' -g 'v1.0.0'",
     "dev:clean": "rm -rf build/",
     "dev:build": "webpack --config ./webpack.config.js --env.NODE_ENV=development --mode development --progress --profile --debug --display-error-details",
     "dev:watch": "webpack-dev-server --config ./webpack.config.js --env.NODE_ENV=development --mode development --progress --profile --debug --display-error-details --watch",
