@@ -3,7 +3,7 @@ const messages = {
 };
 
 const i18n = {
-  fr: {
+  en: {
     [messages.welcome]: 'Hello world.'
   }
 };
