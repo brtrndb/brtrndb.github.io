@@ -12,6 +12,9 @@ script:
   - yarn build
   - yarn test
 
+after_script:
+  - COVERALLS_REPO_TOKEN=$COVERALLS_REPO_TOKEN yarn coveralls
+
 deploy:
   provider: pages
   skip-cleanup: true
