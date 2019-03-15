@@ -7,6 +7,7 @@ import { MuiThemeProvider } from '@material-ui/core/styles';
 
 import AppContent from 'Containers/AppContent';
 import setupStore from 'Modules/store';
+import setupFontAwesome from 'Modules/fontawesome';
 
 import { appMuiTheme } from './App.style';
 
@@ -15,6 +16,9 @@ const history = createBrowserHistory();
 
 // Setting up Redux store.
 const store = setupStore(history);
+
+// Setting up Font Awesome.
+setupFontAwesome();
 
 const App = () => (
   <Provider store={store}>
