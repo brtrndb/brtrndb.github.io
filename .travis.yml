@@ -3,6 +3,10 @@ language: node_js
 node_js:
   - "stable"
 
+branches:
+  except:
+  - master
+
 cache:
   yarn: true
   directories:
@@ -30,7 +34,7 @@ jobs:
         - COVERALLS_REPO_TOKEN=$COVERALLS_REPO_TOKEN yarn coveralls
     - stage: deploy
       name: "Deploy to Github Pages"
-      if: branch = master
+      if: branch = src
       deploy:
         provider: pages
         github-token: $GITHUB_TOKEN
