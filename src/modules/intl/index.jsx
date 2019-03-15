@@ -1,9 +1,9 @@
 import { addLocaleData } from 'react-intl';
-import frLocaleData from 'react-intl/locale-data/fr';
+import enLocaleData from 'react-intl/locale-data/en';
 
 import i18n from './i18n';
 
-addLocaleData(frLocaleData);
+addLocaleData(enLocaleData);
 
 export { intlInitialState } from './ducks';
 export { intlSelectors } from './ducks';
