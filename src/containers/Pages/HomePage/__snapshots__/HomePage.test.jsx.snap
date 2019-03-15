@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage/> HomePage rendering EN 1`] = `
+<div
+  className="sc-bwzfXH uTxCW"
+>
+  <div
+    className="MuiGrid-container-2 MuiGrid-direction-xs-column-5 MuiGrid-align-items-xs-center-10 MuiGrid-align-content-xs-center-14 MuiGrid-justify-xs-center-19 HomePage-mainGrid-1"
+  >
+    <div
+      className="MuiGrid-item-3"
+    >
+      <h2
+        className="MuiTypography-root-99 MuiTypography-h2-112 MuiTypography-alignCenter-122"
+      >
+        <span>
+          Hello world.
+        </span>
+      </h2>
+    </div>
+    <div
+      className="MuiGrid-item-3"
+    >
+      <h6
+        className="MuiTypography-root-99 MuiTypography-subtitle1-117 MuiTypography-alignCenter-122"
+      >
+        <div
+          className="MuiGrid-container-2 MuiGrid-spacing-xs-8-24 MuiGrid-align-items-xs-center-10 MuiGrid-align-content-xs-center-14 MuiGrid-justify-xs-center-19"
+        >
+          <div
+            className="MuiGrid-item-3"
+          >
+            <span>
+              My name Bertrand.
+            </span>
+          </div>
+          <div
+            className="MuiGrid-item-3"
+          >
+            <span>
+              I am a good developer.
+            </span>
+          </div>
+          <div
+            className="MuiGrid-item-3"
+          >
+            <span>
+              Or at least, I try to be.
+            </span>
+          </div>
+        </div>
+      </h6>
+    </div>
+  </div>
+</div>
+`;
