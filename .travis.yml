@@ -8,20 +8,36 @@ cache:
   directories:
     - node_modules
 
-script:
-  - yarn build
-  - yarn test
+stages:
+  - build
+  - tests
+  - coverage
+  - deploy
 
-after_script:
-  - COVERALLS_REPO_TOKEN=$COVERALLS_REPO_TOKEN yarn coveralls
-
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  keep-history: true
-  local-dir: build
-  target-branch: master
-  verbose: true
-  on:
-    branch: src
+jobs:
+  include:
+    - stage: build
+      name: "Build"
+      script:
+        - yarn build
+    - stage: tests
+      name: "Tests"
+      script:
+        - yarn test
+    - stage: coverage
+      name: "Coverage"
+      script:
+        - COVERALLS_REPO_TOKEN=$COVERALLS_REPO_TOKEN yarn coveralls
+    - stage: deploy
+      name: "Deploy to Github Pages"
+      if: branch = master
+      deploy:
+        provider: pages
+        github-token: $GITHUB_TOKEN
+        skip-cleanup: true
+        keep-history: true
+        local-dir: build
+        target-branch: master
+        verbose: true
+        on:
+          branch: src
