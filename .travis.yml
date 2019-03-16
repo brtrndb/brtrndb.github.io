@@ -35,8 +35,7 @@ jobs:
     - stage: deploy
       name: "Deploy to Github Pages"
       if: branch = src
-      before_deploy:
-        - yarn
+      script:
         - yarn build
       deploy:
         provider: pages
