@@ -2,7 +2,7 @@ import createReduxAction from 'Utils/createReduxAction';
 
 import types from './types';
 
-const setTitlePageAction = (title) => createReduxAction(types.HELMET_SET_TITLE_PAGE, { title });
+const setTitlePageAction = (payload) => createReduxAction(types.HELMET_SET_TITLE_PAGE, payload);
 
 const actions = {
   setTitlePageAction
