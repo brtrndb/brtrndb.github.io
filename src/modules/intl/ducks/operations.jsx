@@ -1,12 +1,11 @@
-import { updateIntl } from 'react-intl-redux';
-
-import i18n from '../i18n';
+import actions from './actions';
 
 const setLocale = (dispatch) => (locale) => {
-  const messages = i18n[locale];
-  dispatch(updateIntl({ locale, messages }));
+  dispatch(actions.setLocaleAction(locale));
 };
 
-const operations = { setLocale };
+const operations = {
+  setLocale
+};
 
 export default operations;
