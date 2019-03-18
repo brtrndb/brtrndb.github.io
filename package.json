@@ -16,7 +16,7 @@
     "dev:watch": "webpack-dev-server --config ./webpack.config.js --env.NODE_ENV=development --mode development --progress --profile --debug --display-error-details --watch",
     "test": "jest --passWithNoTests",
     "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
-    "codecov": "codecov"
+    "codecov": "jest && codecov"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
