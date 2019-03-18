@@ -15,7 +15,8 @@
     "dev:build": "webpack --config ./webpack.config.js --env.NODE_ENV=development --mode development --progress --profile --debug --display-error-details",
     "dev:watch": "webpack-dev-server --config ./webpack.config.js --env.NODE_ENV=development --mode development --progress --profile --debug --display-error-details --watch",
     "test": "jest --passWithNoTests",
-    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
+    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "codecov": "curl -s https://codecov.io/bash | bash"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
