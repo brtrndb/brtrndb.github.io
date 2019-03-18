@@ -16,7 +16,7 @@
     "dev:watch": "webpack-dev-server --config ./webpack.config.js --env.NODE_ENV=development --mode development --progress --profile --debug --display-error-details --watch",
     "test": "jest --passWithNoTests",
     "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
-    "codecov": "curl -s https://codecov.io/bash | bash"
+    "codecov": "codecov"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
@@ -70,6 +70,7 @@
     "babel-loader": "^8.0.5",
     "circular-dependency-plugin": "^5.0.2",
     "clean-webpack-plugin": "^1.0.1",
+    "codecov": "^3.2.0",
     "copy-webpack-plugin": "^5.0.0",
     "coveralls": "^3.0.3",
     "css-loader": "^2.1.0",
