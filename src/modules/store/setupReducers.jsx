@@ -1,12 +1,12 @@
 import { combineReducers } from 'redux';
 import { connectRouter } from 'connected-react-router';
 
-import { intlReducers } from 'Modules/intl';
-import { helmetReducers } from 'Components/Helmet';
+import intlReducers from 'Modules/intl/ducks/reducers';
+import helmetReducers from 'Components/Helmet/ducks/reducers';
 
 const setupReducers = (history) =>
   combineReducers({
-    router: connectRouter(history),
+    router: history ? connectRouter(history) : null,
     intl: intlReducers,
     helmet: helmetReducers
   });

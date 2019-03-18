@@ -1,5 +1,5 @@
-import { intlInitialState } from 'Modules/intl';
-import { helmetInitialState } from 'Components/Helmet';
+import intlInitialState from 'Modules/intl/ducks/initialState';
+import helmetInitialState from 'Components/Helmet/ducks/initialState';
 
 const setupInitialState = () => ({
   intl: intlInitialState,
