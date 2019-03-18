@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { IntlProvider, injectIntl } from 'react-intl';
 
-import i18n from 'Modules/intl';
+import i18n from 'Modules/intl/i18n';
 import HomePage from './HomePage.component';
 
 describe('<HomePage/>', () => {
