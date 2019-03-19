@@ -18,15 +18,13 @@ const HomePage = ({ classes }) => (
       <Grid item>
         <Typography variant='subtitle1' align='center'>
           <Grid container direction='row' justify='center' alignItems='center' alignContent='center' spacing={8}>
-            <Grid item>
-              <FormattedMessage id={messages.my_name} />
-            </Grid>
-            <Grid item>
-              <FormattedMessage id={messages.i_am} />
-            </Grid>
-            <Grid item>
-              <FormattedMessage id={messages.i_try} />
-            </Grid>
+            {[messages.my_name, messages.i_am, messages.i_try].map((message) => (
+              <Grid key={message} item>
+                <Typography>
+                  <FormattedMessage id={message} />
+                </Typography>
+              </Grid>
+            ))}
           </Grid>
         </Typography>
       </Grid>
