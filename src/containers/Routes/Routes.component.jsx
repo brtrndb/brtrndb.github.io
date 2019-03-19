@@ -1,5 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router';
+import PropTypes from 'prop-types';
 
 import HomePage from 'Containers/Pages/HomePage';
 
@@ -12,5 +13,13 @@ const Routes = ({ baseurl }) => (
     </Switch>
   </RoutesContainer>
 );
+
+Routes.propTypes = {
+  baseurl: PropTypes.string
+};
+
+Routes.defaultProps = {
+  baseurl: ''
+};
 
 export default Routes;
