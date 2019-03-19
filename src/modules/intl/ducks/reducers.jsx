@@ -1,7 +1,5 @@
 import { intlReducer } from 'react-intl-redux';
 
-const reducers = {
-  intl: intlReducer
-};
+const reducers = intlReducer;
 
 export default reducers;
