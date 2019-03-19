@@ -1,3 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Helmet /> Rendering component Helmet rendering EN 1`] = `null`;
+exports[`<Helmet /> Rendering component Helmet rendering for EN 1`] = `null`;

@@ -1,6 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
+import i18n from 'Modules/intl/i18n';
 import reduxTests from 'Tests/reduxTests';
 
 import types from './ducks/types';
@@ -37,10 +38,12 @@ describe('<Helmet />', () => {
   reduxTests(reduxTestsData);
 
   describe('Rendering component', () => {
-    test('Helmet rendering EN', () => {
-      const component = renderer.create(<Helmet />);
-      const tree = component.toJSON();
-      expect(tree).toMatchSnapshot();
+    Object.keys(i18n).forEach((language) => {
+      test(`Helmet rendering for ${language.toUpperCase()}`, () => {
+        const component = renderer.create(<Helmet />);
+        const tree = component.toJSON();
+        expect(tree).toMatchSnapshot();
+      });
     });
   });
 });
