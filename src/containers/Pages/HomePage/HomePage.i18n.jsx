@@ -8,7 +8,7 @@ const messages = {
 const i18n = {
   en: {
     [messages.welcome]: 'Hello world.',
-    [messages.my_name]: 'My name Bertrand.',
+    [messages.my_name]: 'My name is Bertrand.',
     [messages.i_am]: 'I am a good developer.',
     [messages.i_try]: 'Or at least, I try to be.'
   }
