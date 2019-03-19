@@ -24,31 +24,39 @@ exports[`<HomePage /> Rendering component HomePage rendering for EN 1`] = `
       <div
         className="MuiGrid-container-2 MuiGrid-spacing-xs-8-24 MuiGrid-align-items-xs-center-10 MuiGrid-align-content-xs-center-14 MuiGrid-justify-xs-center-19"
       >
-        <h6
-          className="MuiTypography-root-99 MuiTypography-subtitle1-117"
+        <div
+          className="MuiGrid-item-3"
         >
-          <div
-            className="MuiGrid-item-3"
+          <h6
+            className="MuiTypography-root-99 MuiTypography-subtitle1-117"
           >
             <span>
               My name is Bertrand.
             </span>
-          </div>
-          <div
-            className="MuiGrid-item-3"
+          </h6>
+        </div>
+        <div
+          className="MuiGrid-item-3"
+        >
+          <h6
+            className="MuiTypography-root-99 MuiTypography-subtitle1-117"
           >
             <span>
               I am a good developer.
             </span>
-          </div>
-          <div
-            className="MuiGrid-item-3"
+          </h6>
+        </div>
+        <div
+          className="MuiGrid-item-3"
+        >
+          <h6
+            className="MuiTypography-root-99 MuiTypography-subtitle1-117"
           >
             <span>
               Or at least, I try to be.
             </span>
-          </div>
-        </h6>
+          </h6>
+        </div>
       </div>
     </div>
   </div>

@@ -4,13 +4,16 @@ import PropTypes from 'prop-types';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { styles, HomePageContainer } from './HomePage.style';
 import { messages } from './HomePage.i18n';
 
 const toSubtitle = (msg) => (
   <Grid key={msg} item>
-    <FormattedMessage id={msg} />
+    <Typography variant='subtitle1'>
+      <FormattedMessage id={msg} />
+    </Typography>
   </Grid>
 );
 
@@ -24,7 +27,7 @@ const HomePage = ({ classes }) => (
       </Grid>
       <Grid item>
         <Grid container direction='row' justify='center' alignItems='center' alignContent='center' spacing={8}>
-          <Typography variant='subtitle1'>{[messages.my_name, messages.i_am, messages.i_try].map(toSubtitle)}</Typography>
+          {[messages.my_name, messages.i_am, messages.i_try].map(toSubtitle)}
         </Grid>
       </Grid>
     </Grid>
