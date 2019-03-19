@@ -6,13 +6,15 @@ import i18n from 'Modules/intl/i18n';
 import HomePage from './HomePage.component';
 
 describe('<HomePage/>', () => {
-  test('HomePage rendering EN', () => {
-    const component = renderer.create(
-      <IntlProvider locale='en' messages={i18n.en}>
-        <HomePage />
-      </IntlProvider>
-    );
-    const tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+  describe('Rendering component', () => {
+    test('HomePage rendering EN', () => {
+      const component = renderer.create(
+        <IntlProvider locale='en' messages={i18n.en}>
+          <HomePage />
+        </IntlProvider>
+      );
+      const tree = component.toJSON();
+      expect(tree).toMatchSnapshot();
+    });
   });
 });

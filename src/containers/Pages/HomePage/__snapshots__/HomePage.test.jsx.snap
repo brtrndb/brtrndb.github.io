@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<HomePage/> HomePage rendering EN 1`] = `
+exports[`<HomePage/> Rendering component HomePage rendering EN 1`] = `
 <div
   className="sc-bwzfXH uTxCW"
 >
