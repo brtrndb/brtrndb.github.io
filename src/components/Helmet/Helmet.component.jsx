@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet as ReactHelmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 
-import { helmetInitialState } from './ducks';
+import initialState from './ducks/initialState';
 
 const Helmet = ({ title, charset }) => (
   <ReactHelmet>
@@ -17,7 +17,7 @@ Helmet.propTypes = {
 };
 
 Helmet.defaultProps = {
-  title: helmetInitialState.title,
+  title: initialState.title,
   charset: 'UTF-8'
 };
 
