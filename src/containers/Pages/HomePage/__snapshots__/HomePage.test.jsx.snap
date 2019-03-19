@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<HomePage/> Rendering component HomePage rendering EN 1`] = `
+exports[`<HomePage /> Rendering component HomePage rendering for EN 1`] = `
 <div
   className="sc-bwzfXH uTxCW"
 >
@@ -21,17 +21,17 @@ exports[`<HomePage/> Rendering component HomePage rendering EN 1`] = `
     <div
       className="MuiGrid-item-3"
     >
-      <h6
-        className="MuiTypography-root-99 MuiTypography-subtitle1-117 MuiTypography-alignCenter-122"
+      <div
+        className="MuiGrid-container-2 MuiGrid-spacing-xs-8-24 MuiGrid-align-items-xs-center-10 MuiGrid-align-content-xs-center-14 MuiGrid-justify-xs-center-19"
       >
-        <div
-          className="MuiGrid-container-2 MuiGrid-spacing-xs-8-24 MuiGrid-align-items-xs-center-10 MuiGrid-align-content-xs-center-14 MuiGrid-justify-xs-center-19"
+        <h6
+          className="MuiTypography-root-99 MuiTypography-subtitle1-117"
         >
           <div
             className="MuiGrid-item-3"
           >
             <span>
-              My name Bertrand.
+              My name is Bertrand.
             </span>
           </div>
           <div
@@ -48,8 +48,8 @@ exports[`<HomePage/> Rendering component HomePage rendering EN 1`] = `
               Or at least, I try to be.
             </span>
           </div>
-        </div>
-      </h6>
+        </h6>
+      </div>
     </div>
   </div>
 </div>
