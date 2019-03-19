@@ -1,0 +1,12 @@
+.git/
+build/
+coverage/
+node_modules/
+.dockerignore
+.gitignore
+.travis.yml
+Dockerfile
+jest.config.js
+LICENSE.md
+README.md
+yarn.lock
