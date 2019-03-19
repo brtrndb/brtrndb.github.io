@@ -1,4 +1,5 @@
 import React from 'react';
+import renderer from 'react-test-renderer';
 
 import reduxTests from 'Tests/reduxTests';
 
@@ -6,6 +7,8 @@ import types from './ducks/types';
 import selectors from './ducks/selectors';
 import actions from './ducks/actions';
 import initialState from './ducks/initialState';
+
+import Helmet from './Helmet.component';
 
 describe('<Helmet />', () => {
   const reduxTestsData = {
@@ -32,4 +35,12 @@ describe('<Helmet />', () => {
   };
 
   reduxTests(reduxTestsData);
+
+  describe('Rendering component', () => {
+    test('Helmet rendering EN', () => {
+      const component = renderer.create(<Helmet />);
+      const tree = component.toJSON();
+      expect(tree).toMatchSnapshot();
+    });
+  });
 });
