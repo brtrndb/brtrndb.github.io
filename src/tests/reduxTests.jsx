@@ -42,7 +42,7 @@ const setupReduxReducersTests = (selectors, actions, selectorsData, actionsData,
       expect(newState).toEqual(reducersMockedStore.getState());
     });
 
-    test('Should return the initial state when unknow action is dispatched.', () => {
+    test('Should return the initial state when unknown action is dispatched.', () => {
       const reducers = setupReducers();
       const newState = reducers(reducersMockedStore.getState(), createReduxAction('UNKNOWN_ACTION', { data: 0 }));
       expect(newState).toEqual(reducersMockedStore.getState());
