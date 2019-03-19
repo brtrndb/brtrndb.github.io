@@ -32,18 +32,19 @@ const setupReduxActionsTests = (actions, actionsData) => {
 
 const setupReduxReducersTests = (selectors, actions, selectorsData, actionsData, reducersData) => {
   describe('Reducers', () => {
+    const reducers = setupReducers();
+
     beforeEach(() => {
+      mockedStore.replaceReducer(reducers);
       mockedStore.clearActions();
     });
 
     test('Should return the initial state when store state is undefined.', () => {
-      const reducers = setupReducers();
       const newState = reducers(undefined, {});
       expect(newState).toEqual(reducersMockedStore.getState());
     });
 
     test('Should return the initial state when unknown action is dispatched.', () => {
-      const reducers = setupReducers();
       const newState = reducers(reducersMockedStore.getState(), createReduxAction('UNKNOWN_ACTION', { data: 0 }));
       expect(newState).toEqual(reducersMockedStore.getState());
     });
