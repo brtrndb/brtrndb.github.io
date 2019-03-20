@@ -1,3 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Helmet /> Rendering component Rendering with locale EN 1`] = `null`;
+
+exports[`<Helmet /> Rendering component Rendering with locale FR 1`] = `null`;
