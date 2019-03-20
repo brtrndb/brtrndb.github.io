@@ -15,7 +15,7 @@ module.exports = {
   extends: ['eslint:recommended', 'prettier', 'prettier/react', 'airbnb', 'plugin:prettier/recommended'],
   rules: {
     indent: ['error', 2, { SwitchCase: 1 }],
-    quotes: ['error', 'single'],
+    quotes: ['error', 'single', { avoidEscape: true }],
     semi: ['error', 'always'],
     'arrow-parens': ['error', 'always'],
     'no-trailing-spaces': 'error',
