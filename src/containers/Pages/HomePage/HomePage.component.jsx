@@ -4,10 +4,9 @@ import PropTypes from 'prop-types';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { styles, HomePageContainer } from './HomePage.style';
 import { messages } from './HomePage.i18n';
+import { styles, HomePageContainer } from './HomePage.style';
 
 const toSubtitle = (msg) => (
   <Grid key={msg} item>
