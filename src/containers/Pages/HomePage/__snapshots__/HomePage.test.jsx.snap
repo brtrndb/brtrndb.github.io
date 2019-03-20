@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<HomePage /> Rendering component HomePage rendering for EN 1`] = `
+exports[`<HomePage /> Rendering component Rendering with locale EN 1`] = `
 <div
   className="sc-bwzfXH uTxCW"
 >
