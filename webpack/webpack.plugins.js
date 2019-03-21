@@ -49,8 +49,9 @@ module.exports = (params) => {
   );
 
   plugins.push(
-    new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify(params.env.name)
+    new webpack.EnvironmentPlugin({
+      'process.env.NODE_ENV': JSON.stringify(params.env.name),
+      'process.env.DEBUG': JSON.stringify(params.env.isProd)
     })
   );
 
