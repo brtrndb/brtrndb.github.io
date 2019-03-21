@@ -7,6 +7,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CircularDependencyPlugin = require('circular-dependency-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const OfflinePlugin = require('offline-plugin');
+const LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
 
 module.exports = (params) => {
   const plugins = [];
@@ -70,6 +71,8 @@ module.exports = (params) => {
       externals: ['https://fonts.googleapis.com/css?family=Roboto']
     })
   );
+
+  plugins.push(new LodashModuleReplacementPlugin());
 
   return plugins;
 };

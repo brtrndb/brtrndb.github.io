@@ -20,6 +20,7 @@ module.exports = {
     '@babel/plugin-proposal-json-strings',
     ['@babel/plugin-proposal-class-properties', { loose: false }],
 
-    'react-hot-loader/babel'
+    'react-hot-loader/babel',
+    'lodash'
   ]
 };
