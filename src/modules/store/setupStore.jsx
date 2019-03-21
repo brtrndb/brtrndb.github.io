@@ -1,18 +1,20 @@
 import { createStore, applyMiddleware, compose } from 'redux';
 import { routerMiddleware } from 'connected-react-router';
-import logger from 'redux-logger';
 
 import setupReducers from './setupReducers';
 import setupInitialState from './setupInitialState';
 
 const isProd = process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'prod';
+const logger = isProd ? null : require('redux-logger').logger;
 
 const setupMiddlewares = (history) => {
+  const middlewares = [];
   const reduxRouterMiddleware = routerMiddleware(history);
-  if (isProd) {
-    return [reduxRouterMiddleware];
+  middlewares.push(reduxRouterMiddleware);
+  if (!isProd) {
+    middlewares.push(logger);
   }
-  return [reduxRouterMiddleware, logger];
+  return middlewares;
 };
 
 const setupEnhancers = (middlewares) => {
