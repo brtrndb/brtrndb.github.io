@@ -14,11 +14,7 @@ module.exports = (params) => {
   const plugins = [];
 
   if (params.env.isProd) {
-    plugins.push(
-      new CleanWebpackPlugin([params.paths.build], {
-        root: params.paths.root
-      })
-    );
+    plugins.push(new CleanWebpackPlugin([params.paths.build], { root: params.paths.root }));
   }
 
   if (params.env.isDev) {
@@ -50,14 +46,16 @@ module.exports = (params) => {
     })
   );
 
-  plugins.push(new Dotenv({ path: params.env.envFilePath }));
-
-  plugins.push(new CopyWebpackPlugin([{ from: params.paths.libs, to: 'libs' }]));
-
   plugins.push(
     new webpack.NormalModuleReplacementPlugin(/(.*)ENV(\.*)/, (resource) => {
       resource.request = resource.request.replace(/ENV/, `${params.env.envNameShort}`);
     })
+  );
+
+  plugins.push(
+    new CopyWebpackPlugin([
+      { from: path.join(params.paths.sources, 'modules/intl/i18n/'), to: params.paths.build }
+    ])
   );
 
   plugins.push(
@@ -69,6 +67,8 @@ module.exports = (params) => {
   );
 
   plugins.push(new LodashModuleReplacementPlugin());
+
+  plugins.push(new Dotenv({ path: params.env.envFilePath }));
 
   return plugins;
 };
