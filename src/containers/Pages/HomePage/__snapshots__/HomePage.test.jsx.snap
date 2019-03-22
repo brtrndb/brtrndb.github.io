@@ -14,7 +14,7 @@ exports[`<HomePage /> Rendering component Rendering with locale EN 1`] = `
         className="MuiTypography-root-99 MuiTypography-h2-112 MuiTypography-alignCenter-122"
       >
         <span>
-          Hello world.
+          Hello World
         </span>
       </h2>
     </div>
@@ -77,7 +77,7 @@ exports[`<HomePage /> Rendering component Rendering with locale FR 1`] = `
         className="MuiTypography-root-99 MuiTypography-h2-112 MuiTypography-alignCenter-122"
       >
         <span>
-          Hello world.
+          Hello World
         </span>
       </h2>
     </div>
@@ -116,7 +116,7 @@ exports[`<HomePage /> Rendering component Rendering with locale FR 1`] = `
             className="MuiTypography-root-99 MuiTypography-subtitle1-117"
           >
             <span>
-              Du moins, j'essaie.
+              Du moins j'essaie.
             </span>
           </h6>
         </div>
