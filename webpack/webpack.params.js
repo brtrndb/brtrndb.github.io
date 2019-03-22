@@ -1,16 +1,19 @@
+const fs = require('fs');
 const path = require('path');
 
 const root = path.join(__dirname, '..');
 
-module.exports = (env) => {
-  const isProd = env === undefined || env.NODE_ENV === undefined || env.NODE_ENV === 'prod' || env.NODE_ENV === 'production';
+module.exports = (wpEnv) => {
+  const isProd = wpEnv === undefined || wpEnv.NODE_ENV === undefined || wpEnv.NODE_ENV === 'prod' || wpEnv.NODE_ENV === 'production';
   const isDev = !isProd;
-  const buildPath = 'build';
+  const envName = isProd ? 'production' : 'development';
+  const envNameShort = isProd ? 'prod' : 'dev';
+  const envFilePath = path.join(__dirname, `./.env.${envNameShort}`);
 
   const params = {
     paths: {
       root,
-      build: path.join(root, buildPath),
+      build: path.join(root, 'build'),
       sources: path.join(root, 'src'),
       libs: path.join(root, 'src/libs'),
       entry: path.join(root, 'src/index.jsx'),
@@ -21,7 +24,9 @@ module.exports = (env) => {
       images: '/img/'
     },
     env: {
-      name: env === undefined || env.NODE_ENV === undefined ? 'production' : env.NODE_ENV,
+      envName,
+      envNameShort,
+      envFilePath,
       isDev,
       isProd
     }

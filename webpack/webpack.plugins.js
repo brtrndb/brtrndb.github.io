@@ -8,6 +8,7 @@ const CircularDependencyPlugin = require('circular-dependency-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const OfflinePlugin = require('offline-plugin');
 const LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = (params) => {
   const plugins = [];
@@ -36,7 +37,7 @@ module.exports = (params) => {
 
   plugins.push(
     new MiniCssExtractPlugin({
-      filename: `style.${params.env.isProd ? 'prod' : 'dev.[contenthash]'}.css`
+      filename: `style.${params.env.envNameShort}${params.env.isDed ? '.[contenthash]' : ''}.css`
     })
   );
 
@@ -49,18 +50,13 @@ module.exports = (params) => {
     })
   );
 
-  plugins.push(
-    new webpack.EnvironmentPlugin({
-      'process.env.NODE_ENV': JSON.stringify(params.env.name),
-      'process.env.DEBUG': JSON.stringify(params.env.isProd)
-    })
-  );
+  plugins.push(new Dotenv({ path: params.env.envFilePath }));
 
   plugins.push(new CopyWebpackPlugin([{ from: params.paths.libs, to: 'libs' }]));
 
   plugins.push(
     new webpack.NormalModuleReplacementPlugin(/(.*)ENV(\.*)/, (resource) => {
-      resource.request = resource.request.replace(/ENV/, `${params.env.isProd ? 'prod' : 'dev'}`);
+      resource.request = resource.request.replace(/ENV/, `${params.env.envNameShort}`);
     })
   );
 
