@@ -2,14 +2,15 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { IntlProvider, injectIntl } from 'react-intl';
 
-import i18n from 'Modules/intl/i18n';
+import locales from 'Modules/intl/locales';
 
 const setupIntlTests = (Component, props) => {
   describe('Rendering component', () => {
-    Object.keys(i18n).forEach((locale) => {
+    Object.keys(locales.allowed).forEach((locale) => {
+      const i18n = require(`../modules/intl/i18n/${locale}.json`);
       test(`Rendering with locale ${locale.toUpperCase()}`, () => {
         const component = renderer.create(
-          <IntlProvider locale={locale} messages={i18n[locale]}>
+          <IntlProvider locale={locale} messages={i18n}>
             <Component {...props[locale]} />
           </IntlProvider>
         );
