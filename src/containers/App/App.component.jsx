@@ -8,6 +8,7 @@ import { MuiThemeProvider } from '@material-ui/core/styles';
 import AppContent from 'Containers/AppContent';
 import setupStore from 'Modules/store';
 import setupFontAwesome from 'Modules/fontawesome';
+import { setupIntl } from 'Modules/intl';
 
 import { appMuiTheme } from './App.style';
 
@@ -19,6 +20,9 @@ const store = setupStore(history);
 
 // Setting up Font Awesome.
 setupFontAwesome();
+
+// Setting up Intl.
+setupIntl();
 
 const App = () => (
   <Provider store={store}>
