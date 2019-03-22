@@ -1,24 +1,24 @@
-const messages = {
-  welcome: 'pages.homepage.welcome',
-  my_name: 'pages.homepage.my_name',
-  i_am: 'pages.homepage.i_am',
-  i_try: 'pages.homepage.i_try'
-};
+import { defineMessages } from 'react-intl';
 
-const i18n = {
-  en: {
-    [messages.welcome]: 'Hello world.',
-    [messages.my_name]: 'My name is Bertrand.',
-    [messages.i_am]: 'I am a good developer.',
-    [messages.i_try]: 'Or at least, I try to be.'
+export const scope = 'pages.homepage';
+
+const messages = defineMessages({
+  welcome: {
+    id: `${scope}.welcome`,
+    defaultMessage: 'Hello World'
   },
-  fr: {
-    [messages.welcome]: 'Hello world.',
-    [messages.my_name]: "Je m'appelle Bertrand.",
-    [messages.i_am]: 'Je suis un bon dev.',
-    [messages.i_try]: "Du moins, j'essaie."
+  my_name: {
+    id: `${scope}.my_name`,
+    defaultMessage: 'My name is Bertrand.'
+  },
+  i_am: {
+    id: `${scope}.i_am`,
+    defaultMessage: 'I am a good developer.'
+  },
+  i_try: {
+    id: `${scope}.i_try`,
+    defaultMessage: 'Or at least, I try to be.'
   }
-};
+});
 
-export { messages };
-export default i18n;
+export default messages;

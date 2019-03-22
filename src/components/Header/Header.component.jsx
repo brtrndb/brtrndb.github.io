@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
 import LanguageIcon from '@material-ui/icons/Language';
 
-import { messages } from './Header.i18n';
+import messages from './Header.i18n';
 import { styles, HeaderContainer } from './Header.style';
 
 const switchLanguage = (currentLocale, setLocale) => () => {
@@ -20,7 +20,7 @@ const Header = ({ locale, setLocale, classes }) => (
       <Toolbar variant='dense' className={classes.toolbar}>
         <Button onClick={switchLanguage(locale, setLocale)}>
           <LanguageIcon />
-          <FormattedMessage id={messages.language} />
+          <FormattedMessage {...messages.language} />
         </Button>
       </Toolbar>
     </AppBar>

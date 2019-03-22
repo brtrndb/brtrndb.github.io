@@ -5,13 +5,13 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 
-import { messages } from './HomePage.i18n';
+import messages from './HomePage.i18n';
 import { styles, HomePageContainer } from './HomePage.style';
 
 const toSubtitle = (msg) => (
-  <Grid key={msg} item>
+  <Grid key={msg.id} item>
     <Typography variant='subtitle1'>
-      <FormattedMessage id={msg} />
+      <FormattedMessage {...msg} />
     </Typography>
   </Grid>
 );
@@ -21,7 +21,7 @@ const HomePage = ({ classes }) => (
     <Grid container direction='column' justify='center' alignItems='center' alignContent='center' className={classes.mainGrid}>
       <Grid item>
         <Typography variant='h2' align='center'>
-          <FormattedMessage id={messages.welcome} />
+          <FormattedMessage {...messages.welcome} />
         </Typography>
       </Grid>
       <Grid item>

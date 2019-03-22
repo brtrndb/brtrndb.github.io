@@ -1,15 +1,12 @@
-const messages = {
-  language: 'component.header.language'
-};
+import { defineMessages } from 'react-intl';
 
-const i18n = {
-  en: {
-    [messages.language]: 'Français'
-  },
-  fr: {
-    [messages.language]: 'English'
+export const scope = 'component.header';
+
+const messages = defineMessages({
+  language: {
+    id: `${scope}.language`,
+    defaultMessage: 'Français'
   }
-};
+});
 
-export { messages };
-export default i18n;
+export default messages;
