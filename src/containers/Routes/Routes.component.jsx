@@ -6,20 +6,12 @@ import HomePage from 'Containers/Pages/HomePage';
 
 import { RoutesContainer } from './Routes.style';
 
-const Routes = ({ baseurl }) => (
+const Routes = () => (
   <RoutesContainer>
     <Switch>
-      <Route exact path={baseurl} component={HomePage} />
+      <Route exact path='/' component={HomePage} />
     </Switch>
   </RoutesContainer>
 );
-
-Routes.propTypes = {
-  baseurl: PropTypes.string
-};
-
-Routes.defaultProps = {
-  baseurl: ''
-};
 
 export default Routes;

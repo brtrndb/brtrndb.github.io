@@ -10,7 +10,7 @@ const AppContent = () => (
   <AppContentContainer>
     <Helmet />
     <Header />
-    <Routes baseurl='/' />
+    <Routes />
   </AppContentContainer>
 );
 
