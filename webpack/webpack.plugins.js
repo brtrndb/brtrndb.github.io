@@ -52,14 +52,6 @@ module.exports = (params) => {
 
   plugins.push(new CopyWebpackPlugin([{ from: path.join(params.paths.sources, 'modules/intl/i18n/'), to: path.join(params.paths.build, 'i18n') }]));
 
-  plugins.push(
-    new OfflinePlugin({
-      responseStrategy: 'cache-first',
-      autoUpdate: true,
-      externals: ['https://fonts.googleapis.com/css?family=Roboto']
-    })
-  );
-
   plugins.push(new LodashModuleReplacementPlugin());
 
   plugins.push(new Dotenv({ path: params.env.envFilePath }));
@@ -107,6 +99,14 @@ module.exports = (params) => {
         yandex: false,
         windows: false
       }
+    })
+  );
+
+  plugins.push(
+    new OfflinePlugin({
+      responseStrategy: 'cache-first',
+      autoUpdate: true,
+      externals: ['https://fonts.googleapis.com/css?family=Roboto']
     })
   );
 
