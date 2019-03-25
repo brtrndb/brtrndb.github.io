@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 
 import messages from './HomePage.i18n';
-import { styles, HomePageContainer } from './HomePage.style';
+import { HomePageContainer } from './HomePage.style';
 
 const toSubtitle = (msg) => (
   <Grid key={msg.id} item>
@@ -16,9 +16,9 @@ const toSubtitle = (msg) => (
   </Grid>
 );
 
-const HomePage = ({ classes }) => (
+const HomePage = () => (
   <HomePageContainer>
-    <Grid container direction='column' justify='center' alignItems='center' alignContent='center' className={classes.mainGrid}>
+    <Grid container direction='column' justify='center' alignItems='center' alignContent='center'>
       <Grid item>
         <Typography variant='h2' align='center'>
           <FormattedMessage {...messages.welcome} />
@@ -33,8 +33,4 @@ const HomePage = ({ classes }) => (
   </HomePageContainer>
 );
 
-HomePage.propTypes = {
-  classes: PropTypes.object.isRequired // eslint-disable-line react/forbid-prop-types
-};
-
-export default withStyles(styles)(HomePage);
+export default HomePage;

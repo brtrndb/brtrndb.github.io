@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
-const DefaultContainer = styled.div`
-  align-items: 'right';
-`;
+const DefaultContainer = styled.div``;
 const HeaderContainer = styled.div``;
 
 const styles = () => ({
