@@ -116,7 +116,7 @@ exports[`<HomePage /> Rendering component Rendering with locale FR 1`] = `
             className="MuiTypography-root-99 MuiTypography-subtitle1-117"
           >
             <span>
-              Du moins j'essaie.
+              Du moins, j'essaie.
             </span>
           </h6>
         </div>
