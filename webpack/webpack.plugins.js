@@ -31,11 +31,7 @@ module.exports = (params) => {
     })
   );
 
-  plugins.push(
-    new MiniCssExtractPlugin({
-      filename: `style.${params.env.envNameShort}${params.env.isDed ? '.[contenthash]' : ''}.css`
-    })
-  );
+  plugins.push(new MiniCssExtractPlugin({ filename: `style.${params.env.envNameShort}${params.env.isDed ? '.[contenthash]' : ''}.css` }));
 
   plugins.push(
     new CircularDependencyPlugin({
@@ -52,11 +48,7 @@ module.exports = (params) => {
     })
   );
 
-  plugins.push(
-    new CopyWebpackPlugin([
-      { from: path.join(params.paths.sources, 'modules/intl/i18n/'), to: params.paths.build }
-    ])
-  );
+  plugins.push(new CopyWebpackPlugin([{ from: path.join(params.paths.sources, 'modules/intl/i18n/'), to: path.join(params.paths.build, 'i18n') }]));
 
   plugins.push(
     new OfflinePlugin({

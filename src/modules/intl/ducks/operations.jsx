@@ -3,6 +3,8 @@ import axios from 'Modules/axios';
 import actions from './actions';
 import setupIntl from '../setupIntl';
 
+const URL_LOCALE = '/i18n';
+
 const setLocale = (dispatch) => (locale) => {
   dispatch(actions.fetchTranslationStartAction());
 
@@ -18,7 +20,7 @@ const setLocale = (dispatch) => (locale) => {
   };
 
   axios
-    .get(`/${locale}.json`)
+    .get(`${URL_LOCALE}/${locale}.json`)
     .then(onSuccess)
     .catch(onError);
 };
