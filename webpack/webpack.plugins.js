@@ -9,6 +9,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const OfflinePlugin = require('offline-plugin');
 const LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
+const WebpackPwaManifest = require('webpack-pwa-manifest');
 
 module.exports = (params) => {
   const plugins = [];
@@ -61,6 +62,25 @@ module.exports = (params) => {
   plugins.push(new LodashModuleReplacementPlugin());
 
   plugins.push(new Dotenv({ path: params.env.envFilePath }));
+
+  plugins.push(
+    new WebpackPwaManifest({
+      name: 'BrtrndB',
+      short_name: 'BrtrndB',
+      description: 'BrtrndB Portfolio',
+      display: 'browser',
+      lang: 'en-UK',
+      default_locale: 'en',
+      background_color: '#ffffff',
+      icons: [
+        {
+          src: path.join(params.paths.root, 'webpack/brtrndb-icon.png'),
+          sizes: [96, 128, 192, 256, 384, 512, 1024],
+          destination: 'icons'
+        }
+      ]
+    })
+  );
 
   return plugins;
 };
