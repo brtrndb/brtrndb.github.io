@@ -1,6 +1,5 @@
 import React from 'react';
 import { Switch, Route } from 'react-router';
-import PropTypes from 'prop-types';
 
 import HomePage from 'Containers/Pages/HomePage';
 
