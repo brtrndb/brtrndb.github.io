@@ -3,4 +3,4 @@ const axiosConfiguration = {
   timeout: 1000
 };
 
-export default axiosConfiguration
+export default axiosConfiguration;
