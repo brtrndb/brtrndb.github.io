@@ -2,6 +2,7 @@
 build/
 coverage/
 node_modules/
+tools/
 .dockerignore
 .gitignore
 .travis.yml
@@ -9,4 +10,5 @@ Dockerfile
 jest.config.js
 LICENSE.md
 README.md
+webpack-build-log.json
 yarn.lock
