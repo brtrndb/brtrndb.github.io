@@ -73,9 +73,10 @@ module.exports = (params) => {
       lang: 'en-UK',
       default_locale: 'en',
       background_color: '#ffffff',
+      fingerprints: false,
       icons: [
         {
-          src: path.join(params.paths.root, 'webpack/brtrndb-icon.png'),
+          src: path.join(params.paths.sources, 'brtrndb-icon.png'),
           sizes: [96, 128, 192, 256, 384, 512, 1024],
           destination: 'icons'
         }
@@ -85,7 +86,7 @@ module.exports = (params) => {
 
   plugins.push(
     new FaviconsWebpackPlugin({
-      logo: path.join(params.paths.root, 'webpack/brtrndb-icon.png'), // Your source logo
+      logo: path.join(params.paths.sources, 'brtrndb-icon.png'), // Your source logo
       prefix: 'icons/', // The prefix for all image files (might be a folder or a name).
       // emitStats: false, // Emit all stats of the generated icons.
       // statsFilename: 'iconstats.json', // The name of the json containing all favicon information.
