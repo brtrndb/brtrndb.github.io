@@ -1,3 +1,7 @@
-import HomePage from './HomePage.component';
+import React from 'react';
+import loadable from '@loadable/component';
 
-export default HomePage;
+const ImportedHomePage = loadable(() => import('./HomePage.component'));
+const LoadableHomePage = () => <ImportedHomePage />;
+
+export default LoadableHomePage;
