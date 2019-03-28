@@ -13,10 +13,10 @@ const sectionsData = [
     icon: 'graduation-cap',
     title: messages.education,
     entries: [
-      { from: messages.educationEpitechStartYear, to: messages.educationEpitechEndYear, title: messages.educationEpitechTitle, content: messages.educationEpitechContent },
-      { from: messages.educationGriffithStartYear, to: messages.educationGriffithEndYear, title: messages.educationGriffithTitle, content: messages.educationGriffithContent },
-      { from: messages.educationEISTIStartYear, to: messages.educationEISTIEndYear, title: messages.educationEISTITitle, content: messages.educationEISTIContent },
-      { to: messages.educationLyceeEndYear, title: messages.educationLyceeTitle, content: messages.educationLyceeContent }
+      { from: '2011/10/01', to: '2015/08/01', title: messages.educationEpitechTitle, content: messages.educationEpitechContent },
+      { from: '2013/09/01', to: '2014/07/01', title: messages.educationGriffithTitle, content: messages.educationGriffithContent },
+      { from: '2008/09/01', to: '2011/07/01', title: messages.educationEISTITitle, content: messages.educationEISTIContent },
+      { to: '2008/07/01', title: messages.educationLyceeTitle, content: messages.educationLyceeContent }
     ]
   },
   {

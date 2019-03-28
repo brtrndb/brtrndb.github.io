@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, FormattedDate } from 'react-intl';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -26,9 +26,11 @@ const CvSection = ({ icon, title, children }) => (
 
 const CvEntryDate = ({ from, to }) => (
   <CvEntryDateContainer>
-    {from ? <FormattedMessage {...from} /> : null}
+    {from && typeof from === 'string' ? <FormattedDate value={new Date(from)} year='numeric' /> : null}
+    {from && typeof from === 'object' ? <FormattedMessage {...from} /> : null}
     {from ? <RightHarpoonUp /> : null}
-    <FormattedMessage {...to} />
+    {to && typeof to === 'string' ? <FormattedDate value={new Date(to)} year='numeric' /> : null}
+    {to && typeof to === 'object' ? <FormattedMessage {...to} /> : null}
   </CvEntryDateContainer>
 );
 
