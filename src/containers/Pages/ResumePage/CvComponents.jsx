@@ -1,10 +1,13 @@
 import React from 'react';
 import { FormattedMessage, FormattedDate } from 'react-intl';
+import PropTypes from 'prop-types';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { RightHarpoonUp } from 'Components/Fonts';
+
+import { messageDescriptorPropTypes } from 'Modules/intl';
 
 import { CvEntryContainer, CvEntryDateContainer, CvEntryContentContainer } from './ResumePage.style';
 
@@ -34,6 +37,16 @@ const CvSection = ({ icon, title, children }) => (
   </Grid>
 );
 
+CvSection.propTypes = {
+  icon: PropTypes.string.isRequired,
+  title: messageDescriptorPropTypes.isRequired,
+  children: PropTypes.node
+};
+
+CvSection.defaultProps = {
+  children: null
+};
+
 const CvEntryDate = ({ from, to, format }) => (
   <CvEntryDateContainer>
     {from && typeof from === 'string' ? <FormattedDate value={new Date(from)} {...dateFormats[format]} /> : null}
@@ -45,6 +58,18 @@ const CvEntryDate = ({ from, to, format }) => (
   </CvEntryDateContainer>
 );
 
+CvEntryDate.propTypes = {
+  from: PropTypes.oneOfType([PropTypes.string, messageDescriptorPropTypes]),
+  to: PropTypes.oneOfType([PropTypes.string, messageDescriptorPropTypes]),
+  format: PropTypes.string
+};
+
+CvEntryDate.defaultProps = {
+  from: '',
+  to: '',
+  format: 'short'
+};
+
 const CvEntryContent = ({ title, content }) => (
   <CvEntryContentContainer>
     <Typography variant='subtitle2'>
@@ -55,6 +80,11 @@ const CvEntryContent = ({ title, content }) => (
     </Typography>
   </CvEntryContentContainer>
 );
+
+CvEntryContent.propTypes = {
+  title: messageDescriptorPropTypes.isRequired,
+  content: messageDescriptorPropTypes.isRequired
+};
 
 const CvEntry = ({ from, to, dateFormat, title, content }) => (
   <CvEntryContainer key={title.id}>
@@ -68,6 +98,20 @@ const CvEntry = ({ from, to, dateFormat, title, content }) => (
     </Grid>
   </CvEntryContainer>
 );
+
+CvEntry.propTypes = {
+  from: PropTypes.oneOfType([PropTypes.string, messageDescriptorPropTypes]),
+  to: PropTypes.oneOfType([PropTypes.string, messageDescriptorPropTypes]),
+  dateFormat: PropTypes.string,
+  title: messageDescriptorPropTypes.isRequired,
+  content: messageDescriptorPropTypes.isRequired
+};
+
+CvEntry.defaultProps = {
+  from: '',
+  to: '',
+  dateFormat: 'short'
+};
 
 export { CvEntry };
 export default CvSection;
