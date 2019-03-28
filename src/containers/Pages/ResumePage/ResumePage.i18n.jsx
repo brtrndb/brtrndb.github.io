@@ -72,6 +72,89 @@ const experienceMessages = {
     id: `${scopeExperience}.title`,
     defaultMessage: 'Experience'
   },
+  experienceWemanityTitle: {
+    id: `${scopeExperience}.wemanity.title`,
+    defaultMessage: titleFormat,
+    values: {
+      place: <b>Wemanity</b>,
+      status: <i>Agile Consultant Developer R&D</i>,
+      location: 'Paris (France)'
+    }
+  },
+  experienceWemanityContent: {
+    id: `${scopeExperience}.wemanity.content`,
+    defaultMessage:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat eleifend est, quis volutpat tortor dignissim non. Fusce arcu leo, lacinia nec ultrices a, tincidunt in eros. Curabitur consectetur magna est, et pellentesque arcu aliquam in. Ut ligula ipsum, dapibus et dapibus non, tincidunt in arcu.'
+  },
+  experienceDhatimTitle: {
+    id: `${scopeExperience}.dhatim.title`,
+    defaultMessage: titleFormat,
+    values: {
+      place: <b>Dhatim</b>,
+      status: <i>R&D Java Developper</i>,
+      location: 'Paris (France)'
+    }
+  },
+  experienceDhatimContent: {
+    id: `${scopeExperience}.dhatim.content`,
+    defaultMessage:
+      'Sed ornare dolor in leo sagittis, quis tincidunt risus ultricies. Phasellus sit amet nulla at nisl dictum pulvinar. Integer vel erat mi. Vivamus metus sem, ultrices et ligula eget, malesuada pharetra leo. Nam finibus metus eu porta sodales.'
+  },
+  experienceVisianTitle: {
+    id: `${scopeExperience}.visian.title`,
+    defaultMessage: titleFormat,
+    values: {
+      place: <b>Visian</b>,
+      status: <i>Lead Developper & Fablab Supervisor</i>,
+      location: 'Paris (France)'
+    }
+  },
+  experienceVisianContent: {
+    id: `${scopeExperience}.visian.content`,
+    defaultMessage:
+      'Proin nec aliquet odio, vitae commodo dolor. Integer orci nulla, luctus id risus sit amet, sagittis molestie justo. Curabitur et dui et turpis efficitur mollis vulputate id justo. Cras sodales cursus lorem, id porttitor magna porta id.'
+  },
+  experienceSIITitle: {
+    id: `${scopeExperience}.sii.title`,
+    defaultMessage: titleFormat,
+    values: {
+      place: <b>SII</b>,
+      status: <i>Head Of Innovation Assistant</i>,
+      location: 'Paris (France)'
+    }
+  },
+  experienceSIIContent: {
+    id: `${scopeExperience}.sii.content`,
+    defaultMessage: 'Quisque tincidunt metus congue tellus pharetra, id rhoncus eros tempor. Nullam commodo eleifend metus ac varius. Nam eget enim sit amet mi malesuada auctor ac ac nisl.'
+  },
+  experienceThalesTitle: {
+    id: `${scopeExperience}.thales.title`,
+    defaultMessage: titleFormat,
+    values: {
+      place: <b>Thales</b>,
+      status: <i>Intern DevOps</i>,
+      location: 'Paris (France)'
+    }
+  },
+  experienceThalesContent: {
+    id: `${scopeExperience}.thales.content`,
+    defaultMessage:
+      'Curabitur fringilla mauris at tortor faucibus venenatis. Etiam porttitor aliquam dictum. Integer elementum mi ac orci ultricies viverra. Curabitur turpis enim, dapibus nec mauris vitae, auctor ultrices justo. '
+  },
+  experienceNovacomTitle: {
+    id: `${scopeExperience}.novacom.title`,
+    defaultMessage: titleFormat,
+    values: {
+      place: <b>Novacom</b>,
+      status: <i>Java Developper Trainee</i>,
+      location: 'Paris (France)'
+    }
+  },
+  experienceNovacomContent: {
+    id: `${scopeExperience}.novacom.content`,
+    defaultMessage:
+      'Suspendisse hendrerit magna posuere leo ultrices, ut maximus diam convallis. Pellentesque vel felis arcu. Donec quis urna libero. Suspendisse sagittis turpis at leo lobortis porttitor. Sed eget nulla sollicitudin, fermentum nisi non, ultricies neque.'
+  }
 };
 
 const skillsMessages = {
@@ -85,6 +168,10 @@ const messages = defineMessages({
   title: {
     id: `${scope}.title`,
     defaultMessage: 'Resume'
+  },
+  now: {
+    id: `${scope}.section.now`,
+    defaultMessage: 'Now'
   },
   ...educationMessages,
   ...experienceMessages,

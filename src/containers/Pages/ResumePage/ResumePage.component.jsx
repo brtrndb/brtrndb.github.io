@@ -22,7 +22,14 @@ const sectionsData = [
   {
     icon: 'briefcase',
     title: messages.experience,
-    entries: []
+    entries: [
+      { dateFormat: 'long', from: '2018/04/01', to: messages.now, title: messages.experienceWemanityTitle, content: messages.experienceWemanityContent },
+      { dateFormat: 'long', from: '2016/10/01', to: '2018/02/01', title: messages.experienceDhatimTitle, content: messages.experienceDhatimContent },
+      { dateFormat: 'long', from: '2015/03/01', to: '2016/10/01', title: messages.experienceVisianTitle, content: messages.experienceVisianContent },
+      { dateFormat: 'long', from: '2014/09/01', to: '2015/03/01', title: messages.experienceSIITitle, content: messages.experienceSIIContent },
+      { dateFormat: 'long', from: '2013/04/01', to: '2013/08/01', title: messages.experienceThalesTitle, content: messages.experienceThalesContent },
+      { dateFormat: 'long', from: '2012/10/01', to: '2013/04/01', title: messages.experienceNovacomTitle, content: messages.experienceNovacomContent }
+    ]
   },
   {
     icon: 'code',
