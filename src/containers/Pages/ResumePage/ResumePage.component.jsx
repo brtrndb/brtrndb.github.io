@@ -6,21 +6,36 @@ import Typography from '@material-ui/core/Typography';
 import messages from './ResumePage.i18n';
 import { ResumePageContainer } from './ResumePage.style';
 
+import CvSection, { CvEntry } from './CvComponents';
+
 const sectionsData = [
   {
-    title: 'Title'
+    icon: 'graduation-cap',
+    title: messages.education,
+    entries: [
+      { from: messages.educationEpitechStartYear, to: messages.educationEpitechEndYear, title: messages.educationEpitechTitle, content: messages.educationEpitechContent },
+      { from: messages.educationGriffithStartYear, to: messages.educationGriffithEndYear, title: messages.educationGriffithTitle, content: messages.educationGriffithContent },
+      { from: messages.educationEISTIStartYear, to: messages.educationEISTIEndYear, title: messages.educationEISTITitle, content: messages.educationEISTIContent },
+      { to: messages.educationLyceeEndYear, title: messages.educationLyceeTitle, content: messages.educationLyceeContent }
+    ]
   },
   {
-    title: 'Title'
+    icon: 'briefcase',
+    title: messages.experience,
+    entries: []
   },
   {
-    title: 'Title'
+    icon: 'code',
+    title: messages.skills,
+    entries: []
   }
 ];
 
 const toSection = (data) => (
   <Grid item xs={12} md={4}>
-    {data.title}
+    <CvSection icon={data.icon} title={data.title}>
+      {data.entries.map(CvEntry)}
+    </CvSection>
   </Grid>
 );
 
