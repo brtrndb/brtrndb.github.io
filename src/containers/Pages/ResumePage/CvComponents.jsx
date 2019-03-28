@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { RightHarpoonUp } from 'Components/Fonts';
 
-import { messageDescriptorPropTypes } from 'Modules/intl';
+import { messageDescriptorPropTypes } from 'Modules/intl/intlPropTypes';
 
 import { CvEntryContainer, CvEntryDateContainer, CvEntryContentContainer } from './ResumePage.style';
 
