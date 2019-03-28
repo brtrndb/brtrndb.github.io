@@ -8,6 +8,16 @@ import { RightHarpoonUp } from 'Components/Fonts';
 
 import { CvEntryContainer, CvEntryDateContainer, CvEntryContentContainer } from './ResumePage.style';
 
+const dateFormats = {
+  short: {
+    year: 'numeric'
+  },
+  long: {
+    year: 'numeric',
+    month: 'long'
+  }
+};
+
 const CvSection = ({ icon, title, children }) => (
   <Grid container direction='column' alignItems='center'>
     <Grid item>
@@ -24,12 +34,13 @@ const CvSection = ({ icon, title, children }) => (
   </Grid>
 );
 
-const CvEntryDate = ({ from, to }) => (
+const CvEntryDate = ({ from, to, format }) => (
   <CvEntryDateContainer>
-    {from && typeof from === 'string' ? <FormattedDate value={new Date(from)} year='numeric' /> : null}
+    {from && typeof from === 'string' ? <FormattedDate value={new Date(from)} {...dateFormats[format]} /> : null}
     {from && typeof from === 'object' ? <FormattedMessage {...from} /> : null}
     {from ? <RightHarpoonUp /> : null}
-    {to && typeof to === 'string' ? <FormattedDate value={new Date(to)} year='numeric' /> : null}
+    {format === 'long' ? <br /> : null}
+    {to && typeof to === 'string' ? <FormattedDate value={new Date(to)} {...dateFormats[format]} /> : null}
     {to && typeof to === 'object' ? <FormattedMessage {...to} /> : null}
   </CvEntryDateContainer>
 );
@@ -45,11 +56,11 @@ const CvEntryContent = ({ title, content }) => (
   </CvEntryContentContainer>
 );
 
-const CvEntry = ({ from, to, title, content }) => (
+const CvEntry = ({ from, to, dateFormat, title, content }) => (
   <CvEntryContainer>
     <Grid container direction='row' alignItems='baseline' spacing={8}>
       <Grid item xs={3}>
-        <CvEntryDate from={from} to={to} />
+        <CvEntryDate from={from} to={to} format={dateFormat} />
       </Grid>
       <Grid item xs={9}>
         <CvEntryContent title={title} content={content} />
