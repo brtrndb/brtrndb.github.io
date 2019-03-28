@@ -39,7 +39,7 @@ const sectionsData = [
 ];
 
 const toSection = (data) => (
-  <Grid item xs={12} md={4}>
+  <Grid item xs={12} md={6} lg={4}>
     <CvSection icon={data.icon} title={data.title}>
       {data.entries.map(CvEntry)}
     </CvSection>

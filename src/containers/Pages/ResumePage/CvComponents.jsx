@@ -59,10 +59,10 @@ const CvEntryContent = ({ title, content }) => (
 const CvEntry = ({ from, to, dateFormat, title, content }) => (
   <CvEntryContainer>
     <Grid container direction='row' alignItems='baseline' spacing={8}>
-      <Grid item xs={3}>
+      <Grid item xs={12} sm={3} md={3} lg={3} xl={3}>
         <CvEntryDate from={from} to={to} format={dateFormat} />
       </Grid>
-      <Grid item xs={9}>
+      <Grid item xs={12} sm={9} md={9} lg={9} xl={9}>
         <CvEntryContent title={title} content={content} />
       </Grid>
     </Grid>
