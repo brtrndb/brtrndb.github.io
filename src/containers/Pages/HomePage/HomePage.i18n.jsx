@@ -18,6 +18,10 @@ const messages = defineMessages({
   i_try: {
     id: `${scope}.i_try`,
     defaultMessage: 'Or at least, I try to be.'
+  },
+  btnResume: {
+    id: `${scope}.button.resume`,
+    defaultMessage: 'See my resume'
   }
 });
 

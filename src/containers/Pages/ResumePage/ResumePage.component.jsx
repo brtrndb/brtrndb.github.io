@@ -62,7 +62,6 @@ const ResumePage = () => (
           <FormattedMessage {...messages.title} />
         </Typography>
       </Grid>
-
       <Grid item>
         <Grid container direction='row' alignItems='stretch' justify='space-around'>
           {sections.map(toCvSection)}
