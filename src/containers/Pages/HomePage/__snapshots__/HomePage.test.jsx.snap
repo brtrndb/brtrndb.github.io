@@ -59,6 +59,39 @@ exports[`<HomePage /> Rendering component Rendering with locale EN 1`] = `
         </div>
       </div>
     </div>
+    <div
+      className="MuiGrid-item-2"
+    >
+      <a
+        className="MuiButtonBase-root-160 MuiButton-root-134 MuiButton-text-136 MuiButton-flat-139"
+        href="/resume"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <span
+          className="MuiButton-label-135"
+        >
+          <span>
+            See my resume
+          </span>
+        </span>
+        <span
+          className="MuiTouchRipple-root-163"
+        />
+      </a>
+    </div>
   </div>
 </div>
 `;
@@ -121,6 +154,39 @@ exports[`<HomePage /> Rendering component Rendering with locale FR 1`] = `
           </h6>
         </div>
       </div>
+    </div>
+    <div
+      className="MuiGrid-item-2"
+    >
+      <a
+        className="MuiButtonBase-root-160 MuiButton-root-134 MuiButton-text-136 MuiButton-flat-139"
+        href="/resume"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <span
+          className="MuiButton-label-135"
+        >
+          <span>
+            Lire mon CV
+          </span>
+        </span>
+        <span
+          className="MuiTouchRipple-root-163"
+        />
+      </a>
     </div>
   </div>
 </div>
