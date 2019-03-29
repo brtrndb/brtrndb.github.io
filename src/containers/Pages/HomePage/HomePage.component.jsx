@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
 import messages from './HomePage.i18n';
@@ -26,6 +28,11 @@ const HomePage = () => (
         <Grid container direction='row' justify='center' alignItems='center' alignContent='center' spacing={8}>
           {[messages.my_name, messages.i_am, messages.i_try].map(toSubtitle)}
         </Grid>
+      </Grid>
+      <Grid item>
+        <Button component={Link} to='/resume'>
+          <FormattedMessage {...messages.btnResume} />
+        </Button>
       </Grid>
     </Grid>
   </HomePageContainer>

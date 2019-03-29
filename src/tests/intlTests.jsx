@@ -1,6 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { IntlProvider, injectIntl } from 'react-intl';
+import { IntlProvider } from 'react-intl';
+import { MemoryRouter } from 'react-router';
 
 import locales from 'Modules/intl/locales';
 
@@ -11,7 +12,9 @@ const setupIntlTests = (Component, props) => {
       test(`Rendering with locale ${locale.toUpperCase()}`, () => {
         const component = renderer.create(
           <IntlProvider locale={locale} messages={i18n}>
-            <Component {...props[locale]} />
+            <MemoryRouter>
+              <Component {...props[locale]} />
+            </MemoryRouter>
           </IntlProvider>
         );
         const tree = component.toJSON();
