@@ -8,10 +8,10 @@ import { withStyles } from '@material-ui/core/styles';
 import messages from './HomePage.i18n';
 import { HomePageContainer } from './HomePage.style';
 
-const toSubtitle = (msg) => (
-  <Grid key={msg.id} item>
+const toSubtitle = (subtitle) => (
+  <Grid key={subtitle.id} item>
     <Typography variant='subtitle1'>
-      <FormattedMessage {...msg} />
+      <FormattedMessage {...subtitle} />
     </Typography>
   </Grid>
 );
