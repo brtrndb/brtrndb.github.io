@@ -5,13 +5,13 @@ exports[`<HomePage /> Rendering component Rendering with locale EN 1`] = `
   className="sc-bwzfXH uTxCW"
 >
   <div
-    className="MuiGrid-container-2 MuiGrid-direction-xs-column-5 MuiGrid-align-items-xs-center-10 MuiGrid-align-content-xs-center-14 MuiGrid-justify-xs-center-19 HomePage-mainGrid-1"
+    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4 MuiGrid-align-items-xs-center-9 MuiGrid-align-content-xs-center-13 MuiGrid-justify-xs-center-18"
   >
     <div
-      className="MuiGrid-item-3"
+      className="MuiGrid-item-2"
     >
       <h2
-        className="MuiTypography-root-99 MuiTypography-h2-112 MuiTypography-alignCenter-122"
+        className="MuiTypography-root-98 MuiTypography-h2-111 MuiTypography-alignCenter-121"
       >
         <span>
           Hello World
@@ -19,16 +19,16 @@ exports[`<HomePage /> Rendering component Rendering with locale EN 1`] = `
       </h2>
     </div>
     <div
-      className="MuiGrid-item-3"
+      className="MuiGrid-item-2"
     >
       <div
-        className="MuiGrid-container-2 MuiGrid-spacing-xs-8-24 MuiGrid-align-items-xs-center-10 MuiGrid-align-content-xs-center-14 MuiGrid-justify-xs-center-19"
+        className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23 MuiGrid-align-items-xs-center-9 MuiGrid-align-content-xs-center-13 MuiGrid-justify-xs-center-18"
       >
         <div
-          className="MuiGrid-item-3"
+          className="MuiGrid-item-2"
         >
           <h6
-            className="MuiTypography-root-99 MuiTypography-subtitle1-117"
+            className="MuiTypography-root-98 MuiTypography-subtitle1-116"
           >
             <span>
               My name is Bertrand.
@@ -36,10 +36,10 @@ exports[`<HomePage /> Rendering component Rendering with locale EN 1`] = `
           </h6>
         </div>
         <div
-          className="MuiGrid-item-3"
+          className="MuiGrid-item-2"
         >
           <h6
-            className="MuiTypography-root-99 MuiTypography-subtitle1-117"
+            className="MuiTypography-root-98 MuiTypography-subtitle1-116"
           >
             <span>
               I am a good developer.
@@ -47,10 +47,10 @@ exports[`<HomePage /> Rendering component Rendering with locale EN 1`] = `
           </h6>
         </div>
         <div
-          className="MuiGrid-item-3"
+          className="MuiGrid-item-2"
         >
           <h6
-            className="MuiTypography-root-99 MuiTypography-subtitle1-117"
+            className="MuiTypography-root-98 MuiTypography-subtitle1-116"
           >
             <span>
               Or at least, I try to be.
@@ -68,13 +68,13 @@ exports[`<HomePage /> Rendering component Rendering with locale FR 1`] = `
   className="sc-bwzfXH uTxCW"
 >
   <div
-    className="MuiGrid-container-2 MuiGrid-direction-xs-column-5 MuiGrid-align-items-xs-center-10 MuiGrid-align-content-xs-center-14 MuiGrid-justify-xs-center-19 HomePage-mainGrid-1"
+    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4 MuiGrid-align-items-xs-center-9 MuiGrid-align-content-xs-center-13 MuiGrid-justify-xs-center-18"
   >
     <div
-      className="MuiGrid-item-3"
+      className="MuiGrid-item-2"
     >
       <h2
-        className="MuiTypography-root-99 MuiTypography-h2-112 MuiTypography-alignCenter-122"
+        className="MuiTypography-root-98 MuiTypography-h2-111 MuiTypography-alignCenter-121"
       >
         <span>
           Hello World
@@ -82,16 +82,16 @@ exports[`<HomePage /> Rendering component Rendering with locale FR 1`] = `
       </h2>
     </div>
     <div
-      className="MuiGrid-item-3"
+      className="MuiGrid-item-2"
     >
       <div
-        className="MuiGrid-container-2 MuiGrid-spacing-xs-8-24 MuiGrid-align-items-xs-center-10 MuiGrid-align-content-xs-center-14 MuiGrid-justify-xs-center-19"
+        className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23 MuiGrid-align-items-xs-center-9 MuiGrid-align-content-xs-center-13 MuiGrid-justify-xs-center-18"
       >
         <div
-          className="MuiGrid-item-3"
+          className="MuiGrid-item-2"
         >
           <h6
-            className="MuiTypography-root-99 MuiTypography-subtitle1-117"
+            className="MuiTypography-root-98 MuiTypography-subtitle1-116"
           >
             <span>
               Je m'appelle Bertrand.
@@ -99,10 +99,10 @@ exports[`<HomePage /> Rendering component Rendering with locale FR 1`] = `
           </h6>
         </div>
         <div
-          className="MuiGrid-item-3"
+          className="MuiGrid-item-2"
         >
           <h6
-            className="MuiTypography-root-99 MuiTypography-subtitle1-117"
+            className="MuiTypography-root-98 MuiTypography-subtitle1-116"
           >
             <span>
               Je suis un bon dev.
@@ -110,10 +110,10 @@ exports[`<HomePage /> Rendering component Rendering with locale FR 1`] = `
           </h6>
         </div>
         <div
-          className="MuiGrid-item-3"
+          className="MuiGrid-item-2"
         >
           <h6
-            className="MuiTypography-root-99 MuiTypography-subtitle1-117"
+            className="MuiTypography-root-98 MuiTypography-subtitle1-116"
           >
             <span>
               Du moins, j'essaie.
