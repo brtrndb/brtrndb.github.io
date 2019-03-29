@@ -6,4 +6,6 @@ export { default as intlReducers } from './ducks';
 export { default as getUserLocale } from './getUserLocale';
 export { default as setupIntl } from './setupIntl';
 
+export { messageDescriptorPropTypes } from './intlPropTypes';
+
 export default {};
