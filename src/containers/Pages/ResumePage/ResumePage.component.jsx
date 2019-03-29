@@ -8,7 +8,7 @@ import { ResumePageContainer } from './ResumePage.style';
 
 import CvSection, { CvEntry } from './CvComponents';
 
-const sectionsData = [
+const sections = [
   {
     icon: 'graduation-cap',
     title: messages.education,
@@ -38,10 +38,18 @@ const sectionsData = [
   }
 ];
 
-const toSection = (data) => (
-  <Grid key={data.icon} item xs={12} md={6} lg={4}>
-    <CvSection icon={data.icon} title={data.title}>
-      {data.entries.map(CvEntry)}
+const toCvEntry = (entry) => (
+  <Grid item key={entry.title.id}>
+    <CvEntry {...entry} />
+  </Grid>
+);
+
+const toCvSection = (section) => (
+  <Grid item key={section.title.id} xs={12} md={6} lg={4}>
+    <CvSection icon={section.icon} title={section.title}>
+      <Grid container direction='column' alignItems='stretch' justify='space-around'>
+        {section.entries.map(toCvEntry)}
+      </Grid>
     </CvSection>
   </Grid>
 );
@@ -56,8 +64,8 @@ const ResumePage = () => (
       </Grid>
 
       <Grid item>
-        <Grid container direction='row' alignItems='stretch' justify='space-around' spacing={24}>
-          {sectionsData.map(toSection)}
+        <Grid container direction='row' alignItems='stretch' justify='space-around'>
+          {sections.map(toCvSection)}
         </Grid>
       </Grid>
     </Grid>
