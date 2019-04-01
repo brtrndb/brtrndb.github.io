@@ -9,7 +9,7 @@ import { RightHarpoonUp } from 'Components/Fonts';
 
 import { messageDescriptorPropTypes } from 'Modules/intl/intlPropTypes';
 
-import { CvEntryContainer, CvEntryDateContainer, CvEntryContentContainer } from './ResumePage.style';
+import { CvEntryContainer, CvEntryDateContainer, CvEntryContentContainer, CvSkillsContainer, CvSkillsTitleContainer, CvSkillsContentContainer } from './ResumePage.style';
 
 const dateFormats = {
   short: {
@@ -121,5 +121,41 @@ CvEntry.defaultProps = {
   dateFormat: 'short'
 };
 
-export { CvEntry };
+const CvSkillsTitle = ({ icon, title }) => (
+  <CvSkillsTitleContainer>
+    <Typography variant='subtitle1'>
+      <FontAwesomeIcon icon={icon} />
+      <FormattedMessage {...title} />
+    </Typography>
+  </CvSkillsTitleContainer>
+);
+
+const CvSkillsContent = ({ content }) => (
+  <CvSkillsContentContainer>
+    <Grid container direction='row' alignItems='baseline' spacing={0}>
+      {content.map((line) => (
+        <Grid item key={line.id} xs={12} sm={12} md={12} lg={12} xl={12}>
+          <Typography variant='body2'>
+            <FormattedMessage {...line} />
+          </Typography>
+        </Grid>
+      ))}
+    </Grid>
+  </CvSkillsContentContainer>
+);
+
+const CvSkills = ({ icon, title, content }) => (
+  <CvSkillsContainer>
+    <Grid container direction='row' alignItems='baseline' spacing={16}>
+      <Grid item xs={2} sm={4} md={4} lg={4} xl={4}>
+        <CvSkillsTitle icon={icon} title={title} />
+      </Grid>
+      <Grid item xs={10} sm={8} md={8} lg={8} xl={8}>
+        <CvSkillsContent content={content} />
+      </Grid>
+    </Grid>
+  </CvSkillsContainer>
+);
+
+export { CvEntry, CvSkills };
 export default CvSection;

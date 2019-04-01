@@ -8,7 +8,7 @@ export const scopeSkills = `${scope}.section.skills`;
 
 const titleFormat = '{place}, {status}, {location}';
 
-const educationMessages = {
+const educationMessages = defineMessages({
   education: {
     id: `${scopeEducation}.title`,
     defaultMessage: 'Education'
@@ -65,9 +65,9 @@ const educationMessages = {
     id: `${scopeEducation}.lycee.content`,
     defaultMessage: 'Science Baccalaureate with Maths & Engineering option'
   }
-};
+});
 
-const experienceMessages = {
+const experienceMessages = defineMessages({
   experience: {
     id: `${scopeExperience}.title`,
     defaultMessage: 'Experience'
@@ -155,14 +155,78 @@ const experienceMessages = {
     defaultMessage:
       'Suspendisse hendrerit magna posuere leo ultrices, ut maximus diam convallis. Pellentesque vel felis arcu. Donec quis urna libero. Suspendisse sagittis turpis at leo lobortis porttitor. Sed eget nulla sollicitudin, fermentum nisi non, ultricies neque.'
   }
-};
+});
 
-const skillsMessages = {
+const skillsMessages = defineMessages({
   skills: {
     id: `${scopeSkills}.title`,
     defaultMessage: 'Skills'
+  },
+  developmentTitle: {
+    id: `${scopeSkills}.dev.title`,
+    defaultMessage: 'Development'
+  },
+  developmentContent1: {
+    id: `${scopeSkills}.dev.content.line1`,
+    defaultMessage: 'Java 8 SE, ReactJS, ES6, C/C++'
+  },
+  developmentContent2: {
+    id: `${scopeSkills}.dev.content.line2`,
+    defaultMessage: 'Android mobile development bases.'
+  },
+  developmentContent3: {
+    id: `${scopeSkills}.dev.content.line3`,
+    defaultMessage: 'Python & Lisp/Scheme basic knowledges.'
+  },
+  miscTitle: {
+    id: `${scopeSkills}.misc.title`,
+    defaultMessage: 'Misc'
+  },
+  miscContent1: {
+    id: `${scopeSkills}.misc.content1`,
+    defaultMessage: 'Shell scripts, Docker, Microsoft Azure.'
+  },
+  miscContent2: {
+    id: `${scopeSkills}.misc.content2`,
+    defaultMessage: 'SQL databases (PostgreSQL).'
+  },
+  miscContent3: {
+    id: `${scopeSkills}.misc.content3`,
+    defaultMessage: 'Comfortable with Linux & Windows environment'
+  },
+  innovationTitle: {
+    id: `${scopeSkills}.innovation.title`,
+    defaultMessage: 'Innovation'
+  },
+  innovationContent1: {
+    id: `${scopeSkills}.innovation.content1`,
+    defaultMessage: 'Raspberry Pi, Beacons, Android Wear.'
+  },
+  innovationContent2: {
+    id: `${scopeSkills}.innovation.content2`,
+    defaultMessage: 'Chatbots, Speech To Text, NLU, OCR, ML.'
+  },
+  innovationContent3: {
+    id: `${scopeSkills}.innovation.content3`,
+    defaultMessage: 'Drones, robots, VR and 3D printing.'
+  },
+  toolsTitle: {
+    id: `${scopeSkills}.tools.title`,
+    defaultMessage: 'Tools'
+  },
+  toolsContent1: {
+    id: `${scopeSkills}.tools.content1`,
+    defaultMessage: 'Atom, Eclipse, Visual Studio, DataGrip.'
+  },
+  toolsContent2: {
+    id: `${scopeSkills}.tools.content2`,
+    defaultMessage: 'Git[Hub|Lab], Subversion, Maven, Makefile.'
+  },
+  toolsContent3: {
+    id: `${scopeSkills}.tools.content3`,
+    defaultMessage: 'Jenkins, Jira, agile methodologies, TDD.'
   }
-};
+});
 
 const messages = defineMessages({
   title: {

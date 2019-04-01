@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import messages from './ResumePage.i18n';
 import { ResumePageContainer } from './ResumePage.style';
 
-import CvSection, { CvEntry } from './CvComponents';
+import CvSection, { CvEntry, CvSkills } from './CvComponents';
 
 const sections = [
   {
@@ -34,7 +34,12 @@ const sections = [
   {
     icon: 'code',
     title: messages.skills,
-    entries: []
+    skills: [
+      { icon: 'cog', title: messages.developmentTitle, content: [messages.developmentContent1, messages.developmentContent2, messages.developmentContent3] },
+      { icon: ['fab', 'connectdevelop'], title: messages.innovationTitle, content: [messages.innovationContent1, messages.innovationContent2, messages.innovationContent3] },
+      { icon: 'terminal', title: messages.miscTitle, content: [messages.miscContent1, messages.miscContent2, messages.miscContent3] },
+      { icon: 'wrench', title: messages.toolsTitle, content: [messages.toolsContent1, messages.toolsContent2, messages.toolsContent3] }
+    ]
   }
 ];
 
@@ -44,11 +49,18 @@ const toCvEntry = (entry) => (
   </Grid>
 );
 
+const toCvSkills = (skill) => (
+  <Grid item key={skill.title.id}>
+    <CvSkills {...skill} />
+  </Grid>
+);
+
 const toCvSection = (section) => (
   <Grid item key={section.title.id} xs={12} md={6} lg={4}>
     <CvSection icon={section.icon} title={section.title}>
       <Grid container direction='column' alignItems='stretch' justify='space-around'>
-        {section.entries.map(toCvEntry)}
+        {section.entries ? section.entries.map(toCvEntry) : null}
+        {section.skills ? section.skills.map(toCvSkills) : null}
       </Grid>
     </CvSection>
   </Grid>
