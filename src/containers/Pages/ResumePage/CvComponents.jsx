@@ -49,12 +49,14 @@ CvSection.defaultProps = {
 
 const CvEntryDate = ({ from, to, format }) => (
   <CvEntryDateContainer>
-    {from && typeof from === 'string' ? <FormattedDate value={new Date(from)} {...dateFormats[format]} /> : null}
-    {from && typeof from === 'object' ? <FormattedMessage {...from} /> : null}
-    {from ? <RightHarpoonUp /> : null}
-    {format === 'long' ? <br /> : null}
-    {to && typeof to === 'string' ? <FormattedDate value={new Date(to)} {...dateFormats[format]} /> : null}
-    {to && typeof to === 'object' ? <FormattedMessage {...to} /> : null}
+    <Typography variant='subtitle1'>
+      {from && typeof from === 'string' ? <FormattedDate value={new Date(from)} {...dateFormats[format]} /> : null}
+      {from && typeof from === 'object' ? <FormattedMessage {...from} /> : null}
+      {from ? <RightHarpoonUp /> : null}
+      {format === 'long' ? <br /> : null}
+      {to && typeof to === 'string' ? <FormattedDate value={new Date(to)} {...dateFormats[format]} /> : null}
+      {to && typeof to === 'object' ? <FormattedMessage {...to} /> : null}
+    </Typography>
   </CvEntryDateContainer>
 );
 
@@ -72,12 +74,18 @@ CvEntryDate.defaultProps = {
 
 const CvEntryContent = ({ title, content }) => (
   <CvEntryContentContainer>
-    <Typography variant='subtitle2'>
-      <FormattedMessage {...title} />
-    </Typography>
-    <Typography variant='body2'>
-      <FormattedMessage {...content} />
-    </Typography>
+    <Grid container direction='column' spacing={0}>
+      <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+        <Typography variant='subtitle2'>
+          <FormattedMessage {...title} />
+        </Typography>
+      </Grid>
+      <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+        <Typography variant='body2'>
+          <FormattedMessage {...content} />
+        </Typography>
+      </Grid>
+    </Grid>
   </CvEntryContentContainer>
 );
 
