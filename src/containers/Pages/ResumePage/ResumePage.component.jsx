@@ -56,7 +56,7 @@ const toCvSection = (section) => (
 
 const ResumePage = () => (
   <ResumePageContainer>
-    <Grid container direction='column'>
+    <Grid container direction='column' spacing={24}>
       <Grid item>
         <Typography variant='h2' align='center'>
           <FormattedMessage {...messages.title} />
