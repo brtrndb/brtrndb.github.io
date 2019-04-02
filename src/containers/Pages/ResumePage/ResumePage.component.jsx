@@ -6,7 +6,9 @@ import Typography from '@material-ui/core/Typography';
 import messages from './ResumePage.i18n';
 import { ResumePageContainer } from './ResumePage.style';
 
-import CvSection, { CvEntry, CvSkills } from './CvComponents';
+import CvSection from './CvComponents/CvSection';
+import CvEntry from './CvComponents/CvEntry';
+import CvSkill from './CvComponents/CvSkill';
 
 const sections = [
   {
@@ -49,9 +51,9 @@ const toCvEntry = (entry) => (
   </Grid>
 );
 
-const toCvSkills = (skill) => (
+const toCvSkill = (skill) => (
   <Grid item key={skill.title.id}>
-    <CvSkills {...skill} />
+    <CvSkill {...skill} />
   </Grid>
 );
 
@@ -60,7 +62,7 @@ const toCvSection = (section) => (
     <CvSection icon={section.icon} title={section.title}>
       <Grid container direction='column' alignItems='stretch' justify='space-around'>
         {section.entries ? section.entries.map(toCvEntry) : null}
-        {section.skills ? section.skills.map(toCvSkills) : null}
+        {section.skills ? section.skills.map(toCvSkill) : null}
       </Grid>
     </CvSection>
   </Grid>
