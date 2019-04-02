@@ -58,9 +58,9 @@ const toCvSkill = (skill) => (
 );
 
 const toCvSection = (section) => (
-  <Grid item key={section.title.id} xs={12} md={6} lg={4}>
+  <Grid item key={section.title.id}>
     <CvSection icon={section.icon} title={section.title}>
-      <Grid container direction='column' alignItems='stretch' justify='space-around'>
+      <Grid container direction='column'>
         {section.entries ? section.entries.map(toCvEntry) : null}
         {section.skills ? section.skills.map(toCvSkill) : null}
       </Grid>
@@ -70,14 +70,14 @@ const toCvSection = (section) => (
 
 const ResumePage = () => (
   <ResumePageContainer>
-    <Grid container direction='column' spacing={24}>
+    <Grid container direction='column'>
       <Grid item>
         <Typography variant='h2' align='center'>
           <FormattedMessage {...messages.title} />
         </Typography>
       </Grid>
       <Grid item>
-        <Grid container direction='row' alignItems='stretch' justify='space-around'>
+        <Grid container direction='row'>
           {sections.map(toCvSection)}
         </Grid>
       </Grid>
