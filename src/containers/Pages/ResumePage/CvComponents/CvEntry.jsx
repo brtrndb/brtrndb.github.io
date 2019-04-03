@@ -3,6 +3,8 @@ import { FormattedMessage, FormattedDate } from 'react-intl';
 import PropTypes from 'prop-types';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
+import { unstable_useMediaQuery as useMediaQuery } from '@material-ui/core/useMediaQuery';
+import { useTheme } from '@material-ui/styles';
 
 import { RightHarpoonUp } from 'Components/Fonts';
 
@@ -20,33 +22,38 @@ const dateFormats = {
   }
 };
 
-const CvLongDate = ({ from, to }) => (
-  <Grid container direction='row'>
-    <Grid item>
-      {from && typeof from === 'string' ? <FormattedDate value={new Date(from)} {...dateFormats.long} /> : null}
-      {from && typeof from === 'object' ? <FormattedMessage {...from} /> : null}
-    </Grid>
-    <Grid item>{from ? <RightHarpoonUp /> : null}</Grid>
-    <Grid item>
-      {to && typeof to === 'string' ? <FormattedDate value={new Date(to)} {...dateFormats.long} /> : null}
-      {to && typeof to === 'object' ? <FormattedMessage {...to} /> : null}
-    </Grid>
-  </Grid>
-);
+const configureDate = (date, format) => {
+  if (typeof date === 'string' && date !== '') {
+    return <FormattedDate value={new Date(date)} {...dateFormats[format]} />;
+  }
+  if (typeof date === 'object') {
+    return <FormattedMessage {...date} />;
+  }
+  return null;
+};
 
-const CvShortDate = ({ from, to }) => (
-  <Grid item>
-    {from && typeof from === 'string' ? <FormattedDate value={new Date(from)} {...dateFormats.short} /> : null}
-    {from && typeof from === 'object' ? <FormattedMessage {...from} /> : null}
-    {from ? <RightHarpoonUp /> : null}
-    {to && typeof to === 'string' ? <FormattedDate value={new Date(to)} {...dateFormats.short} /> : null}
-    {to && typeof to === 'object' ? <FormattedMessage {...to} /> : null}
-  </Grid>
-);
+const configureArrow = (from, withBr) => {
+  return from !== '' ? (
+    <>
+      <RightHarpoonUp />
+      {withBr ? <br /> : null}
+    </>
+  ) : null;
+};
 
 const CvEntryDate = ({ from, to, format }) => (
   <CvEntryDateContainer>
-    <Typography variant='subtitle1'>{format === 'long' ? <CvLongDate from={from} to={to} /> : <CvShortDate from={from} to={to} />} </Typography>
+    <Typography variant='subtitle1' align='right'>
+      <FormattedMessage
+        id='internal.cventry.date'
+        defaultMessage='{from}{arrow}{to}'
+        values={{
+          from: configureDate(from, format),
+          arrow: configureArrow(from, format === 'long' && useMediaQuery(useTheme().breakpoints.up('md'))),
+          to: configureDate(to, format)
+        }}
+      />
+    </Typography>
   </CvEntryDateContainer>
 );
 
@@ -86,11 +93,11 @@ CvEntryContent.propTypes = {
 
 const CvEntry = ({ from, to, dateFormat, title, content }) => (
   <CvEntryContainer>
-    <Grid container direction='row'>
-      <Grid item>
+    <Grid container direction='row' alignItems='baseline' spacing={useMediaQuery(useTheme().breakpoints.up('md')) ? 16 : 0}>
+      <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
         <CvEntryDate from={from} to={to} format={dateFormat} />
       </Grid>
-      <Grid item>
+      <Grid item xs={12} sm={12} md={9} lg={9} xl={9}>
         <CvEntryContent title={title} content={content} />
       </Grid>
     </Grid>

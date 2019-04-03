@@ -7,11 +7,14 @@ import messages from './ResumePage.i18n';
 import { ResumePageContainer } from './ResumePage.style';
 
 import CvSection from './CvComponents/CvSection';
-import CvEntry from './CvComponents/CvEntry';
-import CvSkill from './CvComponents/CvSkill';
 
 const sections = [
   {
+    styles: {
+      direction: 'column',
+      bpSection: { xs: 10, sm: 10, md: 6, lg: 4, xl: 4 },
+      bpEntry: {}
+    },
     icon: 'graduation-cap',
     title: messages.education,
     entries: [
@@ -22,6 +25,11 @@ const sections = [
     ]
   },
   {
+    styles: {
+      direction: 'column',
+      bpSection: { xs: 10, sm: 10, md: 6, lg: 4, xl: 4 },
+      bpEntry: {}
+    },
     icon: 'briefcase',
     title: messages.experience,
     entries: [
@@ -34,6 +42,12 @@ const sections = [
     ]
   },
   {
+    styles: {
+      direction: 'row',
+      justify: 'center',
+      bpSection: { xs: 10, sm: 10, md: 9, lg: 4, xl: 4 },
+      bpEntry: { xs: 12, sm: 6, md: 5, lg: 12, xl: 12 }
+    },
     icon: 'code',
     title: messages.skills,
     skills: [
@@ -45,39 +59,22 @@ const sections = [
   }
 ];
 
-const toCvEntry = (entry) => (
-  <Grid item key={entry.title.id}>
-    <CvEntry {...entry} />
-  </Grid>
-);
-
-const toCvSkill = (skill) => (
-  <Grid item key={skill.title.id}>
-    <CvSkill {...skill} />
-  </Grid>
-);
-
 const toCvSection = (section) => (
-  <Grid item key={section.title.id}>
-    <CvSection icon={section.icon} title={section.title}>
-      <Grid container direction='column'>
-        {section.entries ? section.entries.map(toCvEntry) : null}
-        {section.skills ? section.skills.map(toCvSkill) : null}
-      </Grid>
-    </CvSection>
+  <Grid item key={section.title.id} {...section.styles.bpSection}>
+    <CvSection {...section} />
   </Grid>
 );
 
 const ResumePage = () => (
   <ResumePageContainer>
-    <Grid container direction='column'>
+    <Grid container direction='column' spacing={40}>
       <Grid item>
         <Typography variant='h2' align='center'>
           <FormattedMessage {...messages.title} />
         </Typography>
       </Grid>
       <Grid item>
-        <Grid container direction='row'>
+        <Grid container direction='row' justify='center' spacing={24}>
           {sections.map(toCvSection)}
         </Grid>
       </Grid>
