@@ -112,7 +112,7 @@ const experienceMessages = defineMessages({
   experienceVisianContent: {
     id: `${scopeExperience}.visian.content`,
     defaultMessage:
-      "Lead developper at Visian, Neurones IT's Business Unit specialised in prototyping use cases using IoT. In change of the developpers' team (hard & soft). Building PoC from scratch or using various kind of IoT (beacons, wearables, Raspberry, NFC, sensors...), and transmitting data into the cloud."
+      "Lead developper at Visian, Neurones IT's Business Unit specialised in prototyping use cases using IoT. In charge of the developpers' team. Building proof of concept (PoC) from scratch or using various kind of IoT (mobile, beacons, wearables, Raspberry, NFC, sensors...), and transmitting data into the cloud."
   },
   experienceSIITitle: {
     id: `${scopeExperience}.sii.title`,
@@ -168,15 +168,15 @@ const skillsMessages = defineMessages({
   },
   developmentContent1: {
     id: `${scopeSkills}.dev.content.line1`,
-    defaultMessage: 'Java 8 SE, ReactJS, ES6, C/C++'
+    defaultMessage: 'Java 8 SE, ReactJS, ES6, C/C++.'
   },
   developmentContent2: {
     id: `${scopeSkills}.dev.content.line2`,
-    defaultMessage: 'Android mobile development bases.'
+    defaultMessage: 'Python & Lisp/Scheme basic knowledges.'
   },
   developmentContent3: {
     id: `${scopeSkills}.dev.content.line3`,
-    defaultMessage: 'Python & Lisp/Scheme basic knowledges.'
+    defaultMessage: 'Mobile development bases: Android & iOS (Swift).'
   },
   miscTitle: {
     id: `${scopeSkills}.misc.title`,
