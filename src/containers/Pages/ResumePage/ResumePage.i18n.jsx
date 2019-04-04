@@ -199,7 +199,7 @@ const skillsMessages = defineMessages({
   },
   miscContent3: {
     id: `${scopeSkills}.misc.content3`,
-    defaultMessage: 'Comfortable with Linux & Windows environment'
+    defaultMessage: 'Comfortable with Linux & Windows environment.'
   },
   innovationTitle: {
     id: `${scopeSkills}.innovation.title`,
