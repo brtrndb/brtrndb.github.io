@@ -7,3 +7,4 @@ const messageDescriptorPropTypes = PropTypes.shape({
 });
 
 export { messageDescriptorPropTypes };
+export default {};
