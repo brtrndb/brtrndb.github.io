@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import { IntlProvider } from 'react-intl-redux';
 import { ConnectedRouter } from 'connected-react-router';
 import { createBrowserHistory } from 'history';
-import { MuiThemeProvider } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/styles';
 
 import AppContent from 'Containers/AppContent';
 import setupStore from 'Modules/store';
@@ -27,11 +27,11 @@ setupIntl();
 const App = () => (
   <Provider store={store}>
     <IntlProvider>
-      <MuiThemeProvider theme={appMuiTheme}>
+      <ThemeProvider theme={appMuiTheme}>
         <ConnectedRouter history={history}>
           <AppContent />
         </ConnectedRouter>
-      </MuiThemeProvider>
+      </ThemeProvider>
     </IntlProvider>
   </Provider>
 );

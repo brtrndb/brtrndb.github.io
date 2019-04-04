@@ -2,8 +2,26 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { IntlProvider } from 'react-intl';
 import { MemoryRouter } from 'react-router';
+import { ThemeProvider } from '@material-ui/styles';
 
 import locales from 'Modules/intl/locales';
+
+import { appMuiTheme } from 'Containers/App/App.style';
+
+window.matchMedia = jest.fn().mockImplementation((query) => {
+  return {
+    matches: false,
+    media: query,
+    onchange: null,
+    addListener: jest.fn(),
+    removeListener: jest.fn()
+  };
+});
+
+const i18nProps = (props) =>
+  Object.keys(locales.allowed).reduce((acc, locale) => {
+    return { ...acc, [locale]: props };
+  }, {});
 
 const setupIntlTests = (Component, props) => {
   describe('Rendering component', () => {
@@ -12,9 +30,11 @@ const setupIntlTests = (Component, props) => {
       test(`Rendering with locale ${locale.toUpperCase()}`, () => {
         const component = renderer.create(
           <IntlProvider locale={locale} messages={i18n}>
-            <MemoryRouter>
-              <Component {...props[locale]} />
-            </MemoryRouter>
+            <ThemeProvider theme={appMuiTheme}>
+              <MemoryRouter>
+                <Component {...props[locale]} />
+              </MemoryRouter>
+            </ThemeProvider>
           </IntlProvider>
         );
         const tree = component.toJSON();
@@ -28,4 +48,5 @@ const intlTests = (component, props) => {
   setupIntlTests(component, props || {});
 };
 
+export { i18nProps };
 export default intlTests;

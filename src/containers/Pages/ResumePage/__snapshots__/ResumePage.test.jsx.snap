@@ -1,0 +1,2593 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
+<div
+  className="sc-htpNat KtFsv"
+>
+  <div
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-40-27 MuiGrid-direction-xs-column-4"
+  >
+    <div
+      className="MuiGrid-item-2"
+    >
+      <h2
+        className="MuiTypography-root-98 MuiTypography-h2-111 MuiTypography-alignCenter-121"
+      >
+        <span>
+          Resume
+        </span>
+      </h2>
+    </div>
+    <div
+      className="MuiGrid-item-2"
+    >
+      <div
+        className="MuiGrid-container-1 MuiGrid-spacing-xs-24-25 MuiGrid-justify-xs-center-18"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-6-63 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
+        >
+          <div
+            className="sc-ifAKCX cFlEyZ"
+          >
+            <div
+              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+            >
+              <div
+                className="MuiGrid-item-2"
+              >
+                <h4
+                  className="MuiTypography-root-98 MuiTypography-h4-113 MuiTypography-alignCenter-121"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="svg-inline--fa fa-graduation-cap fa-w-20 "
+                    data-icon="graduation-cap"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    style={Object {}}
+                    viewBox="0 0 640 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M622.34 153.2L343.4 67.5c-15.2-4.67-31.6-4.67-46.79 0L17.66 153.2c-23.54 7.23-23.54 38.36 0 45.59l48.63 14.94c-10.67 13.19-17.23 29.28-17.88 46.9C38.78 266.15 32 276.11 32 288c0 10.78 5.68 19.85 13.86 25.65L20.33 428.53C18.11 438.52 25.71 448 35.94 448h56.11c10.24 0 17.84-9.48 15.62-19.47L82.14 313.65C90.32 307.85 96 298.78 96 288c0-11.57-6.47-21.25-15.66-26.87.76-15.02 8.44-28.3 20.69-36.72L296.6 284.5c9.06 2.78 26.44 6.25 46.79 0l278.95-85.7c23.55-7.24 23.55-38.36 0-45.6zM352.79 315.09c-28.53 8.76-52.84 3.92-65.59 0l-145.02-44.55L128 384c0 35.35 85.96 64 192 64s192-28.65 192-64l-14.18-113.47-145.03 44.56z"
+                      fill="currentColor"
+                      style={Object {}}
+                    />
+                  </svg>
+                  <span>
+                    Education
+                  </span>
+                </h4>
+              </div>
+              <div
+                className="MuiGrid-item-2"
+              >
+                <div
+                  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-4 MuiGrid-justify-xs-center-18"
+                >
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  2011
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  2015
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      Epitech
+                                    </b>
+                                    , 
+                                    <i>
+                                      Bachelor/Master
+                                    </i>
+                                    , Toulouse/Paris (France).
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Master's degree in Information Technologies.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  2013
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  2014
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      Griffith College Dublin
+                                    </b>
+                                    , 
+                                    <i>
+                                      Master
+                                    </i>
+                                    , Dublin (Ireland).
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    First year of Master in Computing with Business & Management options.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  2008
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  2011
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      EISTI
+                                    </b>
+                                    , 
+                                    <i>
+                                      Preparatory classes
+                                    </i>
+                                    , Pau (France).
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    First year of Bachelor's degree in Maths & Computing.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  2008
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      Lycée Vauvenargues
+                                    </b>
+                                    , 
+                                    <i>
+                                      Baccalaureate
+                                    </i>
+                                    , Aix-en-Provence (France).
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Science Baccalaureate with Maths & Engineering option.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-6-63 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
+        >
+          <div
+            className="sc-ifAKCX cFlEyZ"
+          >
+            <div
+              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+            >
+              <div
+                className="MuiGrid-item-2"
+              >
+                <h4
+                  className="MuiTypography-root-98 MuiTypography-h4-113 MuiTypography-alignCenter-121"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="svg-inline--fa fa-briefcase fa-w-16 "
+                    data-icon="briefcase"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    style={Object {}}
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"
+                      fill="currentColor"
+                      style={Object {}}
+                    />
+                  </svg>
+                  <span>
+                    Experience
+                  </span>
+                </h4>
+              </div>
+              <div
+                className="MuiGrid-item-2"
+              >
+                <div
+                  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-4 MuiGrid-justify-xs-center-18"
+                >
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  April 2018
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  Now
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      Wemanity
+                                    </b>
+                                    , 
+                                    <i>
+                                      Agile Consultant Developer R&D
+                                    </i>
+                                    , Paris (France).
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Fullstack R&D developer at the Société Générale's Innovation Lab Innov8. In charge of developments of innovative prototypes and demonstrator incorporating 3D/VR, cognitive services, smart home or robots for internal use cases. Stack: ES6, ReactJS, Three.js, Loopback, Python, Docker, OpenShift.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  October 2016
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  February 2018
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      Dhatim
+                                    </b>
+                                    , 
+                                    <i>
+                                      R&D Java Developper
+                                    </i>
+                                    , Paris (France).
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Backend developper for Conciliator For Pay, SaaS solution for French pay control quality. Team of 5 persons: 2 frontend, 2 backend, 1 PO working in Scrum methodology. Stack: Java 8 SE, Dropwizard, PostgreSQL, Docker, Git, Jenkins.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  March 2015
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  October 2016
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      Visian
+                                    </b>
+                                    , 
+                                    <i>
+                                      Lead Developper & Fablab Supervisor
+                                    </i>
+                                    , Paris (France).
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Lead developper at Visian, Neurones IT's Business Unit specialised in prototyping use cases using IoT. In charge of the developpers' team. Building proof of concept (PoC) from scratch or using various kind of IoT (mobile, beacons, wearables, Raspberry, NFC, sensors...), and transmitting data into the cloud.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  September 2014
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  March 2015
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      SII
+                                    </b>
+                                    , 
+                                    <i>
+                                      Head Of Innovation Assistant
+                                    </i>
+                                    , Paris (France).
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Study of open source drones like the Crazyflie project and hardware customisation. Prototyping an embedded case for cooling trucks using a Raspberry Pi and various sensors (temperature, pressure, GPS...), data are transmitted over MQTT to the driver's phone. Stack: C, Java 8 ME for IoT, MQTT.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  April 2013
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  August 2013
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      Thales
+                                    </b>
+                                    , 
+                                    <i>
+                                      Intern DevOps
+                                    </i>
+                                    , Paris (France).
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    In charge of the study, install and deployment of OpenStack in a test environment. Writing documentation for users, deployment scripts (Bash), VM image templates, tests and validations.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  October 2012
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  April 2013
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      Novacom
+                                    </b>
+                                    , 
+                                    <i>
+                                      Java Developper Trainee
+                                    </i>
+                                    , Paris (France).
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Java internship, attached to the developpers team. Development of unit and functionnal tests with the correct dataset.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
+        >
+          <div
+            className="sc-ifAKCX cFlEyZ"
+          >
+            <div
+              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+            >
+              <div
+                className="MuiGrid-item-2"
+              >
+                <h4
+                  className="MuiTypography-root-98 MuiTypography-h4-113 MuiTypography-alignCenter-121"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="svg-inline--fa fa-code fa-w-20 "
+                    data-icon="code"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    style={Object {}}
+                    viewBox="0 0 640 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"
+                      fill="currentColor"
+                      style={Object {}}
+                    />
+                  </svg>
+                  <span>
+                    Skills
+                  </span>
+                </h4>
+              </div>
+              <div
+                className="MuiGrid-item-2"
+              >
+                <div
+                  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-justify-xs-center-18"
+                >
+                  <div
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+                  >
+                    <div
+                      className="sc-htoDjs bZzhDu"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-dnqmqq bDsesi"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignCenter-121"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                className="svg-inline--fa fa-cog fa-w-16 "
+                                data-icon="cog"
+                                data-prefix="fas"
+                                focusable="false"
+                                role="img"
+                                style={Object {}}
+                                viewBox="0 0 512 512"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M487.4 315.7l-42.6-24.6c4.3-23.2 4.3-47 0-70.2l42.6-24.6c4.9-2.8 7.1-8.6 5.5-14-11.1-35.6-30-67.8-54.7-94.6-3.8-4.1-10-5.1-14.8-2.3L380.8 110c-17.9-15.4-38.5-27.3-60.8-35.1V25.8c0-5.6-3.9-10.5-9.4-11.7-36.7-8.2-74.3-7.8-109.2 0-5.5 1.2-9.4 6.1-9.4 11.7V75c-22.2 7.9-42.8 19.8-60.8 35.1L88.7 85.5c-4.9-2.8-11-1.9-14.8 2.3-24.7 26.7-43.6 58.9-54.7 94.6-1.7 5.4.6 11.2 5.5 14L67.3 221c-4.3 23.2-4.3 47 0 70.2l-42.6 24.6c-4.9 2.8-7.1 8.6-5.5 14 11.1 35.6 30 67.8 54.7 94.6 3.8 4.1 10 5.1 14.8 2.3l42.6-24.6c17.9 15.4 38.5 27.3 60.8 35.1v49.2c0 5.6 3.9 10.5 9.4 11.7 36.7 8.2 74.3 7.8 109.2 0 5.5-1.2 9.4-6.1 9.4-11.7v-49.2c22.2-7.9 42.8-19.8 60.8-35.1l42.6 24.6c4.9 2.8 11 1.9 14.8-2.3 24.7-26.7 43.6-58.9 54.7-94.6 1.5-5.5-.7-11.3-5.6-14.1zM256 336c-44.1 0-80-35.9-80-80s35.9-80 80-80 80 35.9 80 80-35.9 80-80 80z"
+                                  fill="currentColor"
+                                  style={Object {}}
+                                />
+                              </svg>
+                              <span>
+                                 
+                              </span>
+                              <span>
+                                Development
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-iwsKbI jQhHGA"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Java 8 SE, ReactJS, ES6, C/C++.
+                                  </span>
+                                </p>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Python & Lisp/Scheme basic knowledges.
+                                  </span>
+                                </p>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Mobile development bases: Android & iOS (Swift).
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+                  >
+                    <div
+                      className="sc-htoDjs bZzhDu"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-dnqmqq bDsesi"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignCenter-121"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                className="svg-inline--fa fa-connectdevelop fa-w-18 "
+                                data-icon="connectdevelop"
+                                data-prefix="fab"
+                                focusable="false"
+                                role="img"
+                                style={Object {}}
+                                viewBox="0 0 576 512"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M550.5 241l-50.089-86.786c1.071-2.142 1.875-4.553 1.875-7.232 0-8.036-6.696-14.733-14.732-15.001l-55.447-95.893c.536-1.607 1.071-3.214 1.071-4.821 0-8.571-6.964-15.268-15.268-15.268-4.821 0-8.839 2.143-11.786 5.625H299.518C296.839 18.143 292.821 16 288 16s-8.839 2.143-11.518 5.625H170.411C167.464 18.143 163.447 16 158.625 16c-8.303 0-15.268 6.696-15.268 15.268 0 1.607.536 3.482 1.072 4.821l-55.983 97.233c-5.356 2.41-9.107 7.5-9.107 13.661 0 .535.268 1.071.268 1.607l-53.304 92.143c-7.232 1.339-12.59 7.5-12.59 15 0 7.232 5.089 13.393 12.054 15l55.179 95.358c-.536 1.607-.804 2.946-.804 4.821 0 7.232 5.089 13.393 12.054 14.732l51.697 89.732c-.536 1.607-1.071 3.482-1.071 5.357 0 8.571 6.964 15.268 15.268 15.268 4.821 0 8.839-2.143 11.518-5.357h106.875C279.161 493.857 283.447 496 288 496s8.839-2.143 11.518-5.357h107.143c2.678 2.946 6.696 4.821 10.982 4.821 8.571 0 15.268-6.964 15.268-15.268 0-1.607-.267-2.946-.803-4.285l51.697-90.268c6.964-1.339 12.054-7.5 12.054-14.732 0-1.607-.268-3.214-.804-4.821l54.911-95.358c6.964-1.339 12.322-7.5 12.322-15-.002-7.232-5.092-13.393-11.788-14.732zM153.535 450.732l-43.66-75.803h43.66v75.803zm0-83.839h-43.66c-.268-1.071-.804-2.142-1.339-3.214l44.999-47.41v50.624zm0-62.411l-50.357 53.304c-1.339-.536-2.679-1.34-4.018-1.607L43.447 259.75c.535-1.339.535-2.679.535-4.018s0-2.41-.268-3.482l51.965-90c2.679-.268 5.357-1.072 7.768-2.679l50.089 51.965v92.946zm0-102.322l-45.803-47.41c1.339-2.143 2.143-4.821 2.143-7.767 0-.268-.268-.804-.268-1.072l43.928-15.804v72.053zm0-80.625l-43.66 15.804 43.66-75.536v59.732zm326.519 39.108l.804 1.339L445.5 329.125l-63.75-67.232 98.036-101.518.268.268zM291.75 355.107l11.518 11.786H280.5l11.25-11.786zm-.268-11.25l-83.303-85.446 79.553-84.375 83.036 87.589-79.286 82.232zm5.357 5.893l79.286-82.232 67.5 71.25-5.892 28.125H313.714l-16.875-17.143zM410.411 44.393c1.071.536 2.142 1.072 3.482 1.34l57.857 100.714v.536c0 2.946.803 5.624 2.143 7.767L376.393 256l-83.035-87.589L410.411 44.393zm-9.107-2.143L287.732 162.518l-57.054-60.268 166.339-60h4.287zm-123.483 0c2.678 2.678 6.16 4.285 10.179 4.285s7.5-1.607 10.179-4.285h75L224.786 95.821 173.893 42.25h103.928zm-116.249 5.625l1.071-2.142a33.834 33.834 0 0 0 2.679-.804l51.161 53.84-54.911 19.821V47.875zm0 79.286l60.803-21.964 59.732 63.214-79.553 84.107-40.982-42.053v-83.304zm0 92.678L198 257.607l-36.428 38.304v-76.072zm0 87.858l42.053-44.464 82.768 85.982-17.143 17.678H161.572v-59.196zm6.964 162.053c-1.607-1.607-3.482-2.678-5.893-3.482l-1.071-1.607v-89.732h99.91l-91.607 94.821h-1.339zm129.911 0c-2.679-2.41-6.428-4.285-10.447-4.285s-7.767 1.875-10.447 4.285h-96.429l91.607-94.821h38.304l91.607 94.821H298.447zm120-11.786l-4.286 7.5c-1.339.268-2.41.803-3.482 1.339l-89.196-91.875h114.376l-17.412 83.036zm12.856-22.232l12.858-60.803h21.964l-34.822 60.803zm34.822-68.839h-20.357l4.553-21.16 17.143 18.214c-.535.803-1.071 1.874-1.339 2.946zm66.161-107.411l-55.447 96.697c-1.339.535-2.679 1.071-4.018 1.874l-20.625-21.964 34.554-163.928 45.803 79.286c-.267 1.339-.803 2.678-.803 4.285 0 1.339.268 2.411.536 3.75z"
+                                  fill="currentColor"
+                                  style={Object {}}
+                                />
+                              </svg>
+                              <span>
+                                 
+                              </span>
+                              <span>
+                                Innovation
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-iwsKbI jQhHGA"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Raspberry Pi, Beacons, Android Wear.
+                                  </span>
+                                </p>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Chatbots, Speech To Text, NLU, OCR, ML.
+                                  </span>
+                                </p>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Drones, robots, VR and 3D printing.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+                  >
+                    <div
+                      className="sc-htoDjs bZzhDu"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-dnqmqq bDsesi"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignCenter-121"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                className="svg-inline--fa fa-terminal fa-w-20 "
+                                data-icon="terminal"
+                                data-prefix="fas"
+                                focusable="false"
+                                role="img"
+                                style={Object {}}
+                                viewBox="0 0 640 512"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M257.981 272.971L63.638 467.314c-9.373 9.373-24.569 9.373-33.941 0L7.029 444.647c-9.357-9.357-9.375-24.522-.04-33.901L161.011 256 6.99 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L257.981 239.03c9.373 9.372 9.373 24.568 0 33.941zM640 456v-32c0-13.255-10.745-24-24-24H312c-13.255 0-24 10.745-24 24v32c0 13.255 10.745 24 24 24h304c13.255 0 24-10.745 24-24z"
+                                  fill="currentColor"
+                                  style={Object {}}
+                                />
+                              </svg>
+                              <span>
+                                 
+                              </span>
+                              <span>
+                                Misc
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-iwsKbI jQhHGA"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Shell scripts, Docker, Microsoft Azure.
+                                  </span>
+                                </p>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    SQL databases (PostgreSQL).
+                                  </span>
+                                </p>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Comfortable with Linux & Windows environment.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+                  >
+                    <div
+                      className="sc-htoDjs bZzhDu"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-dnqmqq bDsesi"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignCenter-121"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                className="svg-inline--fa fa-wrench fa-w-16 "
+                                data-icon="wrench"
+                                data-prefix="fas"
+                                focusable="false"
+                                role="img"
+                                style={Object {}}
+                                viewBox="0 0 512 512"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M507.73 109.1c-2.24-9.03-13.54-12.09-20.12-5.51l-74.36 74.36-67.88-11.31-11.31-67.88 74.36-74.36c6.62-6.62 3.43-17.9-5.66-20.16-47.38-11.74-99.55.91-136.58 37.93-39.64 39.64-50.55 97.1-34.05 147.2L18.74 402.76c-24.99 24.99-24.99 65.51 0 90.5 24.99 24.99 65.51 24.99 90.5 0l213.21-213.21c50.12 16.71 107.47 5.68 147.37-34.22 37.07-37.07 49.7-89.32 37.91-136.73zM64 472c-13.25 0-24-10.75-24-24 0-13.26 10.75-24 24-24s24 10.74 24 24c0 13.25-10.75 24-24 24z"
+                                  fill="currentColor"
+                                  style={Object {}}
+                                />
+                              </svg>
+                              <span>
+                                 
+                              </span>
+                              <span>
+                                Tools
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-iwsKbI jQhHGA"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Atom, Eclipse, Visual Studio, DataGrip.
+                                  </span>
+                                </p>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Git[Hub|Lab], Subversion, Maven, Makefile.
+                                  </span>
+                                </p>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Jenkins, Jira, agile methodologies, TDD.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
+<div
+  className="sc-htpNat KtFsv"
+>
+  <div
+    className="MuiGrid-container-1 MuiGrid-spacing-xs-40-27 MuiGrid-direction-xs-column-4"
+  >
+    <div
+      className="MuiGrid-item-2"
+    >
+      <h2
+        className="MuiTypography-root-98 MuiTypography-h2-111 MuiTypography-alignCenter-121"
+      >
+        <span>
+          Curriculum vitæ
+        </span>
+      </h2>
+    </div>
+    <div
+      className="MuiGrid-item-2"
+    >
+      <div
+        className="MuiGrid-container-1 MuiGrid-spacing-xs-24-25 MuiGrid-justify-xs-center-18"
+      >
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-6-63 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
+        >
+          <div
+            className="sc-ifAKCX cFlEyZ"
+          >
+            <div
+              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+            >
+              <div
+                className="MuiGrid-item-2"
+              >
+                <h4
+                  className="MuiTypography-root-98 MuiTypography-h4-113 MuiTypography-alignCenter-121"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="svg-inline--fa fa-graduation-cap fa-w-20 "
+                    data-icon="graduation-cap"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    style={Object {}}
+                    viewBox="0 0 640 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M622.34 153.2L343.4 67.5c-15.2-4.67-31.6-4.67-46.79 0L17.66 153.2c-23.54 7.23-23.54 38.36 0 45.59l48.63 14.94c-10.67 13.19-17.23 29.28-17.88 46.9C38.78 266.15 32 276.11 32 288c0 10.78 5.68 19.85 13.86 25.65L20.33 428.53C18.11 438.52 25.71 448 35.94 448h56.11c10.24 0 17.84-9.48 15.62-19.47L82.14 313.65C90.32 307.85 96 298.78 96 288c0-11.57-6.47-21.25-15.66-26.87.76-15.02 8.44-28.3 20.69-36.72L296.6 284.5c9.06 2.78 26.44 6.25 46.79 0l278.95-85.7c23.55-7.24 23.55-38.36 0-45.6zM352.79 315.09c-28.53 8.76-52.84 3.92-65.59 0l-145.02-44.55L128 384c0 35.35 85.96 64 192 64s192-28.65 192-64l-14.18-113.47-145.03 44.56z"
+                      fill="currentColor"
+                      style={Object {}}
+                    />
+                  </svg>
+                  <span>
+                    Parcours scolaire & diplômes
+                  </span>
+                </h4>
+              </div>
+              <div
+                className="MuiGrid-item-2"
+              >
+                <div
+                  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-4 MuiGrid-justify-xs-center-18"
+                >
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  2011
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  2015
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      Epitech
+                                    </b>
+                                    , 
+                                    <i>
+                                      Bachelor/Master
+                                    </i>
+                                    , Toulouse/Paris (France)
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Entrée directe Tek2ED. Diplôme d'Expert en Technologies de l'Information.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  2013
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  2014
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      Griffith College Dublin
+                                    </b>
+                                    , 
+                                    <i>
+                                      Master
+                                    </i>
+                                    , Dublin (Ireland)
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Première année de Master en Computing option Business et Management.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  2008
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  2011
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      EISTI
+                                    </b>
+                                    , 
+                                    <i>
+                                      Preparatory classes
+                                    </i>
+                                    , Pau (France)
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Obtention par équivalence d'une L1 Maths/Info.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  2008
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      Lycée Vauvenargues
+                                    </b>
+                                    , 
+                                    <i>
+                                      Baccalaureate
+                                    </i>
+                                    , Aix-en-Provence (France)
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Obtention du Bac S options Mathématiques et Sciences de l'Ingénieur (SI).
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-6-63 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
+        >
+          <div
+            className="sc-ifAKCX cFlEyZ"
+          >
+            <div
+              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+            >
+              <div
+                className="MuiGrid-item-2"
+              >
+                <h4
+                  className="MuiTypography-root-98 MuiTypography-h4-113 MuiTypography-alignCenter-121"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="svg-inline--fa fa-briefcase fa-w-16 "
+                    data-icon="briefcase"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    style={Object {}}
+                    viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"
+                      fill="currentColor"
+                      style={Object {}}
+                    />
+                  </svg>
+                  <span>
+                    Expériences professionnelles
+                  </span>
+                </h4>
+              </div>
+              <div
+                className="MuiGrid-item-2"
+              >
+                <div
+                  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-4 MuiGrid-justify-xs-center-18"
+                >
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  2018 M04
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  Maintenant
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      Wemanity
+                                    </b>
+                                    , 
+                                    <i>
+                                      Agile Consultant Developer R&D
+                                    </i>
+                                    , Paris (France)
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Développeur R&D fullstack au sein du Lab Innovation Innov8 de la Société Générale. En charge de développer des PoC innovants autour de la 3D/VR pour de la modélisation de données complexes. Étude et développement d'applications autour des robots Pepper de Softbank Robotics pour des évènements et cas d'usage internes. Stack technique: ES6, ReactJS, Three.js, Loopback, Python, Docker, OpenShift.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  2016 M10
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  2018 M02
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      Dhatim
+                                    </b>
+                                    , 
+                                    <i>
+                                      R&D Java Developper
+                                    </i>
+                                    , Paris (France)
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Développeur backend attaché à l'équipe de Conciliator For Pay, solution en SaaS de contrôle de DSN (Déclaration Sociale Nominative) pour les entreprises. Équipe composée de 5 personnes: 2 front, 2 back, 1 PO en méthode Scrum. Stack technique: Java 8 Core, Dropwizard, PostgreSQL, Docker, Git, Jenkins.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  2015 M03
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  2016 M10
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      Visian
+                                    </b>
+                                    , 
+                                    <i>
+                                      Lead Developper & Fablab Supervisor
+                                    </i>
+                                    , Paris (France)
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Lead Dev & Lead Tech chez Visian, la BU Innovation autour des objets connectés de Neurones IT. Responsable de l'équipe des développeurs (hard & soft). Réalisation et développement de PoC en méthodes agiles mêlant IoT (beacons, wearables, Raspberry, tags NFC, capteurs...) et cloud pour la remontée de données.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  2014 M09
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  2015 M03
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      SII
+                                    </b>
+                                    , 
+                                    <i>
+                                      Head Of Innovation Assistant
+                                    </i>
+                                    , Paris (France)
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Étude et exploration des drones Open Source tels que le projet Crazyflie. Réalisation d’un prototype d'objet connecté à partir d’un Raspberry Pi et de divers capteurs (température, pression, GPS). Développement avec le SDK Java 8 Embedded ME for IoT, et remontée des données.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  2013 M04
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  2013 M08
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      Thales
+                                    </b>
+                                    , 
+                                    <i>
+                                      Intern DevOps
+                                    </i>
+                                    , Paris (France)
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Responsable de l'étude, de l'installation et du déploiement d'OpenStack dans un environnement de tests. Rédaction du dossier d’architecture matérielle, réalisation des scripts de déploiement automatique, tests et validations.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2"
+                  >
+                    <div
+                      className="sc-EHOje jvzENE"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-bZQynM bOrPFB"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+                            >
+                              <span>
+                                <span>
+                                  2012 M10
+                                </span>
+                                <span>
+                                  ⇀
+                                </span>
+                                <span>
+                                  2013 M04
+                                </span>
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-gzVnrw ibZhkv"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <h6
+                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                >
+                                  <span>
+                                    <b>
+                                      Novacom
+                                    </b>
+                                    , 
+                                    <i>
+                                      Java Developper Trainee
+                                    </i>
+                                    , Paris (France)
+                                  </span>
+                                </h6>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Développement d'un jeu de données et d'un ensemble de tests unitaires et fonctionnels sur la couche service des applications, permettant l’automatisation des validations logicielles et ainsi garantir la non régression pendant les développements.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
+        >
+          <div
+            className="sc-ifAKCX cFlEyZ"
+          >
+            <div
+              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+            >
+              <div
+                className="MuiGrid-item-2"
+              >
+                <h4
+                  className="MuiTypography-root-98 MuiTypography-h4-113 MuiTypography-alignCenter-121"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="svg-inline--fa fa-code fa-w-20 "
+                    data-icon="code"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    style={Object {}}
+                    viewBox="0 0 640 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"
+                      fill="currentColor"
+                      style={Object {}}
+                    />
+                  </svg>
+                  <span>
+                    Compétences techniques
+                  </span>
+                </h4>
+              </div>
+              <div
+                className="MuiGrid-item-2"
+              >
+                <div
+                  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-justify-xs-center-18"
+                >
+                  <div
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+                  >
+                    <div
+                      className="sc-htoDjs bZzhDu"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-dnqmqq bDsesi"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignCenter-121"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                className="svg-inline--fa fa-cog fa-w-16 "
+                                data-icon="cog"
+                                data-prefix="fas"
+                                focusable="false"
+                                role="img"
+                                style={Object {}}
+                                viewBox="0 0 512 512"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M487.4 315.7l-42.6-24.6c4.3-23.2 4.3-47 0-70.2l42.6-24.6c4.9-2.8 7.1-8.6 5.5-14-11.1-35.6-30-67.8-54.7-94.6-3.8-4.1-10-5.1-14.8-2.3L380.8 110c-17.9-15.4-38.5-27.3-60.8-35.1V25.8c0-5.6-3.9-10.5-9.4-11.7-36.7-8.2-74.3-7.8-109.2 0-5.5 1.2-9.4 6.1-9.4 11.7V75c-22.2 7.9-42.8 19.8-60.8 35.1L88.7 85.5c-4.9-2.8-11-1.9-14.8 2.3-24.7 26.7-43.6 58.9-54.7 94.6-1.7 5.4.6 11.2 5.5 14L67.3 221c-4.3 23.2-4.3 47 0 70.2l-42.6 24.6c-4.9 2.8-7.1 8.6-5.5 14 11.1 35.6 30 67.8 54.7 94.6 3.8 4.1 10 5.1 14.8 2.3l42.6-24.6c17.9 15.4 38.5 27.3 60.8 35.1v49.2c0 5.6 3.9 10.5 9.4 11.7 36.7 8.2 74.3 7.8 109.2 0 5.5-1.2 9.4-6.1 9.4-11.7v-49.2c22.2-7.9 42.8-19.8 60.8-35.1l42.6 24.6c4.9 2.8 11 1.9 14.8-2.3 24.7-26.7 43.6-58.9 54.7-94.6 1.5-5.5-.7-11.3-5.6-14.1zM256 336c-44.1 0-80-35.9-80-80s35.9-80 80-80 80 35.9 80 80-35.9 80-80 80z"
+                                  fill="currentColor"
+                                  style={Object {}}
+                                />
+                              </svg>
+                              <span>
+                                 
+                              </span>
+                              <span>
+                                Programmation
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-iwsKbI jQhHGA"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Java 8 SE, ReactJS, ES6, C/C++.
+                                  </span>
+                                </p>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Bases de Python & de Lisp/Scheme.
+                                  </span>
+                                </p>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Notions d'Android & bases de Swift (iOS).
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+                  >
+                    <div
+                      className="sc-htoDjs bZzhDu"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-dnqmqq bDsesi"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignCenter-121"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                className="svg-inline--fa fa-connectdevelop fa-w-18 "
+                                data-icon="connectdevelop"
+                                data-prefix="fab"
+                                focusable="false"
+                                role="img"
+                                style={Object {}}
+                                viewBox="0 0 576 512"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M550.5 241l-50.089-86.786c1.071-2.142 1.875-4.553 1.875-7.232 0-8.036-6.696-14.733-14.732-15.001l-55.447-95.893c.536-1.607 1.071-3.214 1.071-4.821 0-8.571-6.964-15.268-15.268-15.268-4.821 0-8.839 2.143-11.786 5.625H299.518C296.839 18.143 292.821 16 288 16s-8.839 2.143-11.518 5.625H170.411C167.464 18.143 163.447 16 158.625 16c-8.303 0-15.268 6.696-15.268 15.268 0 1.607.536 3.482 1.072 4.821l-55.983 97.233c-5.356 2.41-9.107 7.5-9.107 13.661 0 .535.268 1.071.268 1.607l-53.304 92.143c-7.232 1.339-12.59 7.5-12.59 15 0 7.232 5.089 13.393 12.054 15l55.179 95.358c-.536 1.607-.804 2.946-.804 4.821 0 7.232 5.089 13.393 12.054 14.732l51.697 89.732c-.536 1.607-1.071 3.482-1.071 5.357 0 8.571 6.964 15.268 15.268 15.268 4.821 0 8.839-2.143 11.518-5.357h106.875C279.161 493.857 283.447 496 288 496s8.839-2.143 11.518-5.357h107.143c2.678 2.946 6.696 4.821 10.982 4.821 8.571 0 15.268-6.964 15.268-15.268 0-1.607-.267-2.946-.803-4.285l51.697-90.268c6.964-1.339 12.054-7.5 12.054-14.732 0-1.607-.268-3.214-.804-4.821l54.911-95.358c6.964-1.339 12.322-7.5 12.322-15-.002-7.232-5.092-13.393-11.788-14.732zM153.535 450.732l-43.66-75.803h43.66v75.803zm0-83.839h-43.66c-.268-1.071-.804-2.142-1.339-3.214l44.999-47.41v50.624zm0-62.411l-50.357 53.304c-1.339-.536-2.679-1.34-4.018-1.607L43.447 259.75c.535-1.339.535-2.679.535-4.018s0-2.41-.268-3.482l51.965-90c2.679-.268 5.357-1.072 7.768-2.679l50.089 51.965v92.946zm0-102.322l-45.803-47.41c1.339-2.143 2.143-4.821 2.143-7.767 0-.268-.268-.804-.268-1.072l43.928-15.804v72.053zm0-80.625l-43.66 15.804 43.66-75.536v59.732zm326.519 39.108l.804 1.339L445.5 329.125l-63.75-67.232 98.036-101.518.268.268zM291.75 355.107l11.518 11.786H280.5l11.25-11.786zm-.268-11.25l-83.303-85.446 79.553-84.375 83.036 87.589-79.286 82.232zm5.357 5.893l79.286-82.232 67.5 71.25-5.892 28.125H313.714l-16.875-17.143zM410.411 44.393c1.071.536 2.142 1.072 3.482 1.34l57.857 100.714v.536c0 2.946.803 5.624 2.143 7.767L376.393 256l-83.035-87.589L410.411 44.393zm-9.107-2.143L287.732 162.518l-57.054-60.268 166.339-60h4.287zm-123.483 0c2.678 2.678 6.16 4.285 10.179 4.285s7.5-1.607 10.179-4.285h75L224.786 95.821 173.893 42.25h103.928zm-116.249 5.625l1.071-2.142a33.834 33.834 0 0 0 2.679-.804l51.161 53.84-54.911 19.821V47.875zm0 79.286l60.803-21.964 59.732 63.214-79.553 84.107-40.982-42.053v-83.304zm0 92.678L198 257.607l-36.428 38.304v-76.072zm0 87.858l42.053-44.464 82.768 85.982-17.143 17.678H161.572v-59.196zm6.964 162.053c-1.607-1.607-3.482-2.678-5.893-3.482l-1.071-1.607v-89.732h99.91l-91.607 94.821h-1.339zm129.911 0c-2.679-2.41-6.428-4.285-10.447-4.285s-7.767 1.875-10.447 4.285h-96.429l91.607-94.821h38.304l91.607 94.821H298.447zm120-11.786l-4.286 7.5c-1.339.268-2.41.803-3.482 1.339l-89.196-91.875h114.376l-17.412 83.036zm12.856-22.232l12.858-60.803h21.964l-34.822 60.803zm34.822-68.839h-20.357l4.553-21.16 17.143 18.214c-.535.803-1.071 1.874-1.339 2.946zm66.161-107.411l-55.447 96.697c-1.339.535-2.679 1.071-4.018 1.874l-20.625-21.964 34.554-163.928 45.803 79.286c-.267 1.339-.803 2.678-.803 4.285 0 1.339.268 2.411.536 3.75z"
+                                  fill="currentColor"
+                                  style={Object {}}
+                                />
+                              </svg>
+                              <span>
+                                 
+                              </span>
+                              <span>
+                                Innovation
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-iwsKbI jQhHGA"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Raspberry Pi, Beacons, Android Wear.
+                                  </span>
+                                </p>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Chatbots, Speech To Text, NLU, OCR, ML.
+                                  </span>
+                                </p>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Drones, robots, VR et impression 3D.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+                  >
+                    <div
+                      className="sc-htoDjs bZzhDu"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-dnqmqq bDsesi"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignCenter-121"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                className="svg-inline--fa fa-terminal fa-w-20 "
+                                data-icon="terminal"
+                                data-prefix="fas"
+                                focusable="false"
+                                role="img"
+                                style={Object {}}
+                                viewBox="0 0 640 512"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M257.981 272.971L63.638 467.314c-9.373 9.373-24.569 9.373-33.941 0L7.029 444.647c-9.357-9.357-9.375-24.522-.04-33.901L161.011 256 6.99 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L257.981 239.03c9.373 9.372 9.373 24.568 0 33.941zM640 456v-32c0-13.255-10.745-24-24-24H312c-13.255 0-24 10.745-24 24v32c0 13.255 10.745 24 24 24h304c13.255 0 24-10.745 24-24z"
+                                  fill="currentColor"
+                                  style={Object {}}
+                                />
+                              </svg>
+                              <span>
+                                 
+                              </span>
+                              <span>
+                                Divers
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-iwsKbI jQhHGA"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Shell scripts, Docker, Microsoft Azure.
+                                  </span>
+                                </p>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Base de données SQL (PostgreSQL).
+                                  </span>
+                                </p>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Travail sous Linux & Windows.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+                  >
+                    <div
+                      className="sc-htoDjs bZzhDu"
+                    >
+                      <div
+                        className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+                      >
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                        >
+                          <div
+                            className="sc-dnqmqq bDsesi"
+                          >
+                            <h6
+                              className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignCenter-121"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                className="svg-inline--fa fa-wrench fa-w-16 "
+                                data-icon="wrench"
+                                data-prefix="fas"
+                                focusable="false"
+                                role="img"
+                                style={Object {}}
+                                viewBox="0 0 512 512"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M507.73 109.1c-2.24-9.03-13.54-12.09-20.12-5.51l-74.36 74.36-67.88-11.31-11.31-67.88 74.36-74.36c6.62-6.62 3.43-17.9-5.66-20.16-47.38-11.74-99.55.91-136.58 37.93-39.64 39.64-50.55 97.1-34.05 147.2L18.74 402.76c-24.99 24.99-24.99 65.51 0 90.5 24.99 24.99 65.51 24.99 90.5 0l213.21-213.21c50.12 16.71 107.47 5.68 147.37-34.22 37.07-37.07 49.7-89.32 37.91-136.73zM64 472c-13.25 0-24-10.75-24-24 0-13.26 10.75-24 24-24s24 10.74 24 24c0 13.25-10.75 24-24 24z"
+                                  fill="currentColor"
+                                  style={Object {}}
+                                />
+                              </svg>
+                              <span>
+                                 
+                              </span>
+                              <span>
+                                Outils
+                              </span>
+                            </h6>
+                          </div>
+                        </div>
+                        <div
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                        >
+                          <div
+                            className="sc-iwsKbI jQhHGA"
+                          >
+                            <div
+                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                            >
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Atom, Eclipse, Visual Studio, DataGrip.
+                                  </span>
+                                </p>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Git[Hub|Lab], Subversion, Maven, Makefile.
+                                  </span>
+                                </p>
+                              </div>
+                              <div
+                                className="MuiGrid-item-2"
+                              >
+                                <p
+                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                >
+                                  <span>
+                                    Jenkins, Jira, méthodes agiles, TDD.
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -6,9 +6,16 @@ export const scopeEducation = `${scope}.section.education`;
 export const scopeExperience = `${scope}.section.experience`;
 export const scopeSkills = `${scope}.section.skills`;
 
+const pageMessages = defineMessages({
+  title: {
+    id: `${scope}.title`,
+    defaultMessage: 'Resume'
+  }
+});
+
 const titleFormat = '{place}, {status}, {location}';
 
-const educationMessages = {
+const educationMessages = defineMessages({
   education: {
     id: `${scopeEducation}.title`,
     defaultMessage: 'Education'
@@ -65,9 +72,9 @@ const educationMessages = {
     id: `${scopeEducation}.lycee.content`,
     defaultMessage: 'Science Baccalaureate with Maths & Engineering option'
   }
-};
+});
 
-const experienceMessages = {
+const experienceMessages = defineMessages({
   experience: {
     id: `${scopeExperience}.title`,
     defaultMessage: 'Experience'
@@ -84,7 +91,7 @@ const experienceMessages = {
   experienceWemanityContent: {
     id: `${scopeExperience}.wemanity.content`,
     defaultMessage:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat eleifend est, quis volutpat tortor dignissim non. Fusce arcu leo, lacinia nec ultrices a, tincidunt in eros. Curabitur consectetur magna est, et pellentesque arcu aliquam in. Ut ligula ipsum, dapibus et dapibus non, tincidunt in arcu.'
+      "Fullstack R&D developer at the Société Générale's Innovation Lab Innov8. In charge of developments of innovative prototypes and demonstrator incorporating 3D/VR, cognitive services, smart home or robots for internal use cases. Stack: ES6, ReactJS, Three.js, Loopback, Python, Docker, OpenShift."
   },
   experienceDhatimTitle: {
     id: `${scopeExperience}.dhatim.title`,
@@ -98,7 +105,7 @@ const experienceMessages = {
   experienceDhatimContent: {
     id: `${scopeExperience}.dhatim.content`,
     defaultMessage:
-      'Sed ornare dolor in leo sagittis, quis tincidunt risus ultricies. Phasellus sit amet nulla at nisl dictum pulvinar. Integer vel erat mi. Vivamus metus sem, ultrices et ligula eget, malesuada pharetra leo. Nam finibus metus eu porta sodales.'
+      'Backend developper for Conciliator For Pay, SaaS solution for French pay control quality. Team of 5 persons: 2 frontend, 2 backend, 1 PO working in Scrum methodology. Stack: Java 8 SE, Dropwizard, PostgreSQL, Docker, Git, Jenkins.'
   },
   experienceVisianTitle: {
     id: `${scopeExperience}.visian.title`,
@@ -112,7 +119,7 @@ const experienceMessages = {
   experienceVisianContent: {
     id: `${scopeExperience}.visian.content`,
     defaultMessage:
-      'Proin nec aliquet odio, vitae commodo dolor. Integer orci nulla, luctus id risus sit amet, sagittis molestie justo. Curabitur et dui et turpis efficitur mollis vulputate id justo. Cras sodales cursus lorem, id porttitor magna porta id.'
+      "Lead developper at Visian, Neurones IT's Business Unit specialised in prototyping use cases using IoT. In charge of the developpers' team. Building proof of concept (PoC) from scratch or using various kind of IoT (mobile, beacons, wearables, Raspberry, NFC, sensors...), and transmitting data into the cloud."
   },
   experienceSIITitle: {
     id: `${scopeExperience}.sii.title`,
@@ -125,7 +132,8 @@ const experienceMessages = {
   },
   experienceSIIContent: {
     id: `${scopeExperience}.sii.content`,
-    defaultMessage: 'Quisque tincidunt metus congue tellus pharetra, id rhoncus eros tempor. Nullam commodo eleifend metus ac varius. Nam eget enim sit amet mi malesuada auctor ac ac nisl.'
+    defaultMessage:
+      "Study of open source drones like the Crazyflie project and hardware customisation. Prototyping an embedded case for cooling trucks using a Raspberry Pi and various sensors (temperature, pressure, GPS...), data are transmitted over MQTT to the driver's phone. Stack: C, Java 8 ME for IoT, MQTT."
   },
   experienceThalesTitle: {
     id: `${scopeExperience}.thales.title`,
@@ -139,7 +147,7 @@ const experienceMessages = {
   experienceThalesContent: {
     id: `${scopeExperience}.thales.content`,
     defaultMessage:
-      'Curabitur fringilla mauris at tortor faucibus venenatis. Etiam porttitor aliquam dictum. Integer elementum mi ac orci ultricies viverra. Curabitur turpis enim, dapibus nec mauris vitae, auctor ultrices justo. '
+      'In charge of the study, install and deployment of OpenStack in a test environment. Writing documentation for users, deployment scripts (Bash), VM image templates, tests and validations.'
   },
   experienceNovacomTitle: {
     id: `${scopeExperience}.novacom.title`,
@@ -152,30 +160,99 @@ const experienceMessages = {
   },
   experienceNovacomContent: {
     id: `${scopeExperience}.novacom.content`,
-    defaultMessage:
-      'Suspendisse hendrerit magna posuere leo ultrices, ut maximus diam convallis. Pellentesque vel felis arcu. Donec quis urna libero. Suspendisse sagittis turpis at leo lobortis porttitor. Sed eget nulla sollicitudin, fermentum nisi non, ultricies neque.'
+    defaultMessage: 'Java internship, attached to the developpers team. Development of unit and functionnal tests with the correct dataset.'
   }
-};
+});
 
-const skillsMessages = {
+const skillsMessages = defineMessages({
   skills: {
     id: `${scopeSkills}.title`,
     defaultMessage: 'Skills'
+  },
+  developmentTitle: {
+    id: `${scopeSkills}.dev.title`,
+    defaultMessage: 'Development'
+  },
+  developmentContent1: {
+    id: `${scopeSkills}.dev.content.line1`,
+    defaultMessage: 'Java 8 SE, ReactJS, ES6, C/C++.'
+  },
+  developmentContent2: {
+    id: `${scopeSkills}.dev.content.line2`,
+    defaultMessage: 'Python & Lisp/Scheme basic knowledges.'
+  },
+  developmentContent3: {
+    id: `${scopeSkills}.dev.content.line3`,
+    defaultMessage: 'Mobile development bases: Android & iOS (Swift).'
+  },
+  miscTitle: {
+    id: `${scopeSkills}.misc.title`,
+    defaultMessage: 'Misc'
+  },
+  miscContent1: {
+    id: `${scopeSkills}.misc.content1`,
+    defaultMessage: 'Shell scripts, Docker, Microsoft Azure.'
+  },
+  miscContent2: {
+    id: `${scopeSkills}.misc.content2`,
+    defaultMessage: 'SQL databases (PostgreSQL).'
+  },
+  miscContent3: {
+    id: `${scopeSkills}.misc.content3`,
+    defaultMessage: 'Comfortable with Linux & Windows environment.'
+  },
+  innovationTitle: {
+    id: `${scopeSkills}.innovation.title`,
+    defaultMessage: 'Innovation'
+  },
+  innovationContent1: {
+    id: `${scopeSkills}.innovation.content1`,
+    defaultMessage: 'Raspberry Pi, Beacons, Android Wear.'
+  },
+  innovationContent2: {
+    id: `${scopeSkills}.innovation.content2`,
+    defaultMessage: 'Chatbots, Speech To Text, NLU, OCR, ML.'
+  },
+  innovationContent3: {
+    id: `${scopeSkills}.innovation.content3`,
+    defaultMessage: 'Drones, robots, VR and 3D printing.'
+  },
+  toolsTitle: {
+    id: `${scopeSkills}.tools.title`,
+    defaultMessage: 'Tools'
+  },
+  toolsContent1: {
+    id: `${scopeSkills}.tools.content1`,
+    defaultMessage: 'Atom, Eclipse, Visual Studio, DataGrip.'
+  },
+  toolsContent2: {
+    id: `${scopeSkills}.tools.content2`,
+    defaultMessage: 'Git[Hub|Lab], Subversion, Maven, Makefile.'
+  },
+  toolsContent3: {
+    id: `${scopeSkills}.tools.content3`,
+    defaultMessage: 'Jenkins, Jira, agile methodologies, TDD.'
   }
-};
-
-const messages = defineMessages({
-  title: {
-    id: `${scope}.title`,
-    defaultMessage: 'Resume'
-  },
-  now: {
-    id: `${scope}.section.now`,
-    defaultMessage: 'Now'
-  },
-  ...educationMessages,
-  ...experienceMessages,
-  ...skillsMessages
 });
 
+const internalMessages = defineMessages({
+  cvEntryDate: {
+    id: `${scope}.internal.cventry.date`,
+    defaultMessage: '{from}{arrow}{to}'
+  },
+  cvEntryNow: {
+    id: `${scope}.internal.cventry.now`,
+    defaultMessage: 'Now'
+  }
+});
+
+const messages = {
+  ...pageMessages,
+  ...educationMessages,
+  ...experienceMessages,
+  ...skillsMessages,
+  ...internalMessages
+};
+
+export { educationMessages, experienceMessages, skillsMessages, internalMessages };
 export default messages;
