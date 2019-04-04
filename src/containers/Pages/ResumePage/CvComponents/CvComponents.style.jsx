@@ -11,7 +11,5 @@ const CvSkillContainer = styled.div``;
 const CvSkillTitleContainer = styled.div``;
 const CvSkillContentContainer = styled.div``;
 
-const styles = () => ({});
-
-export { styles, CvSectionContainer, CvEntryContainer, CvEntryDateContainer, CvEntryContentContainer, CvSkillContainer, CvSkillTitleContainer, CvSkillContentContainer };
+export { CvSectionContainer, CvEntryContainer, CvEntryDateContainer, CvEntryContentContainer, CvSkillContainer, CvSkillTitleContainer, CvSkillContentContainer };
 export default DefaultContainer;
