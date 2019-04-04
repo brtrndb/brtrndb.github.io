@@ -33,7 +33,7 @@ const sections = [
     icon: 'briefcase',
     title: messages.experience,
     entries: [
-      { dateFormat: 'long', from: '2018/04/01', to: messages.now, title: messages.experienceWemanityTitle, content: messages.experienceWemanityContent },
+      { dateFormat: 'long', from: '2018/04/01', to: messages.cvEntryNow, title: messages.experienceWemanityTitle, content: messages.experienceWemanityContent },
       { dateFormat: 'long', from: '2016/10/01', to: '2018/02/01', title: messages.experienceDhatimTitle, content: messages.experienceDhatimContent },
       { dateFormat: 'long', from: '2015/03/01', to: '2016/10/01', title: messages.experienceVisianTitle, content: messages.experienceVisianContent },
       { dateFormat: 'long', from: '2014/09/01', to: '2015/03/01', title: messages.experienceSIITitle, content: messages.experienceSIIContent },

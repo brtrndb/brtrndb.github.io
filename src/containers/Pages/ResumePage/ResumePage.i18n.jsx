@@ -6,6 +6,13 @@ export const scopeEducation = `${scope}.section.education`;
 export const scopeExperience = `${scope}.section.experience`;
 export const scopeSkills = `${scope}.section.skills`;
 
+const pageMessages = defineMessages({
+  title: {
+    id: `${scope}.title`,
+    defaultMessage: 'Resume'
+  }
+});
+
 const titleFormat = '{place}, {status}, {location}';
 
 const educationMessages = defineMessages({
@@ -228,18 +235,24 @@ const skillsMessages = defineMessages({
   }
 });
 
-const messages = defineMessages({
-  title: {
-    id: `${scope}.title`,
-    defaultMessage: 'Resume'
+const internalMessages = defineMessages({
+  cvEntryDate: {
+    id: `${scope}.internal.cventry.date`,
+    defaultMessage: '{from}{arrow}{to}'
   },
-  now: {
-    id: `${scope}.section.now`,
+  cvEntryNow: {
+    id: `${scope}.internal.cventry.now`,
     defaultMessage: 'Now'
-  },
-  ...educationMessages,
-  ...experienceMessages,
-  ...skillsMessages
+  }
 });
 
+const messages = {
+  ...pageMessages,
+  ...educationMessages,
+  ...experienceMessages,
+  ...skillsMessages,
+  ...internalMessages
+};
+
+export { educationMessages, experienceMessages, skillsMessages, internalMessages };
 export default messages;

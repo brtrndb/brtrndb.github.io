@@ -12,6 +12,8 @@ import { messageDescriptorPropTypes } from 'Modules/intl/intlPropTypes';
 
 import { CvEntryContainer, CvEntryDateContainer, CvEntryContentContainer } from './CvComponents.style';
 
+import { internalMessages } from '../ResumePage.i18n';
+
 const dateFormats = {
   short: {
     year: 'numeric'
@@ -45,8 +47,7 @@ const CvEntryDate = ({ from, to, format }) => (
   <CvEntryDateContainer>
     <Typography variant='subtitle1' align='right'>
       <FormattedMessage
-        id='internal.cventry.date'
-        defaultMessage='{from}{arrow}{to}'
+        {...internalMessages.cvEntryDate}
         values={{
           from: configureDate(from, format),
           arrow: configureArrow(from, format === 'long' && useMediaQuery(useTheme().breakpoints.up('md'))),
