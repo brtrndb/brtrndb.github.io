@@ -29,7 +29,14 @@ module.exports = (params) => {
       template: params.files.template_html,
       title: 'brtrndb.github.io',
       filename: 'index.html',
-      hash: true,
+      meta: [
+        { name: 'authors', content: 'Bertrand B.' },
+        { name: 'description', content: 'Personal website, resume and portfolio.' },
+        { name: 'keywords', content: 'brtrndb, personal website, portfolio, resume, cv, curriculum vitae' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }
+      ],
+      inject: true,
+      hash: !params.env.isProd,
       minify: {
         removeComments: params.env.isProd,
         collapseWhitespace: params.env.isProd,
@@ -42,8 +49,7 @@ module.exports = (params) => {
         minifyCSS: params.env.isProd,
         minifyURLs: true,
         preserveLineBreaks: !params.env.isProd
-      },
-      inject: true
+      }
     })
   );
 
@@ -97,7 +103,7 @@ module.exports = (params) => {
       // emitStats: false, // Emit all stats of the generated icons.
       // statsFilename: 'iconstats.json', // The name of the json containing all favicon information.
       persistentCache: false, // Generate a cache file with control hashes and don't rebuild the favicons until those hashes change.
-      inject: false, // Inject the html into the html-webpack-plugin.
+      inject: true, // Inject the html into the html-webpack-plugin.
       // background: '#ffffff', // favicon background color (see https://github.com/haydenbleasel/favicons#usage).
       // title: 'Webpack App', // favicon app title (see https://github.com/haydenbleasel/favicons#usage).
       icons: {
