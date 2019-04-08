@@ -10,10 +10,10 @@ module.exports = (params) => {
   const common = {
     target: 'web',
     output: {
-      path: params.paths.build,
-      publicPath: params.paths.publicPath,
-      filename: params.output.filename,
-      chunkFilename: 'bundle.[name].js'
+      path: params.folders.build,
+      publicPath: '',
+      filename: params.output.main_bundle_name,
+      chunkFilename: 'chunk.[name].js'
     },
     optimization: {
       splitChunks: {
@@ -23,15 +23,15 @@ module.exports = (params) => {
         minChunks: 1,
         // maxAsyncRequests: 5,
         // maxInitialRequests: 3,
-        automaticNameDelimiter: '~',
         name: true,
+        automaticNameDelimiter: '~',
         cacheGroups: {
           commons: {
             chunks: 'initial',
             minChunks: 2
           },
           vendors: {
-            test: /[\\/]node_modules[\\/]/,
+            test: /node_modules/,
             priority: -10
           },
           default: {
@@ -45,11 +45,11 @@ module.exports = (params) => {
     resolve: {
       extensions: ['.js', '.jsx', '.json'],
       alias: {
-        Components: path.join(params.paths.sources, 'components'),
-        Containers: path.join(params.paths.sources, 'containers'),
-        Modules: path.join(params.paths.sources, 'modules'),
-        Utils: path.join(params.paths.sources, 'utils'),
-        Tests: path.join(params.paths.sources, 'tests')
+        Components: path.join(params.folders.src, 'components'),
+        Containers: path.join(params.folders.src, 'containers'),
+        Modules: path.join(params.folders.src, 'modules'),
+        Utils: path.join(params.folders.src, 'utils'),
+        Tests: path.join(params.folders.src, 'tests')
       }
     },
     watchOptions: {

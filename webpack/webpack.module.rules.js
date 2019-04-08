@@ -6,8 +6,8 @@ module.exports = (params) => {
 
   rules.push({
     test: /\.(js|jsx)$/,
-    include: params.paths.sources,
-    exclude: ['/node_modules/', params.paths.libs],
+    include: params.folders.src,
+    exclude: [/node_modules/, params.folders.src_libs],
     enforce: 'pre',
     use: {
       loader: 'eslint-loader',
@@ -19,8 +19,8 @@ module.exports = (params) => {
 
   rules.push({
     test: /\.(js|jsx)$/,
-    include: params.paths.sources,
-    exclude: ['/node_modules/', params.paths.libs],
+    include: params.folders.src,
+    exclude:[/node_modules/, params.folders.src_libs],
     use: {
       loader: 'babel-loader',
       options: {

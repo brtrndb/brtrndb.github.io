@@ -1,6 +1,6 @@
 module.exports = (params) => {
   const devServer = {
-    contentBase: params.paths.build,
+    contentBase: params.folders.build,
     port: 8080,
     hot: true,
     quiet: false,
@@ -22,7 +22,7 @@ module.exports = (params) => {
       timings: true,
       version: true
     }
-    //    writeToDisk: true,
+    // writeToDisk: true
   };
 
   return devServer;

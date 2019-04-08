@@ -16,7 +16,7 @@ module.exports = (params) => {
   const plugins = [];
 
   if (params.env.isProd) {
-    plugins.push(new CleanWebpackPlugin([params.paths.build], { root: params.paths.root }));
+    plugins.push(new CleanWebpackPlugin([params.folders.build], { root: params.folders.root }));
   }
 
   if (params.env.isDev) {
@@ -26,7 +26,7 @@ module.exports = (params) => {
 
   plugins.push(
     new HtmlWebpackPlugin({
-      template: path.join(params.paths.sources, 'index.html'),
+      template: params.files.template_html,
       title: 'brtrndb.github.io',
       filename: 'index.html',
       hash: true,
@@ -64,7 +64,7 @@ module.exports = (params) => {
     })
   );
 
-  plugins.push(new CopyWebpackPlugin([{ from: path.join(params.paths.sources, 'modules/intl/i18n/'), to: path.join(params.paths.build, 'i18n') }]));
+  plugins.push(new CopyWebpackPlugin([{ from: params.folders.src_i18n, to: params.folders.build_i18n }]));
 
   plugins.push(new LodashModuleReplacementPlugin());
 
@@ -82,9 +82,9 @@ module.exports = (params) => {
       fingerprints: false,
       icons: [
         {
-          src: path.join(params.paths.sources, 'brtrndb-icon.png'),
+          src: params.files.favicon,
           sizes: [96, 128, 192, 256, 384, 512, 1024],
-          destination: 'icons'
+          destination: params.output.icons
         }
       ]
     })
@@ -92,8 +92,8 @@ module.exports = (params) => {
 
   plugins.push(
     new FaviconsWebpackPlugin({
-      logo: path.join(params.paths.sources, 'brtrndb-icon.png'), // Your source logo
-      prefix: 'icons/', // The prefix for all image files (might be a folder or a name).
+      logo: params.files.favicon, // Your source logo
+      prefix: params.output.icons, // The prefix for all image files (might be a folder or a name).
       // emitStats: false, // Emit all stats of the generated icons.
       // statsFilename: 'iconstats.json', // The name of the json containing all favicon information.
       persistentCache: false, // Generate a cache file with control hashes and don't rebuild the favicons until those hashes change.

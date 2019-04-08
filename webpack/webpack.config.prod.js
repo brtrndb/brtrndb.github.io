@@ -10,7 +10,7 @@ module.exports = (params) => {
   const prod = {
     mode: 'production',
     devtool: false,
-    entry: ['@babel/polyfill', params.paths.entry],
+    entry: ['@babel/polyfill', params.files.app_entry],
     optimization: {
       minimizer: [
         new TerserPlugin({
