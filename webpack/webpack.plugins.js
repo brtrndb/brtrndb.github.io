@@ -29,7 +29,21 @@ module.exports = (params) => {
       template: path.join(params.paths.sources, 'index.html'),
       title: 'brtrndb.github.io',
       filename: 'index.html',
-      hash: true
+      hash: true,
+      minify: {
+        removeComments: params.env.isProd,
+        collapseWhitespace: params.env.isProd,
+        removeRedundantAttributes: true,
+        useShortDoctype: true,
+        removeEmptyAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        keepClosingSlash: true,
+        minifyJS: params.env.isProd,
+        minifyCSS: params.env.isProd,
+        minifyURLs: true,
+        preserveLineBreaks: !params.env.isProd
+      },
+      inject: true
     })
   );
 
