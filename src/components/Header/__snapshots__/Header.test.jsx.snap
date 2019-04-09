@@ -2,7 +2,7 @@
 
 exports[`<Header /> Rendering component Rendering with locale EN 1`] = `
 <div
-  className="sc-htpNat KtFsv"
+  className="sc-bwzfXH uTxCW"
 >
   <header
     className="MuiPaper-root-12 MuiPaper-elevation4-18 MuiAppBar-root-3 MuiAppBar-positionFixed-4 MuiAppBar-colorPrimary-10 mui-fixed Header-appBar-1"
@@ -61,7 +61,7 @@ exports[`<Header /> Rendering component Rendering with locale EN 1`] = `
 
 exports[`<Header /> Rendering component Rendering with locale FR 1`] = `
 <div
-  className="sc-htpNat KtFsv"
+  className="sc-bwzfXH uTxCW"
 >
   <header
     className="MuiPaper-root-12 MuiPaper-elevation4-18 MuiAppBar-root-3 MuiAppBar-positionFixed-4 MuiAppBar-colorPrimary-10 mui-fixed Header-appBar-1"

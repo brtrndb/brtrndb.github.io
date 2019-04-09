@@ -4,9 +4,8 @@ import { IntlProvider } from 'react-intl';
 import { MemoryRouter } from 'react-router';
 import { ThemeProvider } from '@material-ui/styles';
 
+import appMuiTheme from 'Modules/style';
 import locales from 'Modules/intl/locales';
-
-import { appMuiTheme } from 'Containers/App/App.style';
 
 window.matchMedia = jest.fn().mockImplementation((query) => {
   return {
