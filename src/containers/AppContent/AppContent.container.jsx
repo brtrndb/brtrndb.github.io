@@ -1,3 +1,7 @@
-import AppContent from './AppContent.component';
+import React from 'react';
+import loadable from '@loadable/component';
 
-export default AppContent;
+const ImportedAppContent = loadable(() => import('./AppContent.component'));
+const LoadableAppContent = () => <ImportedAppContent />;
+
+export default LoadableAppContent;
