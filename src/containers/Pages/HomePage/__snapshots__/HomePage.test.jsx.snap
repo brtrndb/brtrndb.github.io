@@ -2,7 +2,7 @@
 
 exports[`<HomePage /> Rendering component Rendering with locale EN 1`] = `
 <div
-  className="sc-htpNat KtFsv"
+  className="sc-bwzfXH uTxCW"
 >
   <div
     className="MuiGrid-container-1 MuiGrid-direction-xs-column-4 MuiGrid-align-items-xs-center-9 MuiGrid-align-content-xs-center-13 MuiGrid-justify-xs-center-18"
@@ -98,7 +98,7 @@ exports[`<HomePage /> Rendering component Rendering with locale EN 1`] = `
 
 exports[`<HomePage /> Rendering component Rendering with locale FR 1`] = `
 <div
-  className="sc-htpNat KtFsv"
+  className="sc-bwzfXH uTxCW"
 >
   <div
     className="MuiGrid-container-1 MuiGrid-direction-xs-column-4 MuiGrid-align-items-xs-center-9 MuiGrid-align-content-xs-center-13 MuiGrid-justify-xs-center-18"
