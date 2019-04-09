@@ -1,39 +1,20 @@
 import React from 'react';
-import { Provider } from 'react-redux';
-import { IntlProvider } from 'react-intl-redux';
-import { ConnectedRouter } from 'connected-react-router';
-import { createBrowserHistory } from 'history';
-import { ThemeProvider } from '@material-ui/styles';
 
-import AppContent from 'Containers/AppContent';
-import setupStore from 'Modules/store';
-import setupFontAwesome from 'Modules/fontawesome';
 import { setupIntl } from 'Modules/intl';
+import setupFontAwesome from 'Modules/fontawesome';
 
-import { appMuiTheme } from './App.style';
-
-// Creating history.
-const history = createBrowserHistory();
-
-// Setting up Redux store.
-const store = setupStore(history);
-
-// Setting up Font Awesome.
-setupFontAwesome();
+import RootProvider from 'Containers/Providers';
+import AppContent from 'Containers/AppContent';
 
 // Setting up Intl.
 setupIntl();
+// Setting up Font Awesome.
+setupFontAwesome();
 
 const App = () => (
-  <Provider store={store}>
-    <IntlProvider>
-      <ThemeProvider theme={appMuiTheme}>
-        <ConnectedRouter history={history}>
-          <AppContent />
-        </ConnectedRouter>
-      </ThemeProvider>
-    </IntlProvider>
-  </Provider>
+  <RootProvider>
+    <AppContent />
+  </RootProvider>
 );
 
 export default App;

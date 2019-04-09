@@ -1,5 +1,5 @@
-import { createStore, applyMiddleware, compose } from 'redux';
 import { routerMiddleware } from 'connected-react-router';
+import { createStore, applyMiddleware, compose } from 'redux';
 
 import setupReducers from './setupReducers';
 import setupInitialState from './setupInitialState';

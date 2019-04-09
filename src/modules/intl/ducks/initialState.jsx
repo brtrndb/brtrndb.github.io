@@ -1,5 +1,7 @@
+import locales from '../locales';
+
 const initialState = {
-  locale: 'en',
+  locale: locales.primary,
   messages: {}
 };
 
