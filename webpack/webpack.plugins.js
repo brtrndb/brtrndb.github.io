@@ -53,7 +53,7 @@ module.exports = (params) => {
     })
   );
 
-  plugins.push(new MiniCssExtractPlugin({ filename: `style.${params.env.envNameShort}${params.env.isDed ? '.[contenthash]' : ''}.css` }));
+  plugins.push(new MiniCssExtractPlugin({ filename: params.output.main_style_name }));
 
   plugins.push(
     new CircularDependencyPlugin({

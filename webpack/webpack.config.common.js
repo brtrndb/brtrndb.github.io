@@ -13,7 +13,7 @@ module.exports = (params) => {
       path: params.folders.build,
       publicPath: '',
       filename: params.output.main_bundle_name,
-      chunkFilename: 'chunk.[name].js'
+      chunkFilename: params.output.chunk_bundle_name
     },
     optimization: {
       splitChunks: {

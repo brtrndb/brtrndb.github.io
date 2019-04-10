@@ -27,7 +27,9 @@ module.exports = (wpEnv) => {
       favicon: path.join(root, 'src/brtrndb-icon.png')
     },
     output: {
-      main_bundle_name: `app.${isProd ? 'prod' : 'dev.[hash]'}.js`,
+      main_bundle_name: `app${isDev ? '.[hash]' : ''}.js`,
+      main_style_name: `style${isDev ? '.[contenthash]' : ''}.css`,
+      chunk_bundle_name: `[name]${isDev ? '.[hash]' : ''}.js`,
       images: '/img/',
       icons: '/img/icons/'
     },
