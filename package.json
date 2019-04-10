@@ -10,7 +10,15 @@
     "email": "boyer.bertrand@gmail.com"
   },
   "license": "GPL-3.0-or-later",
-  "keywords": ["github.io", "brtrndb", "personal website", "portfolio", "resume", "cv", "curriculum vitae"],
+  "keywords": [
+    "github.io",
+    "brtrndb",
+    "personal website",
+    "portfolio",
+    "resume",
+    "cv",
+    "curriculum vitae"
+  ],
   "scripts": {
     "clean": "rm -rf node_modules/ package-lock.json yarn.lock yarn-error.log && yarn dev:clean",
     "build": "webpack --config ./webpack.config.js --env.BUILD_DEBUG=false --env.NODE_ENV=production --mode production -p --progress --profile",
