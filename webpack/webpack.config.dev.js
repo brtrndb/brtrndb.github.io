@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const merge = require('webpack-merge');
 
 const commonConfig = require('./webpack.config.common');
@@ -8,6 +9,10 @@ module.exports = (params) => {
   const common = commonConfig(params);
   const devServer = devServerConfig(params);
 
+  const plugins = [];
+  plugins.push(new webpack.HotModuleReplacementPlugin());
+  plugins.push(new webpack.NamedModulesPlugin());
+
   const dev = {
     mode: 'development',
     devtool: 'inline-source-map',
@@ -15,7 +20,8 @@ module.exports = (params) => {
     watchOptions: {
       ignored: /node_modules/
     },
-    devServer
+    devServer,
+    plugins
   };
 
   return merge(common, dev);

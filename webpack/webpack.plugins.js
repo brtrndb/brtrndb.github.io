@@ -6,11 +6,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CircularDependencyPlugin = require('circular-dependency-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const OfflinePlugin = require('offline-plugin');
 const LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
+const OfflinePlugin = require('offline-plugin');
 
 module.exports = (params) => {
   const plugins = [];
@@ -21,11 +21,6 @@ module.exports = (params) => {
       cleanStaleWebpackAssets: false
     })
   );
-
-  if (params.env.isDev) {
-    plugins.push(new webpack.HotModuleReplacementPlugin());
-    plugins.push(new webpack.NamedModulesPlugin());
-  }
 
   plugins.push(
     new HtmlWebpackPlugin({
