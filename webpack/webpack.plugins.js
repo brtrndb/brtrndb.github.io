@@ -15,9 +15,12 @@ const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 module.exports = (params) => {
   const plugins = [];
 
-  if (params.env.isProd) {
-    plugins.push(new CleanWebpackPlugin([params.folders.build], { root: params.folders.root }));
-  }
+  plugins.push(
+    new CleanWebpackPlugin({
+      verbose: params.env.isDev,
+      cleanStaleWebpackAssets: false
+    })
+  );
 
   if (params.env.isDev) {
     plugins.push(new webpack.HotModuleReplacementPlugin());
