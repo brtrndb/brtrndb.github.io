@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const packages = require('../package.json');
 
 const root = path.join(__dirname, '..');
 
@@ -39,6 +40,11 @@ module.exports = (wpEnv) => {
       envFilePath,
       isDev,
       isProd
+    },
+    packages: {
+      author: packages.author.name,
+      description: packages.description,
+      keywords: packages.keywords
     }
   };
 

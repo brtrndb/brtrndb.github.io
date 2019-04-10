@@ -28,9 +28,9 @@ module.exports = (params) => {
       title: 'brtrndb.github.io',
       filename: 'index.html',
       meta: [
-        { name: 'authors', content: 'Bertrand B.' },
-        { name: 'description', content: 'Personal website, resume and portfolio.' },
-        { name: 'keywords', content: 'brtrndb, personal website, portfolio, resume, cv, curriculum vitae' },
+        { name: 'authors', content: params.packages.author },
+        { name: 'description', content: params.packages.description },
+        { name: 'keywords', content: params.packages.keywords },
         { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }
       ],
       inject: true,
@@ -78,7 +78,7 @@ module.exports = (params) => {
     new WebpackPwaManifest({
       name: 'BrtrndB',
       short_name: 'BrtrndB',
-      description: 'BrtrndB Portfolio',
+      description: params.packages.description,
       display: 'browser',
       lang: 'en-UK',
       default_locale: 'en',
