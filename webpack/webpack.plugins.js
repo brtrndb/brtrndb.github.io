@@ -6,23 +6,21 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CircularDependencyPlugin = require('circular-dependency-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const OfflinePlugin = require('offline-plugin');
 const LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
+const OfflinePlugin = require('offline-plugin');
 
 module.exports = (params) => {
   const plugins = [];
 
-  if (params.env.isProd) {
-    plugins.push(new CleanWebpackPlugin([params.folders.build], { root: params.folders.root }));
-  }
-
-  if (params.env.isDev) {
-    plugins.push(new webpack.HotModuleReplacementPlugin());
-    plugins.push(new webpack.NamedModulesPlugin());
-  }
+  plugins.push(
+    new CleanWebpackPlugin({
+      verbose: params.env.isDev,
+      cleanStaleWebpackAssets: false
+    })
+  );
 
   plugins.push(
     new HtmlWebpackPlugin({
@@ -30,9 +28,9 @@ module.exports = (params) => {
       title: 'brtrndb.github.io',
       filename: 'index.html',
       meta: [
-        { name: 'authors', content: 'Bertrand B.' },
-        { name: 'description', content: 'Personal website, resume and portfolio.' },
-        { name: 'keywords', content: 'brtrndb, personal website, portfolio, resume, cv, curriculum vitae' },
+        { name: 'authors', content: params.packages.author },
+        { name: 'description', content: params.packages.description },
+        { name: 'keywords', content: params.packages.keywords },
         { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }
       ],
       inject: true,
@@ -53,7 +51,7 @@ module.exports = (params) => {
     })
   );
 
-  plugins.push(new MiniCssExtractPlugin({ filename: `style.${params.env.envNameShort}${params.env.isDed ? '.[contenthash]' : ''}.css` }));
+  plugins.push(new MiniCssExtractPlugin({ filename: params.output.main_style_name }));
 
   plugins.push(
     new CircularDependencyPlugin({
@@ -80,7 +78,7 @@ module.exports = (params) => {
     new WebpackPwaManifest({
       name: 'BrtrndB',
       short_name: 'BrtrndB',
-      description: 'BrtrndB Portfolio',
+      description: params.packages.description,
       display: 'browser',
       lang: 'en-UK',
       default_locale: 'en',

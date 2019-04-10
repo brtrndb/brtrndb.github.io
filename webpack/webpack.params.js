@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const packages = require('../package.json');
 
 const root = path.join(__dirname, '..');
 
@@ -27,7 +28,9 @@ module.exports = (wpEnv) => {
       favicon: path.join(root, 'src/brtrndb-icon.png')
     },
     output: {
-      main_bundle_name: `app.${isProd ? 'prod' : 'dev.[hash]'}.js`,
+      main_bundle_name: `app${isDev ? '.[hash]' : ''}.js`,
+      main_style_name: `style${isDev ? '.[contenthash]' : ''}.css`,
+      chunk_bundle_name: `[name]${isDev ? '.[hash]' : ''}.js`,
       images: '/img/',
       icons: '/img/icons/'
     },
@@ -37,6 +40,11 @@ module.exports = (wpEnv) => {
       envFilePath,
       isDev,
       isProd
+    },
+    packages: {
+      author: packages.author.name,
+      description: packages.description,
+      keywords: packages.keywords
     }
   };
 
