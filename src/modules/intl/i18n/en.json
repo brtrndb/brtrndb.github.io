@@ -24,7 +24,7 @@
   "pages.resumepage.section.experience.sii.title": "{place}, {status}, {location}.",
   "pages.resumepage.section.experience.thales.content": "In charge of the study, install and deployment of OpenStack in a test environment. Writing documentation for users, deployment scripts (Bash), VM image templates, tests and validations.",
   "pages.resumepage.section.experience.thales.title": "{place}, {status}, {location}.",
-  "pages.resumepage.section.experience.title": "Experience",
+  "pages.resumepage.section.experience.title": "Experiences",
   "pages.resumepage.section.experience.visian.content": "Lead developper at Visian, Neurones IT's Business Unit specialised in prototyping use cases using IoT. In charge of the developpers' team. Building proof of concept (PoC) from scratch or using various kind of IoT (mobile, beacons, wearables, Raspberry, NFC, sensors...), and transmitting data into the cloud.",
   "pages.resumepage.section.experience.visian.title": "{place}, {status}, {location}.",
   "pages.resumepage.section.experience.wemanity.content": "Fullstack R&D developer at the Société Générale's Innovation Lab Innov8. In charge of developments of innovative prototypes and demonstrator incorporating 3D/VR, cognitive services, smart home or robots for internal use cases. Stack: ES6, ReactJS, Three.js, Loopback, Python, Docker, OpenShift.",
