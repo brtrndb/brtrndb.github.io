@@ -44,7 +44,7 @@ const setupIntlTests = (Component, props) => {
 };
 
 const intlTests = (component, props) => {
-  setupIntlTests(component, props || {});
+  setupIntlTests(component, props || i18nProps({}));
 };
 
 export { i18nProps };

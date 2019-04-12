@@ -13,7 +13,7 @@ const pageMessages = defineMessages({
   }
 });
 
-const titleFormat = '{place}, {status}, {location}';
+const titleFormat = '{place}, {status}, {location}.';
 
 const educationMessages = defineMessages({
   education: {
@@ -31,7 +31,7 @@ const educationMessages = defineMessages({
   },
   educationEpitechContent: {
     id: `${scopeEducation}.epitech.content`,
-    defaultMessage: "Master's degree in Information Technologies"
+    defaultMessage: "Master's degree in Information Technologies."
   },
   educationGriffithTitle: {
     id: `${scopeEducation}.griffith.title`,
@@ -44,7 +44,7 @@ const educationMessages = defineMessages({
   },
   educationGriffithContent: {
     id: `${scopeEducation}.griffith.content`,
-    defaultMessage: 'First year of Master in Computing with Business & Management options'
+    defaultMessage: 'First year of Master in Computing with Business & Management options.'
   },
   educationEISTITitle: {
     id: `${scopeEducation}.eisti.title`,
@@ -57,7 +57,7 @@ const educationMessages = defineMessages({
   },
   educationEISTIContent: {
     id: `${scopeEducation}.eisti.content`,
-    defaultMessage: "First year of Bachelor's degree in Maths & Computing"
+    defaultMessage: "First year of Bachelor's degree in Maths & Computing."
   },
   educationLyceeTitle: {
     id: `${scopeEducation}.lycee.title`,
@@ -70,7 +70,7 @@ const educationMessages = defineMessages({
   },
   educationLyceeContent: {
     id: `${scopeEducation}.lycee.content`,
-    defaultMessage: 'Science Baccalaureate with Maths & Engineering option'
+    defaultMessage: 'Science Baccalaureate with Maths & Engineering option.'
   }
 });
 
