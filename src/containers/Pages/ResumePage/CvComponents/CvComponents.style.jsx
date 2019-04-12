@@ -4,7 +4,9 @@ const DefaultContainer = styled.div``;
 const CvSectionContainer = styled.div``;
 
 const CvEntryContainer = styled.div``;
-const CvEntryDateContainer = styled.div``;
+const CvEntryDateContainer = styled.div`
+  text-transform: capitalize;
+`;
 const CvEntryContentContainer = styled.div``;
 
 const CvSkillContainer = styled.div``;
