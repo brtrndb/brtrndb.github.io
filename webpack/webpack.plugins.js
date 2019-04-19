@@ -68,7 +68,7 @@ module.exports = (params) => {
     })
   );
 
-  plugins.push(new CopyWebpackPlugin([{ from: params.folders.src_i18n, to: params.folders.build_i18n }]));
+  plugins.push(new CopyWebpackPlugin([{ from: params.folders.src_i18n, to: params.folders.build_i18n }, { from: params.folders.src_img_cv, to: params.folders.build_img_cv }]));
 
   plugins.push(new LodashModuleReplacementPlugin());
 
