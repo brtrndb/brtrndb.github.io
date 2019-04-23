@@ -49,6 +49,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
+    "react-image": "^2.1.1",
     "react-intl": "^2.8.0",
     "react-intl-redux": "^2.1.1",
     "react-pure-lifecycle": "^3.0.0",
