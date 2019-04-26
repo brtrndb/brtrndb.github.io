@@ -18,7 +18,7 @@ module.exports = (wpEnv) => {
       src: path.join(root, 'src'),
       src_libs: path.join(root, 'src/libs'),
       src_i18n: path.join(root, 'src/modules/intl/i18n'),
-      src_img_cv: path.join(root, 'src/containers/pages/ResumePage/img'),
+      src_img_cv: path.join(root, 'src/containers/Pages/ResumePage/img'),
       build: path.join(root, 'build'),
       build_i18n: path.join(root, 'build/i18n'),
       build_img: path.join(root, 'build/img'),
