@@ -98,28 +98,28 @@ const experienceMessages = defineMessages({
     defaultMessage: titleFormat,
     values: {
       place: <b>Dhatim</b>,
-      status: <i>R&D Java Developper</i>,
+      status: <i>R&D Java Developer</i>,
       location: 'Paris (France)'
     }
   },
   experienceDhatimContent: {
     id: `${scopeExperience}.dhatim.content`,
     defaultMessage:
-      'Backend developper for Conciliator For Pay, SaaS solution for French pay control quality. Team of 5 persons: 2 frontend, 2 backend, 1 PO working in Scrum methodology. Stack: Java 8 SE, Dropwizard, PostgreSQL, Docker, Git, Jenkins.'
+      'Backend developer for Conciliator For Pay, SaaS solution for French pay control quality. Team of 5 persons: 2 frontend, 2 backend, 1 PO working in Scrum methodology. Stack: Java 8 SE, Dropwizard, PostgreSQL, Docker, Git, Jenkins.'
   },
   experienceVisianTitle: {
     id: `${scopeExperience}.visian.title`,
     defaultMessage: titleFormat,
     values: {
       place: <b>Visian</b>,
-      status: <i>Lead Developper & Fablab Supervisor</i>,
+      status: <i>Lead Developer & Fablab Supervisor</i>,
       location: 'Paris (France)'
     }
   },
   experienceVisianContent: {
     id: `${scopeExperience}.visian.content`,
     defaultMessage:
-      "Lead developper at Visian, Neurones IT's Business Unit specialised in prototyping use cases using IoT. In charge of the developpers' team. Building proof of concept (PoC) from scratch or using various kind of IoT (mobile, beacons, wearables, Raspberry, NFC, sensors...), and transmitting data into the cloud."
+      "Lead developer at Visian, Neurones IT's Business Unit specialised in prototyping use cases using IoT. In charge of the developers' team. Building proof of concept (PoC) from scratch or using various kind of IoT (mobile, beacons, wearables, Raspberry, NFC, sensors...), and transmitting data into the cloud."
   },
   experienceSIITitle: {
     id: `${scopeExperience}.sii.title`,
@@ -154,13 +154,13 @@ const experienceMessages = defineMessages({
     defaultMessage: titleFormat,
     values: {
       place: <b>Novacom</b>,
-      status: <i>Java Developper Trainee</i>,
+      status: <i>Java Developer Trainee</i>,
       location: 'Paris (France)'
     }
   },
   experienceNovacomContent: {
     id: `${scopeExperience}.novacom.content`,
-    defaultMessage: 'Java internship, attached to the developpers team. Development of unit and functionnal tests with the correct dataset.'
+    defaultMessage: 'Java internship, attached to the developers team. Development of unit and functionnal tests with the correct dataset.'
   }
 });
 
