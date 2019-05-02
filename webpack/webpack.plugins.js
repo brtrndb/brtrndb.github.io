@@ -15,12 +15,14 @@ const OfflinePlugin = require('offline-plugin');
 module.exports = (params) => {
   const plugins = [];
 
-  plugins.push(
-    new CleanWebpackPlugin({
-      verbose: params.env.isDev,
-      cleanStaleWebpackAssets: false
-    })
-  );
+  if (!params.env.isWatch) {
+    plugins.push(
+      new CleanWebpackPlugin({
+        verbose: params.env.isDev,
+        cleanStaleWebpackAssets: false
+      })
+    );
+  }
 
   plugins.push(
     new HtmlWebpackPlugin({
