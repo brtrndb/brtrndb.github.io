@@ -3,6 +3,7 @@ import { FormattedMessage, FormattedDate } from 'react-intl';
 import Img from 'react-image';
 import PropTypes from 'prop-types';
 import Grid from '@material-ui/core/Grid';
+import CircularProgress from '@material-ui/core/CircularProgress';
 import Typography from '@material-ui/core/Typography';
 import { unstable_useMediaQuery as useMediaQuery } from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/styles';
@@ -107,7 +108,7 @@ CvEntryContent.defaultProps = {
 
 const CvEntryImage = ({ image }) => (
   <CvEntryImageContainer>
-    <Img src={image} />
+    <Img src={image} loader={<CircularProgress />} />
   </CvEntryImageContainer>
 );
 
