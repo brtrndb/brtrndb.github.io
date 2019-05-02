@@ -1,5 +1,6 @@
 import React from 'react';
 import { FormattedMessage, FormattedDate } from 'react-intl';
+import Img from 'react-image';
 import PropTypes from 'prop-types';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
@@ -10,7 +11,7 @@ import { RightHarpoonUp } from 'Components/Fonts';
 
 import { messageDescriptorPropTypes } from 'Modules/intl/intlPropTypes';
 
-import { CvEntryContainer, CvEntryDateContainer, CvEntryContentContainer } from './CvComponents.style';
+import { CvEntryContainer, CvEntryDateContainer, CvEntryContentContainer, CvEntryImageContainer } from './CvComponents.style';
 
 import { internalMessages } from '../ResumePage.i18n';
 
@@ -70,18 +71,25 @@ CvEntryDate.defaultProps = {
   format: 'short'
 };
 
-const CvEntryContent = ({ title, content }) => (
+const CvEntryContent = ({ title, content, image }) => (
   <CvEntryContentContainer>
-    <Grid container direction='column'>
+    <Grid container direction='row'>
       <Grid item>
-        <Typography variant='subtitle2'>
-          <FormattedMessage {...title} />
-        </Typography>
+        <Grid container direction='column'>
+          <Grid item>
+            <Typography variant='subtitle2'>
+              <FormattedMessage {...title} />
+            </Typography>
+          </Grid>
+          <Grid item>
+            <Typography variant='body2'>
+              <FormattedMessage {...content} />
+            </Typography>
+          </Grid>
+        </Grid>
       </Grid>
       <Grid item>
-        <Typography variant='body2'>
-          <FormattedMessage {...content} />
-        </Typography>
+        <CvEntryImage image={image} />
       </Grid>
     </Grid>
   </CvEntryContentContainer>
@@ -89,17 +97,32 @@ const CvEntryContent = ({ title, content }) => (
 
 CvEntryContent.propTypes = {
   title: messageDescriptorPropTypes.isRequired,
-  content: messageDescriptorPropTypes.isRequired
+  content: messageDescriptorPropTypes.isRequired,
+  image: PropTypes.string
 };
 
-const CvEntry = ({ from, to, dateFormat, title, content }) => (
+CvEntryContent.defaultProps = {
+  image: ''
+};
+
+const CvEntryImage = ({ image }) => (
+  <CvEntryImageContainer>
+    <Img src={image} />
+  </CvEntryImageContainer>
+);
+
+CvEntryImage.propTypes = {
+  image: PropTypes.string.isRequired
+};
+
+const CvEntry = ({ from, to, dateFormat, title, content, image }) => (
   <CvEntryContainer>
     <Grid container direction='row' alignItems='baseline' spacing={useMediaQuery(useTheme().breakpoints.up('md')) ? 16 : 0}>
       <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
         <CvEntryDate from={from} to={to} format={dateFormat} />
       </Grid>
       <Grid item xs={12} sm={12} md={9} lg={9} xl={9}>
-        <CvEntryContent title={title} content={content} />
+        <CvEntryContent title={title} content={content} image={image} />
       </Grid>
     </Grid>
   </CvEntryContainer>

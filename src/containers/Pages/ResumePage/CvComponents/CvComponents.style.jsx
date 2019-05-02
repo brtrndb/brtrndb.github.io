@@ -8,10 +8,11 @@ const CvEntryDateContainer = styled.div`
   text-transform: capitalize;
 `;
 const CvEntryContentContainer = styled.div``;
+const CvEntryImageContainer = styled.div``;
 
 const CvSkillContainer = styled.div``;
 const CvSkillTitleContainer = styled.div``;
 const CvSkillContentContainer = styled.div``;
 
-export { CvSectionContainer, CvEntryContainer, CvEntryDateContainer, CvEntryContentContainer, CvSkillContainer, CvSkillTitleContainer, CvSkillContentContainer };
+export { CvSectionContainer, CvEntryContainer, CvEntryDateContainer, CvEntryContentContainer, CvEntryImageContainer, CvSkillContainer, CvSkillTitleContainer, CvSkillContentContainer };
 export default DefaultContainer;
