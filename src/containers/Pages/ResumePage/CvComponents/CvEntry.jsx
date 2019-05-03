@@ -6,13 +6,14 @@ import Grid from '@material-ui/core/Grid';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import Typography from '@material-ui/core/Typography';
 import { unstable_useMediaQuery as useMediaQuery } from '@material-ui/core/useMediaQuery';
+import { withStyles } from '@material-ui/core/styles';
 import { useTheme } from '@material-ui/styles';
 
 import { RightHarpoonUp } from 'Components/Fonts';
 
 import { messageDescriptorPropTypes } from 'Modules/intl/intlPropTypes';
 
-import { CvEntryContainer, CvEntryDateContainer, CvEntryContentContainer, CvEntryImageContainer } from './CvComponents.style';
+import { styles, CvEntryContainer, CvEntryDateContainer, CvEntryContentContainer, CvEntryImageContainer } from './CvComponents.style';
 
 import { internalMessages } from '../ResumePage.i18n';
 
@@ -106,11 +107,11 @@ CvEntryContent.defaultProps = {
   image: ''
 };
 
-const CvEntryImage = ({ image }) => (
+const CvEntryImage = withStyles(styles)(({ image, classes }) => (
   <CvEntryImageContainer>
-    <Img src={image} loader={<CircularProgress />} />
+    <Img src={image} loader={<CircularProgress />} className={classes.cvImage} />
   </CvEntryImageContainer>
-);
+));
 
 CvEntryImage.propTypes = {
   image: PropTypes.string.isRequired
