@@ -1,121 +1,15 @@
 import React from 'react';
-import { FormattedMessage, FormattedDate } from 'react-intl';
-import Img from 'react-image';
 import PropTypes from 'prop-types';
 import Grid from '@material-ui/core/Grid';
-import CircularProgress from '@material-ui/core/CircularProgress';
-import Typography from '@material-ui/core/Typography';
 import { unstable_useMediaQuery as useMediaQuery } from '@material-ui/core/useMediaQuery';
-import { withStyles } from '@material-ui/core/styles';
 import { useTheme } from '@material-ui/styles';
-
-import { RightHarpoonUp } from 'Components/Fonts';
 
 import { messageDescriptorPropTypes } from 'Modules/intl/intlPropTypes';
 
-import { styles, CvEntryContainer, CvEntryDateContainer, CvEntryContentContainer, CvEntryImageContainer } from './CvComponents.style';
+import CvEntryDate from './CvEntryDate';
+import CvEntryContent from './CvEntryContent';
 
-import { internalMessages } from '../ResumePage.i18n';
-
-const dateFormats = {
-  short: {
-    year: 'numeric'
-  },
-  long: {
-    year: 'numeric',
-    month: 'long'
-  }
-};
-
-const configureDate = (date, format) => {
-  if (typeof date === 'string' && date !== '') {
-    return <FormattedDate value={new Date(date)} {...dateFormats[format]} />;
-  }
-  if (typeof date === 'object') {
-    return <FormattedMessage {...date} />;
-  }
-  return null;
-};
-
-const configureArrow = (from, withBr) => {
-  return from !== '' ? (
-    <>
-      <RightHarpoonUp />
-      {withBr ? <br /> : null}
-    </>
-  ) : null;
-};
-
-const CvEntryDate = ({ from, to, format }) => (
-  <CvEntryDateContainer>
-    <Typography variant='subtitle1' align='right'>
-      <FormattedMessage
-        {...internalMessages.cvEntryDate}
-        values={{
-          from: configureDate(from, format),
-          arrow: configureArrow(from, format === 'long' && useMediaQuery(useTheme().breakpoints.up('md'))),
-          to: configureDate(to, format)
-        }}
-      />
-    </Typography>
-  </CvEntryDateContainer>
-);
-
-CvEntryDate.propTypes = {
-  from: PropTypes.oneOfType([PropTypes.string, messageDescriptorPropTypes]),
-  to: PropTypes.oneOfType([PropTypes.string, messageDescriptorPropTypes]),
-  format: PropTypes.string
-};
-
-CvEntryDate.defaultProps = {
-  from: '',
-  to: '',
-  format: 'short'
-};
-
-const CvEntryContent = ({ title, content, image }) => (
-  <CvEntryContentContainer>
-    <Grid container direction='row'>
-      <Grid item>
-        <Grid container direction='column'>
-          <Grid item>
-            <Typography variant='subtitle2'>
-              <FormattedMessage {...title} />
-            </Typography>
-          </Grid>
-          <Grid item>
-            <Typography variant='body2'>
-              <FormattedMessage {...content} />
-            </Typography>
-          </Grid>
-        </Grid>
-      </Grid>
-      <Grid item>
-        <CvEntryImage image={image} />
-      </Grid>
-    </Grid>
-  </CvEntryContentContainer>
-);
-
-CvEntryContent.propTypes = {
-  title: messageDescriptorPropTypes.isRequired,
-  content: messageDescriptorPropTypes.isRequired,
-  image: PropTypes.string
-};
-
-CvEntryContent.defaultProps = {
-  image: ''
-};
-
-const CvEntryImage = withStyles(styles)(({ image, classes }) => (
-  <CvEntryImageContainer>
-    <Img src={image} loader={<CircularProgress />} className={classes.cvImage} />
-  </CvEntryImageContainer>
-));
-
-CvEntryImage.propTypes = {
-  image: PropTypes.string.isRequired
-};
+import { CvEntryContainer } from './CvComponents.style';
 
 const CvEntry = ({ from, to, dateFormat, title, content, image }) => (
   <CvEntryContainer>
