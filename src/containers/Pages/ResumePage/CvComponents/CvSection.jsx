@@ -14,19 +14,20 @@ import CvSkill from './CvSkill';
 
 import { CvSectionContainer } from './CvComponents.style';
 
-const toCvEntry = (entry) => (
-  <Grid item key={entry.title.id}>
-    <CvEntry {...entry} />
+const toCvLine = (Component) => (styles) => (skill) => (
+  <Grid item key={skill.title.id} {...styles.breakpoints}>
+    <Component {...skill} />
   </Grid>
 );
 
-const toCvSkill = (breakpoints) => (skill) => (
-  <Grid item key={skill.title.id} {...breakpoints}>
-    <CvSkill {...skill} />
-  </Grid>
-);
+const mapLinesTo = {
+  entries: toCvLine(CvEntry),
+  skills: toCvLine(CvSkill)
+};
 
-const CvSection = ({ styles, icon, title, entries, skills }) => (
+const CvLines = ({ type, lines, styles }) => lines.map(mapLinesTo[type](styles));
+
+const CvSection = ({ type, icon, title, lines, styles }) => (
   <CvSectionContainer>
     <Grid container direction='column' spacing={useMediaQuery(useTheme().breakpoints.up('sm')) ? 16 : 0}>
       <Grid item>
@@ -36,9 +37,8 @@ const CvSection = ({ styles, icon, title, entries, skills }) => (
         </Typography>
       </Grid>
       <Grid item>
-        <Grid container direction={styles.direction} justify={styles.justify || 'center'} spacing={16}>
-          {entries ? entries.map(toCvEntry) : null}
-          {skills ? skills.map(toCvSkill(styles.bpEntry)) : null}
+        <Grid container direction={styles.section.direction} justify={styles.section.justify} spacing={16}>
+          <CvLines type={type} lines={lines} styles={styles.entry} />
         </Grid>
       </Grid>
     </Grid>

@@ -10,7 +10,7 @@ import CvSection from './CvComponents/CvSection';
 import sections from './sections';
 
 const toCvSection = (section) => (
-  <Grid item key={section.title.id} {...section.styles.bpSection}>
+  <Grid item key={section.title.id} {...section.styles.section.breakpoints}>
     <CvSection {...section} />
   </Grid>
 );
