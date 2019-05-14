@@ -29,13 +29,15 @@ CvEntry.propTypes = {
   to: PropTypes.oneOfType([PropTypes.string, messageDescriptorPropTypes]),
   dateFormat: PropTypes.string,
   title: messageDescriptorPropTypes.isRequired,
-  content: messageDescriptorPropTypes.isRequired
+  content: messageDescriptorPropTypes.isRequired,
+  image: PropTypes.string
 };
 
 CvEntry.defaultProps = {
   from: '',
   to: '',
-  dateFormat: 'short'
+  dateFormat: 'short',
+  image: ''
 };
 
 export default CvEntry;

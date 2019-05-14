@@ -9,7 +9,9 @@ const CvEntryDateContainer = styled.div`
 `;
 const CvEntryContentContainer = styled.div``;
 const CvEntryDescriptionContainer = styled.div``;
-const CvEntryImageContainer = styled.div``;
+const CvEntryImageContainer = styled.div`
+  text-align: right;
+`;
 
 const CvSkillContainer = styled.div``;
 const CvSkillTitleContainer = styled.div``;

@@ -16,7 +16,7 @@ const CvEntryDescription = ({ title, content }) => (
         </Typography>
       </Grid>
       <Grid item>
-        <Typography variant='body2'>
+        <Typography variant='body2' align='justify'>
           <FormattedMessage {...content} />
         </Typography>
       </Grid>
