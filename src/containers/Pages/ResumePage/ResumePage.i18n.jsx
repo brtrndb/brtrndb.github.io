@@ -235,11 +235,19 @@ const skillsMessages = defineMessages({
   }
 });
 
+const internalMessages = defineMessages({
+  cvEntryNow: {
+    id: `${scope}.internal.cventry.now`,
+    defaultMessage: 'Now'
+  }
+});
+
 const messages = {
   ...pageMessages,
   ...educationMessages,
   ...experienceMessages,
-  ...skillsMessages
+  ...skillsMessages,
+  ...internalMessages
 };
 
 export { educationMessages, experienceMessages, skillsMessages };
