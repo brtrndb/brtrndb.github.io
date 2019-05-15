@@ -16,7 +16,7 @@ import CvSkill from '../CvSkill';
 
 import { CvSectionContainer } from './CvSection.style';
 
-import { linesPropTypes } from '../../sections';
+import { linesPropTypes, stylesPropTypes } from '../../sections';
 
 const toCvLine = (Component) => (styles) => (skill) => (
   <Grid item key={skill.title.id} {...styles.breakpoints}>
@@ -55,29 +55,7 @@ CvSection.propTypes = {
   icon: PropTypes.string.isRequired,
   title: messageDescriptorPropTypes.isRequired,
   lines: linesPropTypes.isRequired,
-  styles: PropTypes.shape({
-    section: PropTypes.shape({
-      direction: PropTypes.string.isRequired,
-      justify: PropTypes.string.isRequired,
-      alignItems: PropTypes.string.isRequired,
-      breakpoints: PropTypes.shape({
-        xs: PropTypes.number.isRequired,
-        sm: PropTypes.number.isRequired,
-        md: PropTypes.number.isRequired,
-        lg: PropTypes.number.isRequired,
-        xl: PropTypes.number.isRequired
-      }).isRequired
-    }),
-    entry: PropTypes.shape({
-      breakpoints: PropTypes.shape({
-        xs: PropTypes.number.isRequired,
-        sm: PropTypes.number.isRequired,
-        md: PropTypes.number.isRequired,
-        lg: PropTypes.number.isRequired,
-        xl: PropTypes.number.isRequired
-      }).isRequired
-    })
-  }).isRequired
+  styles: stylesPropTypes.isRequired
 };
 
 CvSection.defaultProps = {};

@@ -88,7 +88,7 @@ const sectionSkills = {
 const linesPropTypes = PropTypes.arrayOf(
   PropTypes.oneOfType([
     PropTypes.shape({
-      dateFormat: PropTypes.string.isRequired,
+      dateFormat: PropTypes.oneOf(['short', 'long']),
       from: PropTypes.string,
       to: PropTypes.oneOfType([PropTypes.string, messageDescriptorPropTypes]).isRequired,
       title: messageDescriptorPropTypes.isRequired,
@@ -103,8 +103,32 @@ const linesPropTypes = PropTypes.arrayOf(
   ])
 );
 
+const stylesPropTypes = PropTypes.shape({
+  section: PropTypes.shape({
+    direction: PropTypes.string.isRequired,
+    justify: PropTypes.string.isRequired,
+    alignItems: PropTypes.string.isRequired,
+    breakpoints: PropTypes.shape({
+      xs: PropTypes.number.isRequired,
+      sm: PropTypes.number.isRequired,
+      md: PropTypes.number.isRequired,
+      lg: PropTypes.number.isRequired,
+      xl: PropTypes.number.isRequired
+    }).isRequired
+  }),
+  entry: PropTypes.shape({
+    breakpoints: PropTypes.shape({
+      xs: PropTypes.number.isRequired,
+      sm: PropTypes.number.isRequired,
+      md: PropTypes.number.isRequired,
+      lg: PropTypes.number.isRequired,
+      xl: PropTypes.number.isRequired
+    }).isRequired
+  })
+});
+
 const sections = [sectionEducation, sectionExperience, sectionSkills];
 
-export { linesPropTypes };
+export { linesPropTypes, stylesPropTypes };
 export { sectionEducation, sectionExperience, sectionSkills };
 export default sections;
