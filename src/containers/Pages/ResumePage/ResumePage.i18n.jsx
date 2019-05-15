@@ -44,7 +44,7 @@ const educationMessages = defineMessages({
   },
   educationGriffithContent: {
     id: `${scopeEducation}.griffith.content`,
-    defaultMessage: 'First year of Master in Computing with Business & Management options.'
+    defaultMessage: 'First year of Master in Computing with Business & Management option.'
   },
   educationEISTITitle: {
     id: `${scopeEducation}.eisti.title`,
@@ -70,7 +70,7 @@ const educationMessages = defineMessages({
   },
   educationLyceeContent: {
     id: `${scopeEducation}.lycee.content`,
-    defaultMessage: 'Science Baccalaureate with Maths & Engineering option.'
+    defaultMessage: 'Science Baccalaureate with Maths and Engineering options.'
   }
 });
 
