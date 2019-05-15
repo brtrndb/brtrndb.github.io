@@ -3,6 +3,11 @@
 exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
 <div
   className="sc-bwzfXH uTxCW"
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
 >
   <div
     className="MuiGrid-container-1 MuiGrid-spacing-xs-40-27 MuiGrid-direction-xs-column-4"
@@ -22,16 +27,16 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
       className="MuiGrid-item-2"
     >
       <div
-        className="MuiGrid-container-1 MuiGrid-spacing-xs-24-25 MuiGrid-justify-xs-center-18"
+        className="MuiGrid-container-1 MuiGrid-justify-xs-space-evenly-22"
       >
         <div
-          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-6-63 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
+          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-5-76 MuiGrid-grid-xl-5-90"
         >
           <div
-            className="sc-bxivhb bUZGRr"
+            className="sc-VigVT fIhGog"
           >
             <div
-              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+              className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23 MuiGrid-direction-xs-column-4"
             >
               <div
                 className="MuiGrid-item-2"
@@ -57,6 +62,9 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                     />
                   </svg>
                   <span>
+                     
+                  </span>
+                  <span>
                     Education
                   </span>
                 </h4>
@@ -65,13 +73,13 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                 className="MuiGrid-item-2"
               >
                 <div
-                  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-4 MuiGrid-justify-xs-center-18"
+                  className="MuiGrid-container-1 MuiGrid-direction-xs-column-4 MuiGrid-justify-xs-center-18"
                 >
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -80,7 +88,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -103,39 +111,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      Epitech
-                                    </b>
-                                    , 
-                                    <i>
-                                      Bachelor/Master
-                                    </i>
-                                    , Toulouse/Paris (France).
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    Master's degree in Information Technologies.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            Epitech
+                                          </b>
+                                          , 
+                                          <i>
+                                            Bachelor/Master
+                                          </i>
+                                          , Toulouse/Paris (France).
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          Master's degree in Information Technologies.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -144,10 +164,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -156,7 +176,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -179,39 +199,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      Griffith College Dublin
-                                    </b>
-                                    , 
-                                    <i>
-                                      Master
-                                    </i>
-                                    , Dublin (Ireland).
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    First year of Master in Computing with Business & Management option.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            Griffith College Dublin
+                                          </b>
+                                          , 
+                                          <i>
+                                            Master
+                                          </i>
+                                          , Dublin (Ireland).
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          First year of Master in Computing with Business & Management option.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -220,10 +252,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -232,7 +264,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -255,39 +287,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      EISTI
-                                    </b>
-                                    , 
-                                    <i>
-                                      Preparatory classes
-                                    </i>
-                                    , Pau (France).
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    First year of Bachelor's degree in Maths & Computing.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            EISTI
+                                          </b>
+                                          , 
+                                          <i>
+                                            Preparatory classes
+                                          </i>
+                                          , Pau (France).
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          First year of Bachelor's degree in Maths & Computing.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -296,10 +340,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -308,7 +352,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -325,39 +369,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      Lycée Vauvenargues
-                                    </b>
-                                    , 
-                                    <i>
-                                      Baccalaureate
-                                    </i>
-                                    , Aix-en-Provence (France).
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    Science Baccalaureate with Maths and Engineering options.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            Lycée Vauvenargues
+                                          </b>
+                                          , 
+                                          <i>
+                                            Baccalaureate
+                                          </i>
+                                          , Aix-en-Provence (France).
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          Science Baccalaureate with Maths and Engineering options.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -371,13 +427,13 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
           </div>
         </div>
         <div
-          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-6-63 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
+          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-5-76 MuiGrid-grid-xl-5-90"
         >
           <div
-            className="sc-bxivhb bUZGRr"
+            className="sc-VigVT fIhGog"
           >
             <div
-              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+              className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23 MuiGrid-direction-xs-column-4"
             >
               <div
                 className="MuiGrid-item-2"
@@ -403,6 +459,9 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                     />
                   </svg>
                   <span>
+                     
+                  </span>
+                  <span>
                     Experiences
                   </span>
                 </h4>
@@ -411,13 +470,13 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                 className="MuiGrid-item-2"
               >
                 <div
-                  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-4 MuiGrid-justify-xs-center-18"
+                  className="MuiGrid-container-1 MuiGrid-direction-xs-column-4 MuiGrid-justify-xs-center-18"
                 >
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -426,7 +485,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -449,39 +508,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      Wemanity
-                                    </b>
-                                    , 
-                                    <i>
-                                      Agile Consultant Developer R&D
-                                    </i>
-                                    , Paris (France).
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    Fullstack R&D developer at the Société Générale's Innovation Lab Innov8. In charge of developments of innovative prototypes and demonstrator incorporating 3D/VR, cognitive services, smart home or robots for internal use cases. Stack: ES6, ReactJS, Three.js, Loopback, Python, Docker, OpenShift.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            Wemanity
+                                          </b>
+                                          , 
+                                          <i>
+                                            Agile Consultant Developer R&D
+                                          </i>
+                                          , Paris (France).
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          Fullstack R&D developer at the Société Générale's Innovation Lab Innov8. In charge of developments of innovative prototypes and demonstrator incorporating 3D/VR, cognitive services, smart home or robots for internal use cases. Stack: ES6, ReactJS, Three.js, Loopback, Python, Docker, OpenShift.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -490,10 +561,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -502,7 +573,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -525,39 +596,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      Dhatim
-                                    </b>
-                                    , 
-                                    <i>
-                                      R&D Java Developer
-                                    </i>
-                                    , Paris (France).
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    Backend developer for Conciliator For Pay, SaaS solution for French pay control quality. Team of 5 persons: 2 frontend, 2 backend, 1 PO working in Scrum methodology. Stack: Java 8 SE, Dropwizard, PostgreSQL, Docker, Git, Jenkins.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            Dhatim
+                                          </b>
+                                          , 
+                                          <i>
+                                            R&D Java Developer
+                                          </i>
+                                          , Paris (France).
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          Backend developer for Conciliator For Pay, SaaS solution for French pay control quality. Team of 5 persons: 2 frontend, 2 backend, 1 PO working in Scrum methodology. Stack: Java 8 SE, Dropwizard, PostgreSQL, Docker, Git, Jenkins.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -566,10 +649,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -578,7 +661,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -601,39 +684,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      Visian
-                                    </b>
-                                    , 
-                                    <i>
-                                      Lead Developer & Fablab Supervisor
-                                    </i>
-                                    , Paris (France).
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    Lead developer at Visian, Neurones IT's Business Unit specialised in prototyping use cases using IoT. In charge of the developers' team. Building proof of concept (PoC) from scratch or using various kind of IoT (mobile, beacons, wearables, Raspberry, NFC, sensors...), and transmitting data into the cloud.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            Visian
+                                          </b>
+                                          , 
+                                          <i>
+                                            Lead Developer & Fablab Supervisor
+                                          </i>
+                                          , Paris (France).
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          Lead developer at Visian, Neurones IT's Business Unit specialised in prototyping use cases using IoT. In charge of the developers' team. Building proof of concept (PoC) from scratch or using various kind of IoT (mobile, beacons, wearables, Raspberry, NFC, sensors...), and transmitting data into the cloud.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -642,10 +737,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -654,7 +749,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -677,39 +772,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      SII
-                                    </b>
-                                    , 
-                                    <i>
-                                      Head Of Innovation Assistant
-                                    </i>
-                                    , Paris (France).
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    Study of open source drones like the Crazyflie project and hardware customisation. Prototyping an embedded case for cooling trucks using a Raspberry Pi and various sensors (temperature, pressure, GPS...), data are transmitted over MQTT to the driver's phone. Stack: C, Java 8 ME for IoT, MQTT.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            SII
+                                          </b>
+                                          , 
+                                          <i>
+                                            Head Of Innovation Assistant
+                                          </i>
+                                          , Paris (France).
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          Study of open source drones like the Crazyflie project and hardware customisation. Prototyping an embedded case for cooling trucks using a Raspberry Pi and various sensors (temperature, pressure, GPS...), data are transmitted over MQTT to the driver's phone. Stack: C, Java 8 ME for IoT, MQTT.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -718,10 +825,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -730,7 +837,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -753,39 +860,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      Thales
-                                    </b>
-                                    , 
-                                    <i>
-                                      Intern DevOps
-                                    </i>
-                                    , Paris (France).
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    In charge of the study, install and deployment of OpenStack in a test environment. Writing documentation for users, deployment scripts (Bash), VM image templates, tests and validations.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            Thales
+                                          </b>
+                                          , 
+                                          <i>
+                                            Intern DevOps
+                                          </i>
+                                          , Paris (France).
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          In charge of the study, install and deployment of OpenStack in a test environment. Writing documentation for users, deployment scripts (Bash), VM image templates, tests and validations.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -794,10 +913,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -806,7 +925,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -829,39 +948,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      Novacom
-                                    </b>
-                                    , 
-                                    <i>
-                                      Java Developer Trainee
-                                    </i>
-                                    , Paris (France).
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    Java internship, attached to the developers team. Development of unit and functionnal tests with the correct dataset.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            Novacom
+                                          </b>
+                                          , 
+                                          <i>
+                                            Java Developer Trainee
+                                          </i>
+                                          , Paris (France).
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          Java internship, attached to the developers team. Development of unit and functionnal tests with the correct dataset.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -875,13 +1006,13 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
           </div>
         </div>
         <div
-          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
+          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-10-81 MuiGrid-grid-xl-10-95"
         >
           <div
-            className="sc-bxivhb bUZGRr"
+            className="sc-VigVT fIhGog"
           >
             <div
-              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+              className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23 MuiGrid-direction-xs-column-4"
             >
               <div
                 className="MuiGrid-item-2"
@@ -907,6 +1038,9 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                     />
                   </svg>
                   <span>
+                     
+                  </span>
+                  <span>
                     Skills
                   </span>
                 </h4>
@@ -915,22 +1049,22 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                 className="MuiGrid-item-2"
               >
                 <div
-                  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-justify-xs-center-18"
+                  className="MuiGrid-container-1 MuiGrid-justify-xs-center-18"
                 >
                   <div
-                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
                   >
                     <div
-                      className="sc-gzVnrw ibZhkv"
+                      className="sc-dnqmqq bDsesi"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
                       >
                         <div
-                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
                         >
                           <div
-                            className="sc-htoDjs bZzhDu"
+                            className="sc-iwsKbI jQhHGA"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignCenter-121"
@@ -962,10 +1096,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           </div>
                         </div>
                         <div
-                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-8-79 MuiGrid-grid-xl-8-93"
                         >
                           <div
-                            className="sc-dnqmqq bDsesi"
+                            className="sc-gZMcBi giNnHm"
                           >
                             <div
                               className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
@@ -974,7 +1108,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Java 8 SE, ReactJS, ES6, C/C++.
@@ -985,7 +1119,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Python & Lisp/Scheme basic knowledges.
@@ -996,7 +1130,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Mobile development bases: Android & iOS (Swift).
@@ -1010,19 +1144,19 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
                   >
                     <div
-                      className="sc-gzVnrw ibZhkv"
+                      className="sc-dnqmqq bDsesi"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
                       >
                         <div
-                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
                         >
                           <div
-                            className="sc-htoDjs bZzhDu"
+                            className="sc-iwsKbI jQhHGA"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignCenter-121"
@@ -1054,10 +1188,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           </div>
                         </div>
                         <div
-                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-8-79 MuiGrid-grid-xl-8-93"
                         >
                           <div
-                            className="sc-dnqmqq bDsesi"
+                            className="sc-gZMcBi giNnHm"
                           >
                             <div
                               className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
@@ -1066,7 +1200,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Raspberry Pi, Beacons, Android Wear.
@@ -1077,7 +1211,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Chatbots, Speech To Text, NLU, OCR, ML.
@@ -1088,7 +1222,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Drones, robots, VR and 3D printing.
@@ -1102,19 +1236,19 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
                   >
                     <div
-                      className="sc-gzVnrw ibZhkv"
+                      className="sc-dnqmqq bDsesi"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
                       >
                         <div
-                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
                         >
                           <div
-                            className="sc-htoDjs bZzhDu"
+                            className="sc-iwsKbI jQhHGA"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignCenter-121"
@@ -1146,10 +1280,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           </div>
                         </div>
                         <div
-                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-8-79 MuiGrid-grid-xl-8-93"
                         >
                           <div
-                            className="sc-dnqmqq bDsesi"
+                            className="sc-gZMcBi giNnHm"
                           >
                             <div
                               className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
@@ -1158,7 +1292,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Shell scripts, Docker, Microsoft Azure.
@@ -1169,7 +1303,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     SQL databases (PostgreSQL).
@@ -1180,7 +1314,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Comfortable with Linux & Windows environment.
@@ -1194,19 +1328,19 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
                   >
                     <div
-                      className="sc-gzVnrw ibZhkv"
+                      className="sc-dnqmqq bDsesi"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
                       >
                         <div
-                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
                         >
                           <div
-                            className="sc-htoDjs bZzhDu"
+                            className="sc-iwsKbI jQhHGA"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignCenter-121"
@@ -1238,10 +1372,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                           </div>
                         </div>
                         <div
-                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-8-79 MuiGrid-grid-xl-8-93"
                         >
                           <div
-                            className="sc-dnqmqq bDsesi"
+                            className="sc-gZMcBi giNnHm"
                           >
                             <div
                               className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
@@ -1250,7 +1384,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Atom, Eclipse, Visual Studio, DataGrip.
@@ -1261,7 +1395,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Git[Hub|Lab], Subversion, Maven, Makefile.
@@ -1272,7 +1406,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Jenkins, Jira, agile methodologies, TDD.
@@ -1299,6 +1433,11 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
 exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
 <div
   className="sc-bwzfXH uTxCW"
+  style={
+    Object {
+      "padding": 20,
+    }
+  }
 >
   <div
     className="MuiGrid-container-1 MuiGrid-spacing-xs-40-27 MuiGrid-direction-xs-column-4"
@@ -1318,16 +1457,16 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
       className="MuiGrid-item-2"
     >
       <div
-        className="MuiGrid-container-1 MuiGrid-spacing-xs-24-25 MuiGrid-justify-xs-center-18"
+        className="MuiGrid-container-1 MuiGrid-justify-xs-space-evenly-22"
       >
         <div
-          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-6-63 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
+          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-5-76 MuiGrid-grid-xl-5-90"
         >
           <div
-            className="sc-bxivhb bUZGRr"
+            className="sc-VigVT fIhGog"
           >
             <div
-              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+              className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23 MuiGrid-direction-xs-column-4"
             >
               <div
                 className="MuiGrid-item-2"
@@ -1353,6 +1492,9 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                     />
                   </svg>
                   <span>
+                     
+                  </span>
+                  <span>
                     Parcours scolaire & diplômes
                   </span>
                 </h4>
@@ -1361,13 +1503,13 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                 className="MuiGrid-item-2"
               >
                 <div
-                  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-4 MuiGrid-justify-xs-center-18"
+                  className="MuiGrid-container-1 MuiGrid-direction-xs-column-4 MuiGrid-justify-xs-center-18"
                 >
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -1376,7 +1518,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -1399,39 +1541,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      Epitech
-                                    </b>
-                                    , 
-                                    <i>
-                                      Bachelor/Master
-                                    </i>
-                                    , Toulouse/Paris (France)
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    Entrée directe Tek2ED. Diplôme d'Expert en Technologies de l'Information.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            Epitech
+                                          </b>
+                                          , 
+                                          <i>
+                                            Bachelor/Master
+                                          </i>
+                                          , Toulouse/Paris (France)
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          Entrée directe Tek2ED. Diplôme d'Expert en Technologies de l'Information.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -1440,10 +1594,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -1452,7 +1606,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -1475,39 +1629,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      Griffith College Dublin
-                                    </b>
-                                    , 
-                                    <i>
-                                      Master
-                                    </i>
-                                    , Dublin (Ireland)
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    Première année de Master en Computing option Business & Management.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            Griffith College Dublin
+                                          </b>
+                                          , 
+                                          <i>
+                                            Master
+                                          </i>
+                                          , Dublin (Ireland)
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          Première année de Master en Computing option Business & Management.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -1516,10 +1682,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -1528,7 +1694,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -1551,39 +1717,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      EISTI
-                                    </b>
-                                    , 
-                                    <i>
-                                      Preparatory classes
-                                    </i>
-                                    , Pau (France)
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    Obtention par équivalence d'une L1 Maths/Info.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            EISTI
+                                          </b>
+                                          , 
+                                          <i>
+                                            Preparatory classes
+                                          </i>
+                                          , Pau (France)
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          Obtention par équivalence d'une L1 Maths/Info.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -1592,10 +1770,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -1604,7 +1782,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -1621,39 +1799,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      Lycée Vauvenargues
-                                    </b>
-                                    , 
-                                    <i>
-                                      Baccalaureate
-                                    </i>
-                                    , Aix-en-Provence (France)
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    Obtention du Bac S options Mathématiques et Sciences de l'Ingénieur (SI).
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            Lycée Vauvenargues
+                                          </b>
+                                          , 
+                                          <i>
+                                            Baccalaureate
+                                          </i>
+                                          , Aix-en-Provence (France)
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          Obtention du Bac S options Mathématiques et Sciences de l'Ingénieur (SI).
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -1667,13 +1857,13 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
           </div>
         </div>
         <div
-          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-6-63 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
+          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-5-76 MuiGrid-grid-xl-5-90"
         >
           <div
-            className="sc-bxivhb bUZGRr"
+            className="sc-VigVT fIhGog"
           >
             <div
-              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+              className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23 MuiGrid-direction-xs-column-4"
             >
               <div
                 className="MuiGrid-item-2"
@@ -1699,6 +1889,9 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                     />
                   </svg>
                   <span>
+                     
+                  </span>
+                  <span>
                     Expériences professionnelles
                   </span>
                 </h4>
@@ -1707,13 +1900,13 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                 className="MuiGrid-item-2"
               >
                 <div
-                  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-4 MuiGrid-justify-xs-center-18"
+                  className="MuiGrid-container-1 MuiGrid-direction-xs-column-4 MuiGrid-justify-xs-center-18"
                 >
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -1722,7 +1915,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -1745,39 +1938,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      Wemanity
-                                    </b>
-                                    , 
-                                    <i>
-                                      Agile Consultant Developer R&D
-                                    </i>
-                                    , Paris (France)
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    Développeur R&D fullstack au sein du Lab Innovation Innov8 de la Société Générale. En charge de développer des PoC innovants autour de la 3D/VR pour de la modélisation de données complexes. Étude et développement d'applications autour des robots Pepper de Softbank Robotics pour des évènements et cas d'usage internes. Stack technique: ES6, ReactJS, Three.js, Loopback, Python, Docker, OpenShift.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            Wemanity
+                                          </b>
+                                          , 
+                                          <i>
+                                            Agile Consultant Developer R&D
+                                          </i>
+                                          , Paris (France)
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          Développeur R&D fullstack au sein du Lab Innovation Innov8 de la Société Générale. En charge de développer des PoC innovants autour de la 3D/VR pour de la modélisation de données complexes. Étude et développement d'applications autour des robots Pepper de Softbank Robotics pour des évènements et cas d'usage internes. Stack technique: ES6, ReactJS, Three.js, Loopback, Python, Docker, OpenShift.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -1786,10 +1991,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -1798,7 +2003,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -1821,39 +2026,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      Dhatim
-                                    </b>
-                                    , 
-                                    <i>
-                                      R&D Java Developer
-                                    </i>
-                                    , Paris (France)
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    Développeur backend attaché à l'équipe de Conciliator For Pay, solution en SaaS de contrôle de DSN (Déclaration Sociale Nominative) pour les entreprises. Équipe composée de 5 personnes: 2 front, 2 back, 1 PO en méthode Scrum. Stack technique: Java 8 Core, Dropwizard, PostgreSQL, Docker, Git, Jenkins.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            Dhatim
+                                          </b>
+                                          , 
+                                          <i>
+                                            R&D Java Developer
+                                          </i>
+                                          , Paris (France)
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          Développeur backend attaché à l'équipe de Conciliator For Pay, solution en SaaS de contrôle de DSN (Déclaration Sociale Nominative) pour les entreprises. Équipe composée de 5 personnes: 2 front, 2 back, 1 PO en méthode Scrum. Stack technique: Java 8 Core, Dropwizard, PostgreSQL, Docker, Git, Jenkins.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -1862,10 +2079,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -1874,7 +2091,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -1897,39 +2114,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      Visian
-                                    </b>
-                                    , 
-                                    <i>
-                                      Lead Developer & Fablab Supervisor
-                                    </i>
-                                    , Paris (France)
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    Lead Dev & Lead Tech chez Visian, la BU Innovation autour des objets connectés de Neurones IT. Responsable de l'équipe des développeurs (hard & soft). Réalisation et développement de PoC en méthodes agiles mêlant IoT (beacons, wearables, Raspberry, tags NFC, capteurs...) et cloud pour la remontée de données.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            Visian
+                                          </b>
+                                          , 
+                                          <i>
+                                            Lead Developer & Fablab Supervisor
+                                          </i>
+                                          , Paris (France)
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          Lead Dev & Lead Tech chez Visian, la BU Innovation autour des objets connectés de Neurones IT. Responsable de l'équipe des développeurs (hard & soft). Réalisation et développement de PoC en méthodes agiles mêlant IoT (beacons, wearables, Raspberry, tags NFC, capteurs...) et cloud pour la remontée de données.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -1938,10 +2167,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -1950,7 +2179,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -1973,39 +2202,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      SII
-                                    </b>
-                                    , 
-                                    <i>
-                                      Head Of Innovation Assistant
-                                    </i>
-                                    , Paris (France)
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    Étude et exploration des drones Open Source tels que le projet Crazyflie. Réalisation d’un prototype d'objet connecté à partir d’un Raspberry Pi et de divers capteurs (température, pression, GPS). Développement avec le SDK Java 8 Embedded ME for IoT, et remontée des données.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            SII
+                                          </b>
+                                          , 
+                                          <i>
+                                            Head Of Innovation Assistant
+                                          </i>
+                                          , Paris (France)
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          Étude et exploration des drones Open Source tels que le projet Crazyflie. Réalisation d’un prototype d'objet connecté à partir d’un Raspberry Pi et de divers capteurs (température, pression, GPS). Développement avec le SDK Java 8 Embedded ME for IoT, et remontée des données.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -2014,10 +2255,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -2026,7 +2267,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -2049,39 +2290,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      Thales
-                                    </b>
-                                    , 
-                                    <i>
-                                      Intern DevOps
-                                    </i>
-                                    , Paris (France)
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    Responsable de l'étude, de l'installation et du déploiement d'OpenStack dans un environnement de tests. Rédaction du dossier d’architecture matérielle, réalisation des scripts de déploiement automatique, tests et validations.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            Thales
+                                          </b>
+                                          , 
+                                          <i>
+                                            Intern DevOps
+                                          </i>
+                                          , Paris (France)
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          Responsable de l'étude, de l'installation et du déploiement d'OpenStack dans un environnement de tests. Rédaction du dossier d’architecture matérielle, réalisation des scripts de déploiement automatique, tests et validations.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -2090,10 +2343,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                   >
                     <div
-                      className="sc-ifAKCX cFlEyZ"
+                      className="sc-bxivhb bUZGRr"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
@@ -2102,7 +2355,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
                         >
                           <div
-                            className="sc-EHOje hErcwD"
+                            className="sc-ifAKCX koLBuf"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
@@ -2125,39 +2378,51 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
                         >
                           <div
-                            className="sc-bZQynM bOrPFB"
+                            className="sc-EHOje jvzENE"
                           >
                             <div
-                              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                              className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
                             >
                               <div
-                                className="MuiGrid-item-2"
+                                className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
                               >
-                                <h6
-                                  className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                <div
+                                  className="sc-bZQynM bOrPFB"
                                 >
-                                  <span>
-                                    <b>
-                                      Novacom
-                                    </b>
-                                    , 
-                                    <i>
-                                      Java Developer Trainee
-                                    </i>
-                                    , Paris (France)
-                                  </span>
-                                </h6>
-                              </div>
-                              <div
-                                className="MuiGrid-item-2"
-                              >
-                                <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
-                                >
-                                  <span>
-                                    Développement d'un jeu de données et d'un ensemble de tests unitaires et fonctionnels sur la couche service des applications, permettant l’automatisation des validations logicielles et ainsi garantir la non régression pendant les développements.
-                                  </span>
-                                </p>
+                                  <div
+                                    className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+                                  >
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <h6
+                                        className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                                      >
+                                        <span>
+                                          <b>
+                                            Novacom
+                                          </b>
+                                          , 
+                                          <i>
+                                            Java Developer Trainee
+                                          </i>
+                                          , Paris (France)
+                                        </span>
+                                      </h6>
+                                    </div>
+                                    <div
+                                      className="MuiGrid-item-2"
+                                    >
+                                      <p
+                                        className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                                      >
+                                        <span>
+                                          Développement d'un jeu de données et d'un ensemble de tests unitaires et fonctionnels sur la couche service des applications, permettant l’automatisation des validations logicielles et ainsi garantir la non régression pendant les développements.
+                                        </span>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -2171,13 +2436,13 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
           </div>
         </div>
         <div
-          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
+          className="MuiGrid-item-2 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-10-53 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-10-81 MuiGrid-grid-xl-10-95"
         >
           <div
-            className="sc-bxivhb bUZGRr"
+            className="sc-VigVT fIhGog"
           >
             <div
-              className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+              className="MuiGrid-container-1 MuiGrid-spacing-xs-8-23 MuiGrid-direction-xs-column-4"
             >
               <div
                 className="MuiGrid-item-2"
@@ -2203,6 +2468,9 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                     />
                   </svg>
                   <span>
+                     
+                  </span>
+                  <span>
                     Compétences techniques
                   </span>
                 </h4>
@@ -2211,22 +2479,22 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                 className="MuiGrid-item-2"
               >
                 <div
-                  className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-justify-xs-center-18"
+                  className="MuiGrid-container-1 MuiGrid-justify-xs-center-18"
                 >
                   <div
-                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
                   >
                     <div
-                      className="sc-gzVnrw ibZhkv"
+                      className="sc-dnqmqq bDsesi"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
                       >
                         <div
-                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
                         >
                           <div
-                            className="sc-htoDjs bZzhDu"
+                            className="sc-iwsKbI jQhHGA"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignCenter-121"
@@ -2258,10 +2526,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           </div>
                         </div>
                         <div
-                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-8-79 MuiGrid-grid-xl-8-93"
                         >
                           <div
-                            className="sc-dnqmqq bDsesi"
+                            className="sc-gZMcBi giNnHm"
                           >
                             <div
                               className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
@@ -2270,7 +2538,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Java 8 SE, ReactJS, ES6, C/C++.
@@ -2281,7 +2549,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Bases de Python & de Lisp/Scheme.
@@ -2292,7 +2560,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Notions d'Android & bases de Swift (iOS).
@@ -2306,19 +2574,19 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
                   >
                     <div
-                      className="sc-gzVnrw ibZhkv"
+                      className="sc-dnqmqq bDsesi"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
                       >
                         <div
-                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
                         >
                           <div
-                            className="sc-htoDjs bZzhDu"
+                            className="sc-iwsKbI jQhHGA"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignCenter-121"
@@ -2350,10 +2618,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           </div>
                         </div>
                         <div
-                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-8-79 MuiGrid-grid-xl-8-93"
                         >
                           <div
-                            className="sc-dnqmqq bDsesi"
+                            className="sc-gZMcBi giNnHm"
                           >
                             <div
                               className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
@@ -2362,7 +2630,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Raspberry Pi, Beacons, Android Wear.
@@ -2373,7 +2641,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Chatbots, Speech To Text, NLU, OCR, ML.
@@ -2384,7 +2652,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Drones, robots, VR et impression 3D.
@@ -2398,19 +2666,19 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
                   >
                     <div
-                      className="sc-gzVnrw ibZhkv"
+                      className="sc-dnqmqq bDsesi"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
                       >
                         <div
-                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
                         >
                           <div
-                            className="sc-htoDjs bZzhDu"
+                            className="sc-iwsKbI jQhHGA"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignCenter-121"
@@ -2442,10 +2710,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           </div>
                         </div>
                         <div
-                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-8-79 MuiGrid-grid-xl-8-93"
                         >
                           <div
-                            className="sc-dnqmqq bDsesi"
+                            className="sc-gZMcBi giNnHm"
                           >
                             <div
                               className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
@@ -2454,7 +2722,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Shell scripts, Docker, Microsoft Azure.
@@ -2465,7 +2733,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Base de données SQL (PostgreSQL).
@@ -2476,7 +2744,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Travail sous Linux & Windows.
@@ -2490,19 +2758,19 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+                    className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 MuiGrid-grid-md-5-62 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
                   >
                     <div
-                      className="sc-gzVnrw ibZhkv"
+                      className="sc-dnqmqq bDsesi"
                     >
                       <div
                         className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
                       >
                         <div
-                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-4-75 MuiGrid-grid-xl-4-89"
                         >
                           <div
-                            className="sc-htoDjs bZzhDu"
+                            className="sc-iwsKbI jQhHGA"
                           >
                             <h6
                               className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignCenter-121"
@@ -2534,10 +2802,10 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                           </div>
                         </div>
                         <div
-                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+                          className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-8-79 MuiGrid-grid-xl-8-93"
                         >
                           <div
-                            className="sc-dnqmqq bDsesi"
+                            className="sc-gZMcBi giNnHm"
                           >
                             <div
                               className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
@@ -2546,7 +2814,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Atom, Eclipse, Visual Studio, DataGrip.
@@ -2557,7 +2825,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Git[Hub|Lab], Subversion, Maven, Makefile.
@@ -2568,7 +2836,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                                 className="MuiGrid-item-2"
                               >
                                 <p
-                                  className="MuiTypography-root-98 MuiTypography-body2-106"
+                                  className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
                                 >
                                   <span>
                                     Jenkins, Jira, méthodes agiles, TDD.
