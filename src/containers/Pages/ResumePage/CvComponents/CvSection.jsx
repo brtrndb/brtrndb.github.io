@@ -7,6 +7,8 @@ import { unstable_useMediaQuery as useMediaQuery } from '@material-ui/core/useMe
 import { useTheme } from '@material-ui/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+import { NonBreakableSpace } from 'Components/Fonts';
+
 import { messageDescriptorPropTypes } from 'Modules/intl/intlPropTypes';
 
 import CvEntry from './CvEntry';
@@ -35,6 +37,7 @@ const CvSection = ({ type, icon, title, lines, styles }) => (
       <Grid item>
         <Typography variant='h4' align='center'>
           <FontAwesomeIcon icon={icon} />
+          <NonBreakableSpace />
           <FormattedMessage {...title} />
         </Typography>
       </Grid>
