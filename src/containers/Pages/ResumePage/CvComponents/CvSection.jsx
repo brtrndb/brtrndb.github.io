@@ -29,7 +29,7 @@ const CvLines = ({ type, lines, styles }) => lines.map(mapLinesTo[type](styles))
 
 const CvSection = ({ type, icon, title, lines, styles }) => (
   <CvSectionContainer>
-    <Grid container direction='column' spacing={useMediaQuery(useTheme().breakpoints.up('sm')) ? 16 : 0}>
+    <Grid container direction='column' spacing={useMediaQuery(useTheme().breakpoints.up('sm')) ? 16 : 8}>
       <Grid item>
         <Typography variant='h4' align='center'>
           <FontAwesomeIcon icon={icon} />
@@ -37,7 +37,7 @@ const CvSection = ({ type, icon, title, lines, styles }) => (
         </Typography>
       </Grid>
       <Grid item>
-        <Grid container direction={styles.section.direction} justify={styles.section.justify} spacing={16}>
+        <Grid container direction={styles.section.direction} justify={styles.section.justify} alignItems={styles.section.alignItems} spacing={useMediaQuery(useTheme().breakpoints.up('md')) ? 16 : 0}>
           <CvLines type={type} lines={lines} styles={styles.entry} />
         </Grid>
       </Grid>
