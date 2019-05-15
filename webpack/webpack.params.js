@@ -7,6 +7,7 @@ const root = path.join(__dirname, '..');
 module.exports = (wpEnv) => {
   const isProd = wpEnv === undefined || wpEnv.NODE_ENV === undefined || wpEnv.NODE_ENV === 'prod' || wpEnv.NODE_ENV === 'production';
   const isDev = !isProd;
+  const isWatch = wpEnv.WATCH === 'true';
   const envName = isProd ? 'production' : 'development';
   const envNameShort = isProd ? 'prod' : 'dev';
   const envFilePath = path.join(__dirname, `.env.${envNameShort}`);
@@ -17,9 +18,11 @@ module.exports = (wpEnv) => {
       src: path.join(root, 'src'),
       src_libs: path.join(root, 'src/libs'),
       src_i18n: path.join(root, 'src/modules/intl/i18n'),
+      src_img_cv: path.join(root, 'src/containers/Pages/ResumePage/img'),
       build: path.join(root, 'build'),
-      build_img: path.join(root, 'build/img'),
       build_i18n: path.join(root, 'build/i18n'),
+      build_img: path.join(root, 'build/img'),
+      build_img_cv: path.join(root, 'build/img/cv'),
       node_modules: path.join(root, 'node_modules')
     },
     files: {
@@ -38,8 +41,9 @@ module.exports = (wpEnv) => {
       envName,
       envNameShort,
       envFilePath,
+      isProd,
       isDev,
-      isProd
+      isWatch
     },
     packages: {
       author: packages.author.name,

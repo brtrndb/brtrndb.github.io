@@ -236,10 +236,6 @@ const skillsMessages = defineMessages({
 });
 
 const internalMessages = defineMessages({
-  cvEntryDate: {
-    id: `${scope}.internal.cventry.date`,
-    defaultMessage: '{from}{arrow}{to}'
-  },
   cvEntryNow: {
     id: `${scope}.internal.cventry.now`,
     defaultMessage: 'Now'
@@ -254,5 +250,5 @@ const messages = {
   ...internalMessages
 };
 
-export { educationMessages, experienceMessages, skillsMessages, internalMessages };
+export { educationMessages, experienceMessages, skillsMessages };
 export default messages;

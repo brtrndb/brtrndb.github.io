@@ -20,7 +20,7 @@ module.exports = (params) => {
   rules.push({
     test: /\.(js|jsx)$/,
     include: params.folders.src,
-    exclude:[/node_modules/, params.folders.src_libs],
+    exclude: [/node_modules/, params.folders.src_libs],
     use: {
       loader: 'babel-loader',
       options: {
@@ -56,7 +56,12 @@ module.exports = (params) => {
     loader: 'file-loader',
     options: {
       name: '[name].[ext]',
-      outputPath: params.output.images
+      outputPath: (url, resourcePath, context) => {
+        if (resourcePath.startsWith(params.folders.src_img_cv)) {
+          return `${params.folders.build_img_cv.substring(params.folders.build.length)}/${url}`;
+        }
+        return `${params.folders.build_img}/${url}`;
+      }
     }
   });
 

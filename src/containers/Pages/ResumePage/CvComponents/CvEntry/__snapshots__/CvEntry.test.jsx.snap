@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CvComponents /> <CvEntry /> Rendering component Rendering with locale EN 1`] = `
+<div
+  className="sc-bwzfXH uTxCW"
+>
+  <div
+    className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+    >
+      <div
+        className="sc-htpNat jeDJyY"
+      >
+        <h6
+          className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+        >
+          <span>
+            <span>
+              April 2018
+            </span>
+            <span>
+              ⇀
+            </span>
+            <span>
+              Now
+            </span>
+          </span>
+        </h6>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+    >
+      <div
+        className="sc-bxivhb bUZGRr"
+      >
+        <div
+          className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
+        >
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+          >
+            <div
+              className="sc-ifAKCX cFlEyZ"
+            >
+              <div
+                className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+              >
+                <div
+                  className="MuiGrid-item-2"
+                >
+                  <h6
+                    className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                  >
+                    <span>
+                      <b>
+                        Wemanity
+                      </b>
+                      , 
+                      <i>
+                        Agile Consultant Developer R&D
+                      </i>
+                      , Paris (France).
+                    </span>
+                  </h6>
+                </div>
+                <div
+                  className="MuiGrid-item-2"
+                >
+                  <p
+                    className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                  >
+                    <span>
+                      Fullstack R&D developer at the Société Générale's Innovation Lab Innov8. In charge of developments of innovative prototypes and demonstrator incorporating 3D/VR, cognitive services, smart home or robots for internal use cases. Stack: ES6, ReactJS, Three.js, Loopback, Python, Docker, OpenShift.
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CvComponents /> <CvEntry /> Rendering component Rendering with locale FR 1`] = `
+<div
+  className="sc-bwzfXH uTxCW"
+>
+  <div
+    className="MuiGrid-container-1 MuiGrid-align-items-xs-baseline-12"
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-3-60 MuiGrid-grid-lg-3-74 MuiGrid-grid-xl-3-88"
+    >
+      <div
+        className="sc-htpNat jeDJyY"
+      >
+        <h6
+          className="MuiTypography-root-98 MuiTypography-subtitle1-116 MuiTypography-alignRight-122"
+        >
+          <span>
+            <span>
+              avril 2018
+            </span>
+            <span>
+              ⇀
+            </span>
+            <span>
+              Maintenant
+            </span>
+          </span>
+        </h6>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-9-66 MuiGrid-grid-lg-9-80 MuiGrid-grid-xl-9-94"
+    >
+      <div
+        className="sc-bxivhb bUZGRr"
+      >
+        <div
+          className="MuiGrid-container-1 MuiGrid-spacing-xs-16-24 MuiGrid-align-items-xs-center-9"
+        >
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-55 MuiGrid-grid-md-12-69 MuiGrid-grid-lg-12-83 MuiGrid-grid-xl-12-97"
+          >
+            <div
+              className="sc-ifAKCX cFlEyZ"
+            >
+              <div
+                className="MuiGrid-container-1 MuiGrid-direction-xs-column-4"
+              >
+                <div
+                  className="MuiGrid-item-2"
+                >
+                  <h6
+                    className="MuiTypography-root-98 MuiTypography-subtitle2-117"
+                  >
+                    <span>
+                      <b>
+                        Wemanity
+                      </b>
+                      , 
+                      <i>
+                        Agile Consultant Developer R&D
+                      </i>
+                      , Paris (France)
+                    </span>
+                  </h6>
+                </div>
+                <div
+                  className="MuiGrid-item-2"
+                >
+                  <p
+                    className="MuiTypography-root-98 MuiTypography-body2-106 MuiTypography-alignJustify-123"
+                  >
+                    <span>
+                      Développeur R&D fullstack au sein du Lab Innovation Innov8 de la Société Générale. En charge de développer des PoC innovants autour de la 3D/VR pour de la modélisation de données complexes. Étude et développement d'applications autour des robots Pepper de Softbank Robotics pour des évènements et cas d'usage internes. Stack technique: ES6, ReactJS, Three.js, Loopback, Python, Docker, OpenShift.
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
