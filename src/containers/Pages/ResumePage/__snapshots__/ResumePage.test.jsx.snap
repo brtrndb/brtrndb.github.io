@@ -209,7 +209,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                   className="MuiTypography-root-98 MuiTypography-body2-106"
                                 >
                                   <span>
-                                    First year of Master in Computing with Business & Management options.
+                                    First year of Master in Computing with Business & Management option.
                                   </span>
                                 </p>
                               </div>
@@ -355,7 +355,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                   className="MuiTypography-root-98 MuiTypography-body2-106"
                                 >
                                   <span>
-                                    Science Baccalaureate with Maths & Engineering option.
+                                    Science Baccalaureate with Maths and Engineering options.
                                   </span>
                                 </p>
                               </div>
@@ -542,7 +542,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                     </b>
                                     , 
                                     <i>
-                                      R&D Java Developper
+                                      R&D Java Developer
                                     </i>
                                     , Paris (France).
                                   </span>
@@ -555,7 +555,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                   className="MuiTypography-root-98 MuiTypography-body2-106"
                                 >
                                   <span>
-                                    Backend developper for Conciliator For Pay, SaaS solution for French pay control quality. Team of 5 persons: 2 frontend, 2 backend, 1 PO working in Scrum methodology. Stack: Java 8 SE, Dropwizard, PostgreSQL, Docker, Git, Jenkins.
+                                    Backend developer for Conciliator For Pay, SaaS solution for French pay control quality. Team of 5 persons: 2 frontend, 2 backend, 1 PO working in Scrum methodology. Stack: Java 8 SE, Dropwizard, PostgreSQL, Docker, Git, Jenkins.
                                   </span>
                                 </p>
                               </div>
@@ -618,7 +618,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                     </b>
                                     , 
                                     <i>
-                                      Lead Developper & Fablab Supervisor
+                                      Lead Developer & Fablab Supervisor
                                     </i>
                                     , Paris (France).
                                   </span>
@@ -631,7 +631,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                   className="MuiTypography-root-98 MuiTypography-body2-106"
                                 >
                                   <span>
-                                    Lead developper at Visian, Neurones IT's Business Unit specialised in prototyping use cases using IoT. In charge of the developpers' team. Building proof of concept (PoC) from scratch or using various kind of IoT (mobile, beacons, wearables, Raspberry, NFC, sensors...), and transmitting data into the cloud.
+                                    Lead developer at Visian, Neurones IT's Business Unit specialised in prototyping use cases using IoT. In charge of the developers' team. Building proof of concept (PoC) from scratch or using various kind of IoT (mobile, beacons, wearables, Raspberry, NFC, sensors...), and transmitting data into the cloud.
                                   </span>
                                 </p>
                               </div>
@@ -846,7 +846,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                     </b>
                                     , 
                                     <i>
-                                      Java Developper Trainee
+                                      Java Developer Trainee
                                     </i>
                                     , Paris (France).
                                   </span>
@@ -859,7 +859,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale EN 1`] = `
                                   className="MuiTypography-root-98 MuiTypography-body2-106"
                                 >
                                   <span>
-                                    Java internship, attached to the developpers team. Development of unit and functionnal tests with the correct dataset.
+                                    Java internship, attached to the developers team. Development of unit and functionnal tests with the correct dataset.
                                   </span>
                                 </p>
                               </div>
@@ -1505,7 +1505,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                                   className="MuiTypography-root-98 MuiTypography-body2-106"
                                 >
                                   <span>
-                                    Première année de Master en Computing option Business et Management.
+                                    Première année de Master en Computing option Business & Management.
                                   </span>
                                 </p>
                               </div>
@@ -1838,7 +1838,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                                     </b>
                                     , 
                                     <i>
-                                      R&D Java Developper
+                                      R&D Java Developer
                                     </i>
                                     , Paris (France)
                                   </span>
@@ -1914,7 +1914,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                                     </b>
                                     , 
                                     <i>
-                                      Lead Developper & Fablab Supervisor
+                                      Lead Developer & Fablab Supervisor
                                     </i>
                                     , Paris (France)
                                   </span>
@@ -2142,7 +2142,7 @@ exports[`<ResumePage /> Rendering component Rendering with locale FR 1`] = `
                                     </b>
                                     , 
                                     <i>
-                                      Java Developper Trainee
+                                      Java Developer Trainee
                                     </i>
                                     , Paris (France)
                                   </span>
