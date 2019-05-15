@@ -76,7 +76,9 @@ module.exports = {
     '^Containers(.*)$': '<rootDir>/src/containers$1',
     '^Modules(.*)$': '<rootDir>/src/modules$1',
     '^Utils(.*)$': '<rootDir>/src/utils$1',
-    '^Tests(.*)$': '<rootDir>/src/tests$1'
+    '^Tests(.*)$': '<rootDir>/src/tests$1',
+    '\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/src/tests/mockImg.js',
+    '\\.(css|less)$': '<rootDir>/src/tests/mockCss.js'
   },
 
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
