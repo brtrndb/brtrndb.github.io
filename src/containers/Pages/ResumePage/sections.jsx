@@ -27,8 +27,9 @@ const sectionEducation = {
   styles: {
     section: {
       direction: 'column',
-      // justify: 'center',
-      breakpoints: { xs: 10, sm: 10, md: 6, lg: 4, xl: 4 }
+      justify: 'center',
+      alignItems: 'stretch',
+      breakpoints: { xs: 10, sm: 10, md: 5, lg: 5, xl: 5 }
     },
     entry: {
       breakpoints: {}
@@ -51,8 +52,9 @@ const sectionExperience = {
   styles: {
     section: {
       direction: 'column',
-      // justify: 'center',
-      breakpoints: { xs: 10, sm: 10, md: 6, lg: 4, xl: 4 }
+      justify: 'center',
+      alignItems: 'stretch',
+      breakpoints: { xs: 10, sm: 10, md: 5, lg: 5, xl: 5 }
     },
     entry: {
       breakpoints: {}
@@ -74,10 +76,11 @@ const sectionSkills = {
     section: {
       direction: 'row',
       justify: 'center',
-      breakpoints: { xs: 10, sm: 10, md: 9, lg: 4, xl: 4 }
+      alignItems: 'stretch',
+      breakpoints: { xs: 10, sm: 10, md: 9, lg: 10, xl: 10 }
     },
     entry: {
-      breakpoints: { xs: 12, sm: 6, md: 5, lg: 12, xl: 12 }
+      breakpoints: { xs: 12, sm: 6, md: 5, lg: 4, xl: 4 }
     }
   }
 };
