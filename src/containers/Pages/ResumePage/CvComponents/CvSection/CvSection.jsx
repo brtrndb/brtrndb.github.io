@@ -11,12 +11,12 @@ import { NonBreakableSpace } from 'Components/Fonts';
 
 import { messageDescriptorPropTypes } from 'Modules/intl/intlPropTypes';
 
-import CvEntry from './CvEntry';
-import CvSkill from './CvSkill';
+import CvEntry from '../CvEntry';
+import CvSkill from '../CvSkill';
 
 import { CvSectionContainer } from './CvSection.style';
 
-import { linesPropTypes } from '../sections';
+import { linesPropTypes } from '../../sections';
 
 const toCvLine = (Component) => (styles) => (skill) => (
   <Grid item key={skill.title.id} {...styles.breakpoints}>
