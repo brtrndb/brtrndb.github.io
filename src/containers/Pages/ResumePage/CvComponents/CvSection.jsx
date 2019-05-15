@@ -14,7 +14,7 @@ import { messageDescriptorPropTypes } from 'Modules/intl/intlPropTypes';
 import CvEntry from './CvEntry';
 import CvSkill from './CvSkill';
 
-import { CvSectionContainer } from './CvComponents.style';
+import { CvSectionContainer } from './CvSection.style';
 
 import { linesPropTypes } from '../sections';
 
