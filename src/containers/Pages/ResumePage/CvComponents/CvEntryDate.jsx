@@ -8,7 +8,7 @@ import { useTheme } from '@material-ui/styles';
 import { RightHarpoonUp } from 'Components/Fonts';
 import { messageDescriptorPropTypes } from 'Modules/intl/intlPropTypes';
 
-import { CvEntryDateContainer } from './CvComponents.style';
+import { CvEntryDateContainer } from './CvEntry.style';
 
 import { internalMessages } from '../ResumePage.i18n';
 

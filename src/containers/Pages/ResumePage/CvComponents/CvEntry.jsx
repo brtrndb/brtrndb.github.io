@@ -9,7 +9,7 @@ import { messageDescriptorPropTypes } from 'Modules/intl/intlPropTypes';
 import CvEntryDate from './CvEntryDate';
 import CvEntryContent from './CvEntryContent';
 
-import { CvEntryContainer } from './CvComponents.style';
+import { CvEntryContainer } from './CvEntry.style';
 
 const CvEntry = ({ from, to, dateFormat, title, content, image }) => (
   <CvEntryContainer>

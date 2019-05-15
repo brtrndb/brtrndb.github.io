@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import { withStyles } from '@material-ui/core/styles';
 
-import { styles, CvEntryImageContainer } from './CvComponents.style';
+import { styles, CvEntryImageContainer } from './CvEntry.style';
 
 const CvEntryImage = withStyles(styles)(({ image, classes }) => (
   <CvEntryImageContainer>

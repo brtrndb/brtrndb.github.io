@@ -8,7 +8,7 @@ import { messageDescriptorPropTypes } from 'Modules/intl/intlPropTypes';
 import CvEntryDescription from './CvEntryDescription';
 import CvEntryImage from './CvEntryImage';
 
-import { CvEntryContentContainer } from './CvComponents.style';
+import { CvEntryContentContainer } from './CvEntry.style';
 
 const CvEntryContent = ({ title, content, image }) => {
   const showImage = image !== '' && useMediaQuery('(min-width:600px)');

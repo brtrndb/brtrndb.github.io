@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography';
 
 import { messageDescriptorPropTypes } from 'Modules/intl/intlPropTypes';
 
-import { CvEntryDescriptionContainer } from './CvComponents.style';
+import { CvEntryDescriptionContainer } from './CvEntry.style';
 
 const CvEntryDescription = ({ title, content }) => (
   <CvEntryDescriptionContainer>
