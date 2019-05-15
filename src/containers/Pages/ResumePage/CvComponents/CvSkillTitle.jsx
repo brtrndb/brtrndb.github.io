@@ -10,7 +10,7 @@ import { NonBreakableSpace } from 'Components/Fonts';
 
 import { messageDescriptorPropTypes } from 'Modules/intl/intlPropTypes';
 
-import { CvSkillTitleContainer } from './CvComponents.style';
+import { CvSkillTitleContainer } from './CvSkill.style';
 
 const CvSkillTitle = ({ icon, title }) => (
   <CvSkillTitleContainer>

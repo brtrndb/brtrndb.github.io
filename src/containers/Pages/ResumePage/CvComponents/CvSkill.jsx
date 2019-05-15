@@ -9,7 +9,7 @@ import { messageDescriptorPropTypes } from 'Modules/intl/intlPropTypes';
 import CvSkillTitle from './CvSkillTitle';
 import CvSkillContent from './CvSkillContent';
 
-import { CvSkillContainer } from './CvComponents.style';
+import { CvSkillContainer } from './CvSkill.style';
 
 const CvSkill = ({ icon, title, content }) => (
   <CvSkillContainer>
