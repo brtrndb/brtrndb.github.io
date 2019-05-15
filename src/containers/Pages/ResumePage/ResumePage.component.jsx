@@ -16,7 +16,7 @@ const toCvSection = (section) => (
 );
 
 const ResumePage = () => (
-  <ResumePageContainer>
+  <ResumePageContainer style={{ padding: 20 }}>
     <Grid container direction='column' spacing={40}>
       <Grid item>
         <Typography variant='h2' align='center'>
@@ -24,7 +24,7 @@ const ResumePage = () => (
         </Typography>
       </Grid>
       <Grid item>
-        <Grid container direction='row' justify='center' spacing={24}>
+        <Grid container direction='row' justify='space-evenly' spacing={0}>
           {sections.map(toCvSection)}
         </Grid>
       </Grid>
