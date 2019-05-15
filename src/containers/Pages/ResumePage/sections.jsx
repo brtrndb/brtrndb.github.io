@@ -32,7 +32,7 @@ const sectionEducation = {
       breakpoints: { xs: 10, sm: 10, md: 5, lg: 5, xl: 5 }
     },
     entry: {
-      breakpoints: {}
+      breakpoints: { xs: 12, sm: 12, md: 12, lg: 12, xl: 12 }
     }
   }
 };
@@ -57,7 +57,7 @@ const sectionExperience = {
       breakpoints: { xs: 10, sm: 10, md: 5, lg: 5, xl: 5 }
     },
     entry: {
-      breakpoints: {}
+      breakpoints: { xs: 12, sm: 12, md: 12, lg: 12, xl: 12 }
     }
   }
 };
