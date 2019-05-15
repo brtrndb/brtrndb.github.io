@@ -1,3 +1,7 @@
+import PropTypes from 'prop-types';
+
+import { messageDescriptorPropTypes } from 'Modules/intl/intlPropTypes';
+
 import messages from './ResumePage.i18n';
 
 import logoDhatim from './img/dhatim.png';
@@ -78,7 +82,26 @@ const sectionSkills = {
   }
 };
 
+const linesPropTypes = PropTypes.arrayOf(
+  PropTypes.oneOfType([
+    PropTypes.shape({
+      dateFormat: PropTypes.string.isRequired,
+      from: PropTypes.string,
+      to: PropTypes.oneOfType([PropTypes.string, messageDescriptorPropTypes]).isRequired,
+      title: messageDescriptorPropTypes.isRequired,
+      content: messageDescriptorPropTypes.isRequired,
+      image: PropTypes.string
+    }),
+    PropTypes.shape({
+      icon: PropTypes.oneOfType([PropTypes.string.isRequired, PropTypes.arrayOf(PropTypes.string.isRequired)]),
+      title: messageDescriptorPropTypes.isRequired,
+      content: PropTypes.arrayOf(messageDescriptorPropTypes).isRequired
+    })
+  ])
+);
+
 const sections = [sectionEducation, sectionExperience, sectionSkills];
 
+export { linesPropTypes };
 export { sectionEducation, sectionExperience, sectionSkills };
 export default sections;
