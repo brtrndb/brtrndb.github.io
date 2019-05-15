@@ -10,7 +10,7 @@ import { CvSkillContentContainer } from './CvComponents.style';
 
 const toSkillLine = (line) => (
   <Grid item key={line.id}>
-    <Typography variant='body2'>
+    <Typography variant='body2' align='justify'>
       <FormattedMessage {...line} />
     </Typography>
   </Grid>
