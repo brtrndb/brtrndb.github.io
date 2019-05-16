@@ -13,10 +13,9 @@ import { messageDescriptorPropTypes } from 'Modules/intl/intlPropTypes';
 
 import CvEntry from '../CvEntry';
 import CvSkill from '../CvSkill';
+import { linesPropTypes, stylesPropTypes } from '../CvData';
 
 import { CvSectionContainer } from './CvSection.style';
-
-import { linesPropTypes, stylesPropTypes } from '../../sections';
 
 const toCvLine = (Component) => (styles) => (skill) => (
   <Grid item key={skill.title.id} {...styles.breakpoints}>

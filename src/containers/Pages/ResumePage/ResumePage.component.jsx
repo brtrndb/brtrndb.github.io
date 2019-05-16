@@ -7,7 +7,7 @@ import messages from './ResumePage.i18n';
 import { ResumePageContainer } from './ResumePage.style';
 
 import CvSection from './components/CvSection';
-import sections from './sections';
+import cvData from './components/CvData';
 
 const toCvSection = (section) => (
   <Grid item key={section.title.id} {...section.styles.section.breakpoints}>
@@ -25,7 +25,7 @@ const ResumePage = () => (
       </Grid>
       <Grid item>
         <Grid container direction='row' justify='space-evenly' spacing={0}>
-          {sections.map(toCvSection)}
+          {cvData.map(toCvSection)}
         </Grid>
       </Grid>
     </Grid>
