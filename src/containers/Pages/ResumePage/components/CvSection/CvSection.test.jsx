@@ -5,7 +5,7 @@ import intlTests, { i18nProps } from 'Tests/intlTests';
 
 import CvSection from './CvSection';
 
-import { sectionExperience } from '../../sections';
+import { dataExperience } from '../CvData/CvData';
 
 describe('<CvComponents />', () => {
   beforeAll(() => {
@@ -13,6 +13,6 @@ describe('<CvComponents />', () => {
   });
 
   describe('<CvSection />', () => {
-    intlTests(CvSection, i18nProps(sectionExperience));
+    intlTests(CvSection, i18nProps(dataExperience));
   });
 });
