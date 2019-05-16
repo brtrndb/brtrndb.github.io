@@ -4,10 +4,10 @@ import intlTests, { i18nProps } from 'Tests/intlTests';
 
 import CvEntry from './CvEntry';
 
-import { sectionExperience } from '../../sections';
+import { dataExperience } from '../CvData/CvData';
 
 describe('<CvComponents />', () => {
   describe('<CvEntry />', () => {
-    intlTests(CvEntry, i18nProps(sectionExperience.lines[0]));
+    intlTests(CvEntry, i18nProps(dataExperience.lines[0]));
   });
 });
