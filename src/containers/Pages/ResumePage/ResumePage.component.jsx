@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import messages from './ResumePage.i18n';
 import { ResumePageContainer } from './ResumePage.style';
 
-import CvSection from './CvComponents/CvSection';
+import CvSection from './components/CvSection';
 import sections from './sections';
 
 const toCvSection = (section) => (
