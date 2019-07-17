@@ -5,7 +5,7 @@ module.exports = (params) => {
   const rules = [];
 
   rules.push({
-    test: /\.(js|jsx)$/,
+    test: /\.jsx?$/,
     include: params.folders.src,
     exclude: [/node_modules/, params.folders.src_libs],
     enforce: 'pre',
@@ -18,7 +18,7 @@ module.exports = (params) => {
   });
 
   rules.push({
-    test: /\.(js|jsx)$/,
+    test: /\.jsx?$/,
     include: params.folders.src,
     exclude: [/node_modules/, params.folders.src_libs],
     use: {
