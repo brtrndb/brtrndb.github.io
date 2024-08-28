@@ -1,0 +1,16 @@
+# Production configuration.
+
+## Hugo configuration.
+baseURL: 'https://brtrndb.github.io/'
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  minifyOutput: true
+
+## PaperMod configuration.
+params:
+  env: production
+  description: 'BrtrndB - https://brtrndb.github.io/'
