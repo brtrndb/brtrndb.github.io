@@ -7,7 +7,8 @@ languageCode: en-us
 
 title: 'BrtrndB'
 
-paginate: 10
+pagination:
+  pagerSize: 25
 
 buildDrafts: true
 buildExpired: true
