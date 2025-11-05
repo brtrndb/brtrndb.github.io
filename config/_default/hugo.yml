@@ -3,10 +3,11 @@
 ## Hugo configuration.
 baseURL: 'http://localhost:1313'
 
-languageCode: en-us
-
 title: 'BrtrndB'
+languageCode: en-us
+theme: 'PaperMod'
 
+mainsections: [ 'posts' ]
 pagination:
   pagerSize: 25
 
@@ -19,35 +20,8 @@ enableRobotsTXT: true
 
 pygmentsUseClasses: true
 
-#mainsections: [ 'posts', 'papermod' ]
 
 minify:
   disableXML: true
+  minifyOutput: true
 
-## PaperMod configuration.
-theme: 'PaperMod'
-
-params:
-  description: 'BrtrndB - https://brtrndb.github.io/'
-  keywords: [ 'Blog', 'Portfolio', 'Dev', 'Java']
-
-  defaultTheme: auto
-  disableThemeToggle: false
-
-  # profile-mode
-  profileMode:
-    enabled: true
-    title: "Hi ! I'm BrtrndB !" # Optional. Default will be site title.
-    subtitle: 'Java Developer & Tech Enthusiast'
-    imageUrl: 'https://avatars.githubusercontent.com/u/2642899' # Optional.
-    imageTitle: 'BrtrndB GitHub Avatar' # Optional.
-    imageWidth: 200 # Custom size.
-    imageHeight: 200 # Custom size.
-
-  socialIcons: # Optional.
-    - name: 'GitHub'
-      url: 'https://github.com/brtrndb'
-    - name: 'LinkedIn'
-      url: 'https://www.linkedin.com/in/bertrandboyer/'
-    - name: 'StackOverflow'
-      url: 'https://stackoverflow.com/users/6184054/brtrndb'

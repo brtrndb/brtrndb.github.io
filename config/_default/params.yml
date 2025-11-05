@@ -1,0 +1,74 @@
+## PaperMod configuration.
+description: 'BrtrndB - https://brtrndb.github.io/'
+keywords: [ 'Blog', 'Portfolio', 'Dev', 'Java']
+
+defaultTheme: auto
+disableScrollToTop: false
+disableSpecial1stPost: false
+disableThemeToggle: false
+displayFullLangName: true
+hideSummary: false
+ShowAllPagesInArchive: true
+ShowBreadCrumbs: true
+ShowCodeCopyButtons: true
+ShowPageNums: true
+ShowPostNavLinks: true
+ShowReadingTime: true
+ShowRelatedContent: false
+ShowRssButtonInSectionTermList: true
+ShowShareButtons: false
+ShowToc: true
+ShowWordCount: true
+TocOpen: true
+UseHugoToc: false
+comments: false
+
+## home-info mode.
+homeInfoParams:
+  Title: 'Hello there !'
+  Content: 'Welcome to my blog'
+
+## profile-mode
+profileMode:
+  enabled: true
+  title: "Hi ! I'm BrtrndB !" # Optional. Default will be site title.
+  subtitle: 'Java Developer & Tech Enthusiast'
+  imageUrl: 'https://avatars.githubusercontent.com/u/2642899' # Optional.
+  imageTitle: 'BrtrndB GitHub Avatar' # Optional.
+  imageWidth: 200 # Custom size.
+  imageHeight: 200 # Custom size.
+
+cover:
+  hidden: false # Hide everywhere but not in structured data.
+  hiddenInList: false # Hide on list pages and home.
+  hiddenInSingle: false # Hide on single page.
+  responsiveImages: true
+  linkFullImages: false
+
+socialIcons: # Optional.
+  - name: 'GitHub'
+    url: 'https://github.com/brtrndb'
+  - name: 'LinkedIn'
+    url: 'https://www.linkedin.com/in/bertrandboyer/'
+  - name: 'StackOverflow'
+    url: 'https://stackoverflow.com/users/6184054/brtrndb'
+
+## Search configuration.
+## https://fusejs.io/api/options.html
+fuseOpts:
+  isCaseSensitive: true
+  shouldSort: true
+  minMatchCharLength: 0
+  location: 0
+  distance: 1000
+  threshold: 0.1
+  limit: 5 # Refer: https://www.fusejs.io/api/methods.html#search.
+  keys: [ 'title', 'permalink', 'summary', 'description', 'content' ]
+
+assets:
+  disableHLJS: true
+#  favicon: 'assets/favicon.ico'
+#  favicon16x16: 'assets/favicon-16x16.png'
+#  favicon32x32: 'assets/favicon-32x32.png'
+#  apple_touch_icon: 'assets/apple_touch_icon.png'
+#  safari_pinned_tab: 'assets'

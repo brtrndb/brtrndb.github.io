@@ -9,8 +9,3 @@ buildExpired: false
 
 minify:
   minifyOutput: true
-
-## PaperMod configuration.
-params:
-  env: production
-  description: 'BrtrndB - https://brtrndb.github.io/'
